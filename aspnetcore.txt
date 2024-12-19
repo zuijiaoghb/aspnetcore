@@ -1,4 +1,4 @@
-1¡¢https://github.com/dotnet/aspnetcore
+1ã€https://github.com/dotnet/aspnetcore
    https://github.com/dotnet/blazor-samples
    https://github.com/microsoft/fluentui-blazor
    https://learn.microsoft.com/zh-cn/ef/core/modeling/
@@ -8,56 +8,56 @@
    
    fastgithub_win-x64
    
-2¡¢Ê¹ÓÃ Blazor ÀûÓÃ ASP.NET Core Éú³ÉµÚÒ»¸ö Web Ó¦ÓÃ
-2.1¡¢centos8 °²×°.NET8 SDK
-ÔÚCentOS 8ÉÏ°²×°.NET 8 SDK£¬Äú¿ÉÒÔ°´ÕÕÒÔÏÂ²½Öè²Ù×÷£º
-ÆôÓÃ.NET 8µÄ¹Ù·½MicrosoftÃÜÔ¿ºÍ´æ´¢¿â¡£
-°²×°.NET 8 SDK¡£
-ÒÔÏÂÊÇ¾ßÌåµÄÃüÁî£º
-# 1. ÉèÖÃMicrosoftÃÜÔ¿ºÍ´æ´¢¿â
+2ã€ä½¿ç”¨ Blazor åˆ©ç”¨ ASP.NET Core ç”Ÿæˆç¬¬ä¸€ä¸ª Web åº”ç”¨
+2.1ã€centos8 å®‰è£….NET8 SDK
+åœ¨CentOS 8ä¸Šå®‰è£….NET 8 SDKï¼Œæ‚¨å¯ä»¥æŒ‰ç…§ä»¥ä¸‹æ­¥éª¤æ“ä½œï¼š
+å¯ç”¨.NET 8çš„å®˜æ–¹Microsoftå¯†é’¥å’Œå­˜å‚¨åº“ã€‚
+å®‰è£….NET 8 SDKã€‚
+ä»¥ä¸‹æ˜¯å…·ä½“çš„å‘½ä»¤ï¼š
+# 1. è®¾ç½®Microsoftå¯†é’¥å’Œå­˜å‚¨åº“
 sudo rpm -Uvh https://packages.microsoft.com/config/centos/8/packages-microsoft-prod.rpm
-# 2. °²×°.NET SDK
+# 2. å®‰è£….NET SDK
 sudo dnf install dotnet-sdk-8.0
 sudo dnf install dotnet-sdk-9.0
-Ö´ĞĞÉÏÊöÃüÁîºó£¬.NET 8 SDK½«ÔÚCentOS 8ÏµÍ³ÉÏ°²×°¡£Äú¿ÉÒÔÍ¨¹ıÔËĞĞdotnet --versionÀ´ÑéÖ¤°²×°ÊÇ·ñ³É¹¦¡£
+æ‰§è¡Œä¸Šè¿°å‘½ä»¤åï¼Œ.NET 8 SDKå°†åœ¨CentOS 8ç³»ç»Ÿä¸Šå®‰è£…ã€‚æ‚¨å¯ä»¥é€šè¿‡è¿è¡Œdotnet --versionæ¥éªŒè¯å®‰è£…æ˜¯å¦æˆåŠŸã€‚
 
-2.2¡¢´´½¨Ó¦ÓÃ
-ÔÚÖÕ¶ËÖĞ£¬ÔËĞĞÒÔÏÂÃüÁîÀ´´´½¨Ó¦ÓÃ:
+2.2ã€åˆ›å»ºåº”ç”¨
+åœ¨ç»ˆç«¯ä¸­ï¼Œè¿è¡Œä»¥ä¸‹å‘½ä»¤æ¥åˆ›å»ºåº”ç”¨:
 Command prompt
 dotnet new blazor -o BlazorApp
-´ËÃüÁî´´½¨ĞÂ Blazor Web Ó¦ÓÃÏîÄ¿£¬²¢½«Æä·ÅÖÃÔÚµ±Ç°Î»ÖÃÄÚÃûÎª BlazorApp µÄĞÂÄ¿Â¼ÖĞ¡£
-µ¼º½µ½ÓÉÉÏÒ»ÌõÃüÁî´´½¨µÄĞÂ BlazorApp Ä¿Â¼:
+æ­¤å‘½ä»¤åˆ›å»ºæ–° Blazor Web åº”ç”¨é¡¹ç›®ï¼Œå¹¶å°†å…¶æ”¾ç½®åœ¨å½“å‰ä½ç½®å†…åä¸º BlazorApp çš„æ–°ç›®å½•ä¸­ã€‚
+å¯¼èˆªåˆ°ç”±ä¸Šä¸€æ¡å‘½ä»¤åˆ›å»ºçš„æ–° BlazorApp ç›®å½•:
 Command prompt
 cd BlazorApp
-¿ìËÙ²é¿´ BlazorApp Ä¿Â¼µÄÄÚÈİ¡£
+å¿«é€ŸæŸ¥çœ‹ BlazorApp ç›®å½•çš„å†…å®¹ã€‚
 ls
-BlazorApp Ä¿Â¼ÖĞÒÑ¾­´´½¨ÁË¶à¸öÎÄ¼ş£¬ÎªÄãÌá¹©Ò»¸ö¿ÉÒÔÔËĞĞµÄ¼òµ¥µÄ Blazor Ó¦ÓÃ¡£
-Program.cs ÊÇÆô¶¯·şÎñÆ÷ÒÔ¼°ÔÚÆäÖĞÅäÖÃÓ¦ÓÃ·şÎñºÍÖĞ¼ä¼şµÄÓ¦ÓÃµÄÈë¿Úµã¡£
-ÔÚ Components Ä¿Â¼ÖĞ:
-App.razor ÎªÓ¦ÓÃµÄ¸ù×é¼ş¡£
-Routes.razor ÅäÖÃ Blazor Â·ÓÉÆ÷¡£
-Pages Ä¿Â¼°üº¬Ó¦ÓÃµÄÒ»Ğ©Ê¾ÀıÍøÒ³¡£
-BlazorApp.csproj ¶¨ÒåÓ¦ÓÃÏîÄ¿¼°ÆäÒÀÀµÏî¡£
-Properties Ä¿Â¼ÖĞµÄ launchSettings.json ÎÄ¼şÎª±¾µØ¿ª·¢»·¾³¶¨Òå²»Í¬µÄÅäÖÃÎÄ¼şÉèÖÃ¡£´´½¨ÏîÄ¿Ê±»á×Ô¶¯·ÖÅä¶Ë¿ÚºÅ²¢½«Æä±£´æÔÚ´ËÎÄ¼şÉÏ¡£
-Çë¼ÇÏÂ BlazorApp Ä¿Â¼Â·¾¶£¬ÒòÎª½Ì³ÌºóÃæ»áÓÃµ½¡£
-Èç¹ûÒ»ÇĞÕı³££¬ÇëÑ¡ÔñÏÂÃæµÄ ¼ÌĞø °´Å¥ÒÔ×ªµ½ÏÂÒ»²½¡£
+BlazorApp ç›®å½•ä¸­å·²ç»åˆ›å»ºäº†å¤šä¸ªæ–‡ä»¶ï¼Œä¸ºä½ æä¾›ä¸€ä¸ªå¯ä»¥è¿è¡Œçš„ç®€å•çš„ Blazor åº”ç”¨ã€‚
+Program.cs æ˜¯å¯åŠ¨æœåŠ¡å™¨ä»¥åŠåœ¨å…¶ä¸­é…ç½®åº”ç”¨æœåŠ¡å’Œä¸­é—´ä»¶çš„åº”ç”¨çš„å…¥å£ç‚¹ã€‚
+åœ¨ Components ç›®å½•ä¸­:
+App.razor ä¸ºåº”ç”¨çš„æ ¹ç»„ä»¶ã€‚
+Routes.razor é…ç½® Blazor è·¯ç”±å™¨ã€‚
+Pages ç›®å½•åŒ…å«åº”ç”¨çš„ä¸€äº›ç¤ºä¾‹ç½‘é¡µã€‚
+BlazorApp.csproj å®šä¹‰åº”ç”¨é¡¹ç›®åŠå…¶ä¾èµ–é¡¹ã€‚
+Properties ç›®å½•ä¸­çš„ launchSettings.json æ–‡ä»¶ä¸ºæœ¬åœ°å¼€å‘ç¯å¢ƒå®šä¹‰ä¸åŒçš„é…ç½®æ–‡ä»¶è®¾ç½®ã€‚åˆ›å»ºé¡¹ç›®æ—¶ä¼šè‡ªåŠ¨åˆ†é…ç«¯å£å·å¹¶å°†å…¶ä¿å­˜åœ¨æ­¤æ–‡ä»¶ä¸Šã€‚
+è¯·è®°ä¸‹ BlazorApp ç›®å½•è·¯å¾„ï¼Œå› ä¸ºæ•™ç¨‹åé¢ä¼šç”¨åˆ°ã€‚
+å¦‚æœä¸€åˆ‡æ­£å¸¸ï¼Œè¯·é€‰æ‹©ä¸‹é¢çš„ ç»§ç»­ æŒ‰é’®ä»¥è½¬åˆ°ä¸‹ä¸€æ­¥ã€‚
 
-2.3¡¢¿ª·Å5246¶Ë¿Ú£¬²¢ĞŞ¸ÄProperties Ä¿Â¼ÖĞµÄ launchSettings.json ÎÄ¼şÀïµÄhttp://localhost:5246Îªhttp://1.26:5246
+2.3ã€å¼€æ”¾5246ç«¯å£ï¼Œå¹¶ä¿®æ”¹Properties ç›®å½•ä¸­çš„ launchSettings.json æ–‡ä»¶é‡Œçš„http://localhost:5246ä¸ºhttp://1.26:5246
 [root@cpzljc BlazorApp]# firewall-cmd --list-port
 [root@cpzljc BlazorApp]# firewall-cmd --zone=public --add-port=5246/tcp --permanent
 [root@cpzljc BlazorApp]# systemctl restart firewalld
 [root@cpzljc BlazorApp]# firewall-cmd --list-port
 
-2.4¡¢ ÔËĞĞÓ¦ÓÃ
-ÔÚÖÕ¶ËÖĞ£¬ÔËĞĞÒÔÏÂÃüÁî:
+2.4ã€ è¿è¡Œåº”ç”¨
+åœ¨ç»ˆç«¯ä¸­ï¼Œè¿è¡Œä»¥ä¸‹å‘½ä»¤:
 Command prompt
 dotnet watch
-dotnet watch ÃüÁî½«Éú³É²¢Æô¶¯Ó¦ÓÃ£¬È»ºóÔÚÃ¿´Î¸ü¸Ä´úÂëÊ±¸üĞÂÓ¦ÓÃ¡£¿ÉÒÔÑ¡ÔñCtrl+C£¬ÒÔËæÊ±Í£Ö¹Ó¦ÓÃ¡£
-µÈ´ıÓ¦ÓÃÏÔÊ¾ÕıÔÚÕìÌı http://localhost:<port number> È»ºó´ò¿ªä¯ÀÀÆ÷²¢µ¼º½µ½¸ÃµØÖ·¡£
-×ªµ½ÒÔÏÂÒ³Ãæºó£¬ÄãÒÑ³É¹¦ÔËĞĞÁËµÚÒ»¸ö Blazor Ó¦ÓÃ!
-Õ¾µãÖ÷Ò³°üº¬Ò»Ğ©ÎÄ±¾£¬²¢ÔÚ×ó²àÏÔÊ¾ÁË¶à¸öÑ¡Ïî¿¨£¬¹©Äãµã»÷ºÍä¯ÀÀ¡£
+dotnet watch å‘½ä»¤å°†ç”Ÿæˆå¹¶å¯åŠ¨åº”ç”¨ï¼Œç„¶ååœ¨æ¯æ¬¡æ›´æ”¹ä»£ç æ—¶æ›´æ–°åº”ç”¨ã€‚å¯ä»¥é€‰æ‹©Ctrl+Cï¼Œä»¥éšæ—¶åœæ­¢åº”ç”¨ã€‚
+ç­‰å¾…åº”ç”¨æ˜¾ç¤ºæ­£åœ¨ä¾¦å¬ http://localhost:<port number> ç„¶åæ‰“å¼€æµè§ˆå™¨å¹¶å¯¼èˆªåˆ°è¯¥åœ°å€ã€‚
+è½¬åˆ°ä»¥ä¸‹é¡µé¢åï¼Œä½ å·²æˆåŠŸè¿è¡Œäº†ç¬¬ä¸€ä¸ª Blazor åº”ç”¨!
+ç«™ç‚¹ä¸»é¡µåŒ…å«ä¸€äº›æ–‡æœ¬ï¼Œå¹¶åœ¨å·¦ä¾§æ˜¾ç¤ºäº†å¤šä¸ªé€‰é¡¹å¡ï¼Œä¾›ä½ ç‚¹å‡»å’Œæµè§ˆã€‚
 
-ÏÔÊ¾µÄÒ³ÃæÓÉÎ»ÓÚ Components/Pages Ä¿Â¼ÄÚµÄ Home.razor ÎÄ¼ş¶¨Òå¡£ÆäÄÚÈİÈçÏÂËùÊ¾:
+æ˜¾ç¤ºçš„é¡µé¢ç”±ä½äº Components/Pages ç›®å½•å†…çš„ Home.razor æ–‡ä»¶å®šä¹‰ã€‚å…¶å†…å®¹å¦‚ä¸‹æ‰€ç¤º:
 Components/Pages/Home.razor
 @page "/"
 
@@ -66,9 +66,9 @@ Components/Pages/Home.razor
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
-ËüÒÑ°üº¬½«ËüÉèÖÃÎªÖ÷Ò³µÄ´úÂë£¬²¢ÏÔÊ¾ÎÄ±¾Hello, world! ºÍ Welcome to your new app¡£PageTitle ×é¼ş»áÉèÖÃµ±Ç°Ò³ÃæµÄ±êÌâ£¬Ê¹ÆäÏÔÊ¾ÔÚä¯ÀÀÆ÷Ñ¡Ïî¿¨ÖĞ¡£
+å®ƒå·²åŒ…å«å°†å®ƒè®¾ç½®ä¸ºä¸»é¡µçš„ä»£ç ï¼Œå¹¶æ˜¾ç¤ºæ–‡æœ¬Hello, world! å’Œ Welcome to your new appã€‚PageTitle ç»„ä»¶ä¼šè®¾ç½®å½“å‰é¡µé¢çš„æ ‡é¢˜ï¼Œä½¿å…¶æ˜¾ç¤ºåœ¨æµè§ˆå™¨é€‰é¡¹å¡ä¸­ã€‚
 
-2.5¡¢ ant-design-blazor  
+2.5ã€ ant-design-blazor  
 https://github.com/ant-design-blazor/ant-design-blazor
 
 https://github.com/MudBlazor/MudBlazor
@@ -77,86 +77,86 @@ https://github.com/MudBlazor/Templates
 https://github.com/CodeBeamOrg/CodeBeam.MudBlazor.Extensions
 https://mudextensions.codebeam.org/
 
-2.6¡¢ Blazor for ASP.NET Web Forms¿ª·¢ÈËÔ±µç×ÓÊé£º https://learn.microsoft.com/zh-cn/dotnet/architecture/blazor-for-web-forms-developers/
+2.6ã€ Blazor for ASP.NET Web Formså¼€å‘äººå‘˜ç”µå­ä¹¦ï¼š https://learn.microsoft.com/zh-cn/dotnet/architecture/blazor-for-web-forms-developers/
 
-2.7¡¢ ÔÚcentos8ÉÏ°²×°visual studio code
-ÔÚCentOS 8ÉÏ°²×°Visual Studio Code¿ÉÒÔÍ¨¹ıÒÔÏÂ²½Öè½øĞĞ£º
-¸üĞÂÏµÍ³Èí¼ş°üÁĞ±í£º
+2.7ã€ åœ¨centos8ä¸Šå®‰è£…visual studio code
+åœ¨CentOS 8ä¸Šå®‰è£…Visual Studio Codeå¯ä»¥é€šè¿‡ä»¥ä¸‹æ­¥éª¤è¿›è¡Œï¼š
+æ›´æ–°ç³»ç»Ÿè½¯ä»¶åŒ…åˆ—è¡¨ï¼š
 sudo dnf update
 
-°²×°±ØÒªµÄÒÀÀµ£º
+å®‰è£…å¿…è¦çš„ä¾èµ–ï¼š
 sudo dnf install -y yum-utils
 
-ÉèÖÃÎ¢ÈíµÄÈí¼ş²Ö¿â£º
+è®¾ç½®å¾®è½¯çš„è½¯ä»¶ä»“åº“ï¼š
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/vscode
-°²×°Visual Studio Code£º
+å®‰è£…Visual Studio Codeï¼š
 sudo dnf install -y code
 
-°²×°Íê³Éºó£¬Äã¿ÉÒÔÍ¨¹ıÃüÁîĞĞÆô¶¯Visual Studio Code£¬»òÕßÍ¨¹ı×ÀÃæ»·¾³µÄÓ¦ÓÃ²Ëµ¥²éÕÒ²¢Æô¶¯Ëü¡£
+å®‰è£…å®Œæˆåï¼Œä½ å¯ä»¥é€šè¿‡å‘½ä»¤è¡Œå¯åŠ¨Visual Studio Codeï¼Œæˆ–è€…é€šè¿‡æ¡Œé¢ç¯å¢ƒçš„åº”ç”¨èœå•æŸ¥æ‰¾å¹¶å¯åŠ¨å®ƒã€‚
 
-3¡¢ centos8 ²éÑ¯¶Ë¿ÚÔËĞĞ½ø³Ì,¹Ø±Õ½ø³Ì
-ÔÚCentOS 8ÉÏ£¬Äú¿ÉÒÔÊ¹ÓÃss»ònetstatÃüÁîÀ´²éÕÒ¶Ë¿ÚÔËĞĞµÄ½ø³Ì£¬²¢Ê¹ÓÃkillÃüÁîÀ´¹Ø±Õ½ø³Ì¡£ÒÔÏÂÊÇ¾ßÌåµÄÃüÁîÊ¾Àı£º
+3ã€ centos8 æŸ¥è¯¢ç«¯å£è¿è¡Œè¿›ç¨‹,å…³é—­è¿›ç¨‹
+åœ¨CentOS 8ä¸Šï¼Œæ‚¨å¯ä»¥ä½¿ç”¨ssæˆ–netstatå‘½ä»¤æ¥æŸ¥æ‰¾ç«¯å£è¿è¡Œçš„è¿›ç¨‹ï¼Œå¹¶ä½¿ç”¨killå‘½ä»¤æ¥å…³é—­è¿›ç¨‹ã€‚ä»¥ä¸‹æ˜¯å…·ä½“çš„å‘½ä»¤ç¤ºä¾‹ï¼š
 
-²éÑ¯¶Ë¿ÚÔËĞĞµÄ½ø³Ì£º
+æŸ¥è¯¢ç«¯å£è¿è¡Œçš„è¿›ç¨‹ï¼š
 
-# Ê¹ÓÃssÃüÁî²éÕÒÌØ¶¨¶Ë¿Ú£¨ÀıÈç£º8080£©µÄ½ø³Ì
+# ä½¿ç”¨sså‘½ä»¤æŸ¥æ‰¾ç‰¹å®šç«¯å£ï¼ˆä¾‹å¦‚ï¼š8080ï¼‰çš„è¿›ç¨‹
 ss -ltnp | grep ':8080'
  
-# »òÕßÊ¹ÓÃnetstatÃüÁî
+# æˆ–è€…ä½¿ç”¨netstatå‘½ä»¤
 netstat -ltnp | grep ':8080'
-¹Ø±Õ¶Ë¿ÚÔËĞĞµÄ½ø³Ì£º
+å…³é—­ç«¯å£è¿è¡Œçš„è¿›ç¨‹ï¼š
 
-# ¼ÙÉè²éÑ¯½á¹ûÏÔÊ¾½ø³ÌIDÎª1234
+# å‡è®¾æŸ¥è¯¢ç»“æœæ˜¾ç¤ºè¿›ç¨‹IDä¸º1234
 kill 1234
  
-# Èç¹û½ø³Ì²»ÏìÓ¦£¬¿ÉÒÔÊ¹ÓÃÇ¿ÖÆÑ¡Ïî
+# å¦‚æœè¿›ç¨‹ä¸å“åº”ï¼Œå¯ä»¥ä½¿ç”¨å¼ºåˆ¶é€‰é¡¹
 kill -9 1234
-ÇëÈ·±£ÄúÓĞ×ã¹»µÄÈ¨ÏŞÖ´ĞĞÕâĞ©²Ù×÷£¬Í¨³£ĞèÒªrootÈ¨ÏŞ¡£Èç¹ûÃ»ÓĞ£¬ÇëÊ¹ÓÃsudoÇ°×ºÀ´ÌáÉıÈ¨ÏŞ¡£
+è¯·ç¡®ä¿æ‚¨æœ‰è¶³å¤Ÿçš„æƒé™æ‰§è¡Œè¿™äº›æ“ä½œï¼Œé€šå¸¸éœ€è¦rootæƒé™ã€‚å¦‚æœæ²¡æœ‰ï¼Œè¯·ä½¿ç”¨sudoå‰ç¼€æ¥æå‡æƒé™ã€‚
 
-4¡¢ /opt/aspnetcore/BlazorApp/DatabaseUtility.cs(1,17): error CS0234: ÃüÃû¿Õ¼ä¡°Microsoft¡±ÖĞ²»´æÔÚÀàĞÍ»òÃüÃû¿Õ¼äÃû¡°EntityFrameworkCore¡±(ÊÇ·ñÈ±ÉÙ³ÌĞò¼¯ÒıÓÃ?) [/opt/aspnetcore/BlazorApp/BlazorApp.csproj]
--¡· centos8 °²×°EntityFrameworkCore
-ÔÚCentOS 8ÉÏ°²×°EntityFrameworkCore£¬ÄãĞèÒªÊ¹ÓÃ.NET Core SDK¡£ÒÔÏÂÊÇ°²×°EntityFrameworkCoreµÄ²½Öè£º
-°²×°.NET Core SDK£º
-·ÃÎÊ¹Ù·½.NET CoreÏÂÔØÒ³Ãæ£¨https://dotnet.microsoft.com/download£©£¬Ñ¡ÔñCentOS 8µÄÊÊµ±°ü½øĞĞ°²×°¡£
-°²×°Íê³Éºó£¬´ò¿ªÖÕ¶Ë²¢ÔËĞĞÒÔÏÂÃüÁîÒÔ°²×°EntityFrameworkCore°ü£º
+4ã€ /opt/aspnetcore/BlazorApp/DatabaseUtility.cs(1,17): error CS0234: å‘½åç©ºé—´â€œMicrosoftâ€ä¸­ä¸å­˜åœ¨ç±»å‹æˆ–å‘½åç©ºé—´åâ€œEntityFrameworkCoreâ€(æ˜¯å¦ç¼ºå°‘ç¨‹åºé›†å¼•ç”¨?) [/opt/aspnetcore/BlazorApp/BlazorApp.csproj]
+-ã€‹ centos8 å®‰è£…EntityFrameworkCore
+åœ¨CentOS 8ä¸Šå®‰è£…EntityFrameworkCoreï¼Œä½ éœ€è¦ä½¿ç”¨.NET Core SDKã€‚ä»¥ä¸‹æ˜¯å®‰è£…EntityFrameworkCoreçš„æ­¥éª¤ï¼š
+å®‰è£….NET Core SDKï¼š
+è®¿é—®å®˜æ–¹.NET Coreä¸‹è½½é¡µé¢ï¼ˆhttps://dotnet.microsoft.com/downloadï¼‰ï¼Œé€‰æ‹©CentOS 8çš„é€‚å½“åŒ…è¿›è¡Œå®‰è£…ã€‚
+å®‰è£…å®Œæˆåï¼Œæ‰“å¼€ç»ˆç«¯å¹¶è¿è¡Œä»¥ä¸‹å‘½ä»¤ä»¥å®‰è£…EntityFrameworkCoreåŒ…ï¼š
 dotnet tool install --global dotnet-ef
-Ê¹ÓÃÒÔÏÂÃüÁîÀ´¸üĞÂEntityFrameworkCore¹¤¾ß£º
+ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤æ¥æ›´æ–°EntityFrameworkCoreå·¥å…·ï¼š
 dotnet tool update --global dotnet-ef
-ÔÚÄãµÄ.NET CoreÏîÄ¿ÖĞ£¬Ê¹ÓÃÒÔÏÂÃüÁîÀ´°²×°EntityFrameworkCore£º
+åœ¨ä½ çš„.NET Coreé¡¹ç›®ä¸­ï¼Œä½¿ç”¨ä»¥ä¸‹å‘½ä»¤æ¥å®‰è£…EntityFrameworkCoreï¼š
 dotnet add package Microsoft.EntityFrameworkCore
-Èç¹ûÄãĞèÒª°²×°ÌØ¶¨µÄÊı¾İ¿âÌá¹©³ÌĞò£¬±ÈÈçPomelo EntityFrameworkCore MySQLÌá¹©³ÌĞò£¬Äã¿ÉÒÔÊ¹ÓÃÒÔÏÂÃüÁî£º
+å¦‚æœä½ éœ€è¦å®‰è£…ç‰¹å®šçš„æ•°æ®åº“æä¾›ç¨‹åºï¼Œæ¯”å¦‚Pomelo EntityFrameworkCore MySQLæä¾›ç¨‹åºï¼Œä½ å¯ä»¥ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤ï¼š
 dotnet add package Pomelo.EntityFrameworkCore.MySql
-ÇëÈ·±£ÄãµÄCentOS 8ÏµÍ³ÒÑ¾­¿ªÆôÁËÍøÂçÁ¬½Ó£¬²¢ÇÒÄÜ¹»·ÃÎÊ.NET CoreµÄ°ü¹ÜÀí·şÎñ¡£Èç¹ûÓöµ½ÈÎºÎÒÀÀµÎÊÌâ£¬ÇëÈ·±£ÄãµÄ°ü¹ÜÀíÆ÷£¨ÈçNuGet£©ÊÇ×îĞÂ°æ±¾£¬²¢ÇÒÒÑ¾­ÕıÈ·ÅäÖÃ¡£
+è¯·ç¡®ä¿ä½ çš„CentOS 8ç³»ç»Ÿå·²ç»å¼€å¯äº†ç½‘ç»œè¿æ¥ï¼Œå¹¶ä¸”èƒ½å¤Ÿè®¿é—®.NET Coreçš„åŒ…ç®¡ç†æœåŠ¡ã€‚å¦‚æœé‡åˆ°ä»»ä½•ä¾èµ–é—®é¢˜ï¼Œè¯·ç¡®ä¿ä½ çš„åŒ…ç®¡ç†å™¨ï¼ˆå¦‚NuGetï¼‰æ˜¯æœ€æ–°ç‰ˆæœ¬ï¼Œå¹¶ä¸”å·²ç»æ­£ç¡®é…ç½®ã€‚
 
-5¡¢ EntityFrameworkCore Á¬½ÓmysqlÊı¾İ¿âµÄ·½·¨
-ÔÚÊ¹ÓÃEntityFrameworkCoreÁ¬½ÓMySQLÊı¾İ¿âÊ±£¬ÄãĞèÒª°²×°ÏàÓ¦µÄÊı¾İ¿âÌá¹©³ÌĞò°ü¡£ÒÔÏÂÊÇ°²×°ºÍÅäÖÃµÄ²½Öè£º
+5ã€ EntityFrameworkCore è¿æ¥mysqlæ•°æ®åº“çš„æ–¹æ³•
+åœ¨ä½¿ç”¨EntityFrameworkCoreè¿æ¥MySQLæ•°æ®åº“æ—¶ï¼Œä½ éœ€è¦å®‰è£…ç›¸åº”çš„æ•°æ®åº“æä¾›ç¨‹åºåŒ…ã€‚ä»¥ä¸‹æ˜¯å®‰è£…å’Œé…ç½®çš„æ­¥éª¤ï¼š
 
-°²×°Pomelo.EntityFrameworkCore.MySql»òMySql.Data.EntityFrameworkCore¡£
+å®‰è£…Pomelo.EntityFrameworkCore.MySqlæˆ–MySql.Data.EntityFrameworkCoreã€‚
 
-# Ê¹ÓÃPomeloÌá¹©³ÌĞò
+# ä½¿ç”¨Pomeloæä¾›ç¨‹åº
 dotnet add package Pomelo.EntityFrameworkCore.MySql
-# »òÕßÊ¹ÓÃ¹Ù·½MySQLÌá¹©³ÌĞò
+# æˆ–è€…ä½¿ç”¨å®˜æ–¹MySQLæä¾›ç¨‹åº
 dotnet add package MySql.Data.EntityFrameworkCore
-ÔÚÄãµÄappsettings.json»òÅäÖÃÎÄ¼şÖĞÌí¼ÓÊı¾İ¿âÁ¬½Ó×Ö·û´®¡£
+åœ¨ä½ çš„appsettings.jsonæˆ–é…ç½®æ–‡ä»¶ä¸­æ·»åŠ æ•°æ®åº“è¿æ¥å­—ç¬¦ä¸²ã€‚
 {
   "ConnectionStrings": {
     "DefaultConnection": "server=localhost;port=3306;database=mydb;user=root;password=mypassword;"
   }
 }
-ÅäÖÃStartup.cs»òÄãµÄÅäÖÃÀàÒÔÊ¹ÓÃMySQLÌá¹©³ÌĞò¡£
+é…ç½®Startup.csæˆ–ä½ çš„é…ç½®ç±»ä»¥ä½¿ç”¨MySQLæä¾›ç¨‹åºã€‚
 
 public void ConfigureServices(IServiceCollection services)
 {
-    // Ê¹ÓÃPomeloÌá¹©³ÌĞò
+    // ä½¿ç”¨Pomeloæä¾›ç¨‹åº
     services.AddDbContext<YourDbContext>(options =>
         options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
  
-    // »òÕßÊ¹ÓÃ¹Ù·½MySQLÌá¹©³ÌĞò
+    // æˆ–è€…ä½¿ç”¨å®˜æ–¹MySQLæä¾›ç¨‹åº
     services.AddDbContext<YourDbContext>(options =>
         options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 27))));
 }
-¶¨ÒåÄãµÄÊı¾İÄ£ĞÍºÍDbContext¡£
+å®šä¹‰ä½ çš„æ•°æ®æ¨¡å‹å’ŒDbContextã€‚
 
 public class YourDbContext : DbContext
 {
@@ -166,15 +166,15 @@ public class YourDbContext : DbContext
  
     public DbSet<YourEntity> YourEntities { get; set; }
  
-    // ÆäËûDbSet¶¨Òå...
+    // å…¶ä»–DbSetå®šä¹‰...
 }
  
 public class YourEntity
 {
     public int Id { get; set; }
-    // ÆäËûÊôĞÔ...
+    // å…¶ä»–å±æ€§...
 }
-Ê¹ÓÃYourDbContext½øĞĞÊı¾İ¿â²Ù×÷¡£
+ä½¿ç”¨YourDbContextè¿›è¡Œæ•°æ®åº“æ“ä½œã€‚
 
 public class YourRepository
 {
@@ -190,41 +190,41 @@ public class YourRepository
         return _context.YourEntities.ToList();
     }
  
-    // ÆäËû·½·¨...
+    // å…¶ä»–æ–¹æ³•...
 }
-ÒÔÉÏ²½ÖèÕ¹Ê¾ÁËÈçºÎÊ¹ÓÃEntityFrameworkCoreÁ¬½ÓMySQLÊı¾İ¿â¡£¼ÇµÃÌæ»»Ê¾Àı´úÂëÖĞµÄYourDbContext, YourEntity, YourRepositoryºÍÊı¾İ¿âÁ¬½Ó×Ö·û´®ÎªÄã×Ô¼ºµÄÉÏÏÂÎÄ¡¢ÊµÌåºÍÅäÖÃ¡£
+ä»¥ä¸Šæ­¥éª¤å±•ç¤ºäº†å¦‚ä½•ä½¿ç”¨EntityFrameworkCoreè¿æ¥MySQLæ•°æ®åº“ã€‚è®°å¾—æ›¿æ¢ç¤ºä¾‹ä»£ç ä¸­çš„YourDbContext, YourEntity, YourRepositoryå’Œæ•°æ®åº“è¿æ¥å­—ç¬¦ä¸²ä¸ºä½ è‡ªå·±çš„ä¸Šä¸‹æ–‡ã€å®ä½“å’Œé…ç½®ã€‚
 
 
-7¡¢ 
+7ã€ 
 PS D:\> dotnet new install Microsoft.FluentUI.AspNetCore.Templates
 PS D:\> dotnet new fluentblazor --name jtpjsapp  -au Individual
-ÒÑ³É¹¦´´½¨Ä£°å¡°Fluent Blazor Web Ó¦ÓÃ¡±¡£
-´ËÄ£°å°üº¬³ı Microsoft ÒÔÍâÆäËû·½µÄ¼¼Êõ£¬Çë²ÎÔÄ https://aka.ms/aspnetcore/8.0-third-party-notices ÒÔ»ñÈ¡ÏêÏ¸ĞÅÏ¢¡£
+å·²æˆåŠŸåˆ›å»ºæ¨¡æ¿â€œFluent Blazor Web åº”ç”¨â€ã€‚
+æ­¤æ¨¡æ¿åŒ…å«é™¤ Microsoft ä»¥å¤–å…¶ä»–æ–¹çš„æŠ€æœ¯ï¼Œè¯·å‚é˜… https://aka.ms/aspnetcore/8.0-third-party-notices ä»¥è·å–è¯¦ç»†ä¿¡æ¯ã€‚
 
-ÕıÔÚ´¦Àí´´½¨ºó²Ù×÷...
-ÕıÔÚ»¹Ô­ D:\jtpjsapp\jtpjsapp.csproj:
-  ÕıÔÚÈ·¶¨Òª»¹Ô­µÄÏîÄ¿¡­
-  ÒÑ»¹Ô­ D:\jtpjsapp\jtpjsapp.csproj (ÓÃÊ± 35.6 Ãë)¡£
-ÒÑ³É¹¦»¹Ô­¡£	
+æ­£åœ¨å¤„ç†åˆ›å»ºåæ“ä½œ...
+æ­£åœ¨è¿˜åŸ D:\jtpjsapp\jtpjsapp.csproj:
+  æ­£åœ¨ç¡®å®šè¦è¿˜åŸçš„é¡¹ç›®â€¦
+  å·²è¿˜åŸ D:\jtpjsapp\jtpjsapp.csproj (ç”¨æ—¶ 35.6 ç§’)ã€‚
+å·²æˆåŠŸè¿˜åŸã€‚	
 
 PS D:\jtpjsapp> dotnet add package Microsoft.FluentUI.AspNetCore.Components.Icons
 PS D:\jtpjsapp> dotnet add package Microsoft.FluentUI.AspNetCore.Components.Emoji
 
-Ìí¼Ó×é¼şÌá¹©³ÌĞò
-ÔÚMainLayout.razorÎÄ¼şÄ©Î²Ìí¼ÓÒÔÏÂ×é¼ş¡£ ¹ØÁª·şÎñÊ¹ÓÃÕâĞ©Ìá¹©³ÌĞòÀ´ÕıÈ·ÏÔÊ¾ Toast¡¢¶Ô»°¿ò¡¢¹¤¾ßÌáÊ¾»òÏûÏ¢À¸¡£
+æ·»åŠ ç»„ä»¶æä¾›ç¨‹åº
+åœ¨MainLayout.razoræ–‡ä»¶æœ«å°¾æ·»åŠ ä»¥ä¸‹ç»„ä»¶ã€‚ å…³è”æœåŠ¡ä½¿ç”¨è¿™äº›æä¾›ç¨‹åºæ¥æ­£ç¡®æ˜¾ç¤º Toastã€å¯¹è¯æ¡†ã€å·¥å…·æç¤ºæˆ–æ¶ˆæ¯æ ã€‚
 <FluentToastProvider />
 <FluentDialogProvider />
 <FluentTooltipProvider />
 <FluentMessageBarProvider />
 <FluentMenuProvider />
 
-½« DataGrid ×é¼şÓë EF Core ½áºÏÊ¹ÓÃ
-Èç¹ûÒª½« Óë EF Core Ìá¹©µÄÊı¾İÒ»ÆğÊ¹ÓÃ£¬ÔòĞèÒª°²×°Ò»¸ö¶îÍâµÄ°ü£¬ÒÔ±ãÍø¸ñÖªµÀÈçºÎÒì²½½âÎö²éÑ¯ÒÔÌá¸ßĞ§ÂÊ¡£.<FluentDataGrid>
-°²×°
-Í¨¹ıÔËĞĞÒÔÏÂÃüÁî°²×°°ü£º
+å°† DataGrid ç»„ä»¶ä¸ EF Core ç»“åˆä½¿ç”¨
+å¦‚æœè¦å°† ä¸ EF Core æä¾›çš„æ•°æ®ä¸€èµ·ä½¿ç”¨ï¼Œåˆ™éœ€è¦å®‰è£…ä¸€ä¸ªé¢å¤–çš„åŒ…ï¼Œä»¥ä¾¿ç½‘æ ¼çŸ¥é“å¦‚ä½•å¼‚æ­¥è§£ææŸ¥è¯¢ä»¥æé«˜æ•ˆç‡ã€‚.<FluentDataGrid>
+å®‰è£…
+é€šè¿‡è¿è¡Œä»¥ä¸‹å‘½ä»¤å®‰è£…åŒ…ï¼š
 dotnet add package Microsoft.FluentUI.AspNetCore.Components.DataGrid.EntityFrameworkAdapter
-ÓÃ·¨
-ÔÚÄúµÄProgram.csÎÄ¼şÖĞ£¬ÄúĞèÒªÔÚbuilder.Services.AddFluentUIComponents(...);ĞĞºóÌí¼ÓÒÔÏÂÄÚÈİ£º
+ç”¨æ³•
+åœ¨æ‚¨çš„Program.csæ–‡ä»¶ä¸­ï¼Œæ‚¨éœ€è¦åœ¨builder.Services.AddFluentUIComponents(...);è¡Œåæ·»åŠ ä»¥ä¸‹å†…å®¹ï¼š
 builder.Services.AddDataGridEntityFrameworkAdapter();
 
 PS D:\jtpjsapp\Components\Layout> vim .\MainLayout.razor
@@ -235,7 +235,7 @@ PS D:\jtpjsapp\Components\Layout> vim .\MainLayout.razor
 <FluentLayout>
     @if (Environment.IsDevelopment()) {
     <FluentHeader>
-       Æ±¾İÏµÍ³(¿ª·¢»·¾³)
+       ç¥¨æ®ç³»ç»Ÿ(å¼€å‘ç¯å¢ƒ)
         <FluentSpacer />
         <AuthorizeView>
                 <Authorized>
@@ -244,14 +244,14 @@ PS D:\jtpjsapp\Components\Layout> vim .\MainLayout.razor
                         <AntiforgeryToken />
                       @*  <input type="hidden" name="ReturnUrl" value="@currentUrl" /> *@
                         <input type="hidden" name="ReturnUrl" value="Account/Login" />
-                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">×¢Ïú</FluentButton>
+                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">æ³¨é”€</FluentButton>
                     </form>
                  </Authorized>
         </AuthorizeView>
     </FluentHeader>
     } else {
     <FluentHeader>
-       Æ±¾İÏµÍ³
+       ç¥¨æ®ç³»ç»Ÿ
         <FluentSpacer />
         <AuthorizeView>
                 <Authorized>
@@ -260,7 +260,7 @@ PS D:\jtpjsapp\Components\Layout> vim .\MainLayout.razor
                         <AntiforgeryToken />
                       @*  <input type="hidden" name="ReturnUrl" value="@currentUrl" /> *@
                         <input type="hidden" name="ReturnUrl" value="Account/Login" />
-                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">×¢Ïú</FluentButton>
+                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">æ³¨é”€</FluentButton>
                     </form>
                  </Authorized>
         </AuthorizeView>
@@ -282,7 +282,7 @@ PS D:\jtpjsapp\Components\Layout> vim .\MainLayout.razor
         </FluentBodyContent>
     </FluentStack>
     <FluentFooter>
-          <p> ½­ÌØµç»ú </p>
+          <p> æ±Ÿç‰¹ç”µæœº </p>
       @*  <a href="https://www.fluentui-blazor.net" target="_blank">Documentation and demos</a> *@
         <FluentSpacer />
       @*  <a href="https://learn.microsoft.com/en-us/aspnet/core/blazor" target="_blank">About Blazor</a>*@
@@ -313,10 +313,10 @@ PS D:\jtpjsapp\Components\Layout> vim .\NavMenu.razor
     <label for="navmenu-toggle" class="navmenu-icon"><FluentIcon Value="@(new Icons.Regular.Size20.Navigation())" Color="Color.Fill" /></label>
     <nav class="sitenav" aria-labelledby="main-menu">
         <FluentNavMenu Id="main-menu" Collapsible="true" Width="250" Title="Navigation menu" @bind-Expanded="expanded" CustomToggle="true">
-           @* <FluentNavLink Href="/" Match="NavLinkMatch.All" Icon="@(new Icons.Regular.Size20.Home())" IconColor="Color.Accent">Ê×Ò³</FluentNavLink>
+           @* <FluentNavLink Href="/" Match="NavLinkMatch.All" Icon="@(new Icons.Regular.Size20.Home())" IconColor="Color.Accent">é¦–é¡µ</FluentNavLink>
             <FluentNavLink Href="counter" Icon="@(new Icons.Regular.Size20.NumberSymbolSquare())" IconColor="Color.Accent">Counter</FluentNavLink>
             <FluentNavLink Href="weather" Icon="@(new Icons.Regular.Size20.WeatherPartlyCloudyDay())" IconColor="Color.Accent">Weather</FluentNavLink>  *@
-          @*  <FluentNavLink Href="auth" Icon="@(new Icons.Regular.Size20.LockClosedKey())" IconColor="Color.Accent">ÊÚÈ¨µÇÂ¼</FluentNavLink> *@
+          @*  <FluentNavLink Href="auth" Icon="@(new Icons.Regular.Size20.LockClosedKey())" IconColor="Color.Accent">æˆæƒç™»å½•</FluentNavLink> *@
             <AuthorizeView>
                 <Authorized>
                     @*
@@ -325,16 +325,16 @@ PS D:\jtpjsapp\Components\Layout> vim .\NavMenu.razor
                         <AntiforgeryToken />
                         <input type="hidden" name="ReturnUrl" value="@currentUrl" />
                         <input type="hidden" name="ReturnUrl" value="Account/Login" />
-                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">×¢Ïú</FluentButton>
+                        <FluentButton Type="ButtonType.Submit" Style="width: 100%;">æ³¨é”€</FluentButton>
                     </form>
                     *@
-                    <FluentNavLink Href="recbill" Icon="@(new Icons.Regular.Size20.Money())" IconColor="Color.Accent">Ó¦ÊÕÆ±¾İ</FluentNavLink>
-                    <FluentNavLink Href="motherRecbilllist" Icon="@(new Icons.Regular.Size20.List())"  IconColor="Color.Accent">Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í</FluentNavLink>
-                    <FluentNavLink Href="childRecbilllist" Icon="@(new Icons.Regular.Size20.TicketHorizontal())"  IconColor="Color.Accent">Ó¦ÊÕÆ±¾İ×ÓÆ±ÁĞ±í</FluentNavLink>
+                    <FluentNavLink Href="recbill" Icon="@(new Icons.Regular.Size20.Money())" IconColor="Color.Accent">åº”æ”¶ç¥¨æ®</FluentNavLink>
+                    <FluentNavLink Href="motherRecbilllist" Icon="@(new Icons.Regular.Size20.List())"  IconColor="Color.Accent">åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨</FluentNavLink>
+                    <FluentNavLink Href="childRecbilllist" Icon="@(new Icons.Regular.Size20.TicketHorizontal())"  IconColor="Color.Accent">åº”æ”¶ç¥¨æ®å­ç¥¨åˆ—è¡¨</FluentNavLink>
                 </Authorized>
                 <NotAuthorized>
-                    <FluentNavLink Href="Account/Register">×¢²á</FluentNavLink>
-                    <FluentNavLink Href="Account/Login">µÇÂ¼</FluentNavLink>
+                    <FluentNavLink Href="Account/Register">æ³¨å†Œ</FluentNavLink>
+                    <FluentNavLink Href="Account/Login">ç™»å½•</FluentNavLink>
                 </NotAuthorized>
             </AuthorizeView>
         </FluentNavMenu>
@@ -461,7 +461,7 @@ public class RecBillModel
    public int Id { get; set; }
 
    [Required]
-   [Comment("ÊÕÆ±ÈÕÆÚ")]
+   [Comment("æ”¶ç¥¨æ—¥æœŸ")]
    public DateTime RecDate { get; set; }
 
     [Required]
@@ -516,7 +516,7 @@ public class RecBillModel
     [Required]
    // [Column(TypeName = "decimal(10, 2)")]
     [Precision(14, 2)]
-   // [Range(0.00001, 999999999999, ErrorMessage = "³Ğ¶Ò½ğ¶îÒª´óÓÚ0¡£")]
+   // [Range(0.00001, 999999999999, ErrorMessage = "æ‰¿å…‘é‡‘é¢è¦å¤§äº0ã€‚")]
     public decimal AcceptAmount { get; set; }
 
     [Required]
@@ -580,18 +580,18 @@ public enum RecbillStatus
 
 public enum RecbillCompany
 {
-   ½­ÌØµç»ú,
-   ½­Î÷½­ÌØ,
-   Òøï®ĞÂÄÜÔ´,
-   º¼ÖİÃ×¸ñ,
-   Ìì½ò»ªĞË,
-   ÒË·áï®Òµ,
-   Ì©²ı¿óÒµ,
-   ½­ÌØµç¶¯³µ,
-   ½­ÌØ¿Í³µ³§,
-   ½­ÌØ½ÚÄÜ¹«Ë¾,
-   ½­ÌØ¸ßĞÂ×°±¸¹«Ë¾,
-   ½­ÌØ¸ßĞÂÎäºº·Ö¹«Ë¾
+   æ±Ÿç‰¹ç”µæœº,
+   æ±Ÿè¥¿æ±Ÿç‰¹,
+   é“¶é”‚æ–°èƒ½æº,
+   æ­å·ç±³æ ¼,
+   å¤©æ´¥åå…´,
+   å®œä¸°é”‚ä¸š,
+   æ³°æ˜ŒçŸ¿ä¸š,
+   æ±Ÿç‰¹ç”µåŠ¨è½¦,
+   æ±Ÿç‰¹å®¢è½¦å‚,
+   æ±Ÿç‰¹èŠ‚èƒ½å…¬å¸,
+   æ±Ÿç‰¹é«˜æ–°è£…å¤‡å…¬å¸,
+   æ±Ÿç‰¹é«˜æ–°æ­¦æ±‰åˆ†å…¬å¸
 }
 
 
@@ -664,16 +664,16 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 @inject UserManager<ApplicationUser> UserManager
 @inject AuthenticationStateProvider AuthenticationStateProvider
 
-<PageTitle>Ó¦ÊÕÆ±¾İ</PageTitle>
+<PageTitle>åº”æ”¶ç¥¨æ®</PageTitle>
  <FluentStack>
- <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@adddisabled"  OnClick="@addRecbillAsync" >ĞÂÔöÄ¸Æ±</FluentButton>
-    <FluentTextField  @bind-Value="ticketNumberOption"  Required="true"   Label="Æ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
-    <FluentTextField  @bind-Value="subTicketNumberOption"  Required="true"   Label="×ÓÆ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
- <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@finddisabled"  OnClick="@FindRecBillByTicketNumberAndSubTicketNumber" >²éÑ¯Ä¸Æ±/×ÓÆ±</FluentButton>
- <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@modifydisabled" OnClick="@modifyRecbllByTicketNumberAndSubTicketNumberAndId">ĞŞ¸Ä</FluentButton>
- <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@deletedisabled" OnClick="@deleteRecbllByTicketNumberAndSubTicketNumberAndId" >É¾³ı</FluentButton>
+ <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@adddisabled"  OnClick="@addRecbillAsync" >æ–°å¢æ¯ç¥¨</FluentButton>
+    <FluentTextField  @bind-Value="ticketNumberOption"  Required="true"   Label="ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
+    <FluentTextField  @bind-Value="subTicketNumberOption"  Required="true"   Label="å­ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
+ <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@finddisabled"  OnClick="@FindRecBillByTicketNumberAndSubTicketNumber" >æŸ¥è¯¢æ¯ç¥¨/å­ç¥¨</FluentButton>
+ <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@modifydisabled" OnClick="@modifyRecbllByTicketNumberAndSubTicketNumberAndId">ä¿®æ”¹</FluentButton>
+ <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@deletedisabled" OnClick="@deleteRecbllByTicketNumberAndSubTicketNumberAndId" >åˆ é™¤</FluentButton>
  </FluentStack>
-<h1 style="text-align: center">Ó¦ÊÕÆ±¾İ</h1>
+<h1 style="text-align: center">åº”æ”¶ç¥¨æ®</h1>
 <EditForm  Model="recbill" OnValidSubmit="Submit" FormName="Recbill1">
     <DataAnnotationsValidator />
     <ValidationSummary />
@@ -682,30 +682,30 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
     <FluentGridItem lg="4">
          <FluentSelect TOption="RecbillCompany"
                Items=@(Enum.GetValues<RecbillCompany>() )
-               Placeholder="Ñ¡Ôñµ¥Î»..."
+               Placeholder="é€‰æ‹©å•ä½..."
                OptionText="@(i => Enum.GetName(i))"
                OptionValue="@(i => ((int)(i)).ToString() )"
                @bind-Value="@recbillCompany"
                @bind-SelectedOption="@recbill.Company"
-               Label="ËùÊôµ¥Î»£º"
+               Label="æ‰€å±å•ä½ï¼š"
                Disabled="@formdisabled"
                Required="false" />
      </FluentGridItem>
 
     <FluentGridItem lg="4">
     <FluentLabel>
-        ÊÕÆ±ÈÕÆÚ:
+        æ”¶ç¥¨æ—¥æœŸ:
         <br/>
        @* <FluentDatePicker  @bind-Value="recbill.RecDate" @bind-PickerMonth="recbill.RecDate" /> *@
        <InputDate  @bind-Value="recbill.RecDate"  Disabled="@formdisabled"  />
     </FluentLabel>
     </FluentGridItem>
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.RecVoucher" Required="true"   Label="ÊÕÆ±Æ¾Ö¤ºÅ:" Minlength="1" Maxlength="16"   Disabled="@formdisabled" >
+    <FluentTextField  @bind-Value="recbill.RecVoucher" Required="true"   Label="æ”¶ç¥¨å‡­è¯å·:" Minlength="1" Maxlength="16"   Disabled="@formdisabled" >
     </FluentTextField>
     </FluentGridItem>
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.EntryName"  Required="true"   Label="ÏîÄ¿Ãû³Æ£¨¼´Ç°ÊÖµ¥Î»£©£º" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >
+    <FluentTextField  @bind-Value="recbill.EntryName"  Required="true"   Label="é¡¹ç›®åç§°ï¼ˆå³å‰æ‰‹å•ä½ï¼‰ï¼š" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >
     </FluentTextField>
     </FluentGridItem>
 
@@ -715,12 +715,12 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                OptionValue="@(i => i.Value)"
                OptionSelected="@(i => i.Selected)"
                @bind-Value="@recbill.RecBillCategory"
-               Label="Ó¦ÊÕÆ±¾İÀà±ğ£º"
+               Label="åº”æ”¶ç¥¨æ®ç±»åˆ«ï¼š"
                Disabled="@formdisabled"
                Required="false" />
     </FluentGridItem>
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.FrontRela"  Required="true"   Label="ÓëÇ°ÊÖµÄ¹ØÏµ£º" Minlength="1" Maxlength="16"  Disabled="@formdisabled" >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbill.FrontRela"  Required="true"   Label="ä¸å‰æ‰‹çš„å…³ç³»ï¼š" Minlength="1" Maxlength="16"  Disabled="@formdisabled" >    </FluentTextField>
     </FluentGridItem>
     <FluentGridItem lg="4">
          <FluentSelect Items=@newGenerationOptions
@@ -728,25 +728,25 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                OptionValue="@(i => i.Value)"
                OptionSelected="@(i => i.Selected)"
                @bind-Value="@recbill.NewGeneration"
-               Label="ĞÂÒ»´ú£º"
+               Label="æ–°ä¸€ä»£ï¼š"
                Disabled="@formdisabled"
                Required="false" />
     </FluentGridItem>
 
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.TicketNumber"  Required="true"   Label="Æ±ºÅ£º" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbill.TicketNumber"  Required="true"   Label="ç¥¨å·ï¼š" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
     </FluentGridItem>
 
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.SubTicketNumber"  Required="true"   Label="×ÓÆ±ºÅ£º" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbill.SubTicketNumber"  Required="true"   Label="å­ç¥¨å·ï¼š" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
     </FluentGridItem>
 
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.IssuingUnit"  Required="true"   Label="³öÆ±µ¥Î»£º" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbill.IssuingUnit"  Required="true"   Label="å‡ºç¥¨å•ä½ï¼š" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
     </FluentGridItem>
 
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.AcceptorName"  Required="true"   Label="³Ğ¶ÒÈËÃû³Æ£º" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbill.AcceptorName"  Required="true"   Label="æ‰¿å…‘äººåç§°ï¼š" Minlength="1" Maxlength="50"  Disabled="@formdisabled" >    </FluentTextField>
     </FluentGridItem>
 
     <FluentGridItem lg="4">
@@ -755,14 +755,14 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                OptionValue="@(i => i.Value)"
                OptionSelected="@(i => i.Selected)"
                @bind-Value="@recbill.Is69"
-               Label="ÊÇ·ñÎª6+9£º"
+               Label="æ˜¯å¦ä¸º6+9ï¼š"
                Disabled="@formdisabled"
                Required="false" />
     </FluentGridItem>
 
     <FluentGridItem lg="4">
     <FluentLabel>
-    ³Ğ¶Ò½ğ¶î£º
+    æ‰¿å…‘é‡‘é¢ï¼š
     <br/>
     <InputNumber  @bind-Value="recbill.AcceptAmount"  Disabled="@formdisabled" />
     </FluentLabel>
@@ -770,7 +770,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     <FluentGridItem lg="4">
     <FluentLabel>
-    Óà¶î£º
+    ä½™é¢ï¼š
     <br/>
     <InputNumber  @bind-Value="recbill.Balance"  Disabled="@childdisabled" />
     </FluentLabel>
@@ -778,7 +778,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     <FluentGridItem lg="4">
     <FluentLabel>
-    ×ª³ö½ğ¶î£º
+    è½¬å‡ºé‡‘é¢ï¼š
     <br/>
     <InputNumber  @bind-Value="recbill.TransferAmount"  Disabled="@childdisabled" />
     </FluentLabel>
@@ -786,7 +786,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     <FluentGridItem lg="4">
     <FluentLabel>
-        ³öÆ±ÈÕ:
+        å‡ºç¥¨æ—¥:
         <br/>
        @* <FluentDatePicker  @bind-Value="recbill.RecDate" @bind-PickerMonth="recbill.RecDate" /> *@
        <InputDate  @bind-Value="recbill.TicketIssueDate"  Disabled="@formdisabled" />
@@ -795,7 +795,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     <FluentGridItem lg="4">
     <FluentLabel>
-        µ½ÆÚÈÕ:
+        åˆ°æœŸæ—¥:
         <br/>
        @* <FluentDatePicker  @bind-Value="recbill.RecDate" @bind-PickerMonth="recbill.RecDate" /> *@
        <InputDate  @bind-Value="recbill.DueDate"  Disabled="@formdisabled"  />
@@ -803,13 +803,13 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
    </FluentGridItem>
 
     <FluentGridItem lg="4">
-    <FluentTextField  @bind-Value="recbill.Endorser"   Label="±³ÊéÈË£º"  Maxlength="100"  Disabled="@childdisabled" >
+    <FluentTextField  @bind-Value="recbill.Endorser"   Label="èƒŒä¹¦äººï¼š"  Maxlength="100"  Disabled="@childdisabled" >
     </FluentTextField>
     </FluentGridItem>
 
    <FluentGridItem lg="4">
     <FluentLabel>
-        ĞÂ½¨Ê±¼ä:
+        æ–°å»ºæ—¶é—´:
         <br/>
        @* <FluentDatePicker  @bind-Value="recbill.RecDate" @bind-PickerMonth="recbill.RecDate" /> *@
        <InputDate  @bind-Value="recbill.AddTime"  Disabled="@foreverdisabled"  />
@@ -818,7 +818,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
    <FluentGridItem lg="4">
     <FluentLabel>
-        ĞŞ¸ÄÊ±¼ä:
+        ä¿®æ”¹æ—¶é—´:
         <br/>
        @* <FluentDatePicker  @bind-Value="recbill.RecDate" @bind-PickerMonth="recbill.RecDate" /> *@       
 	   <InputDate  @bind-Value="recbill.ModifyTime"  Disabled="@foreverdisabled"  />
@@ -831,16 +831,16 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                OptionValue="@(i => i.Value)"
                OptionSelected="@(i => i.Selected)"
                @bind-Value="@recbill.IsMotherTicket"
-               Label="Ä¸Æ±/×ÓÆ±£º"
+               Label="æ¯ç¥¨/å­ç¥¨ï¼š"
                Disabled="@foreverdisabled"
                Required="true" />
     </FluentGridItem>
 
     </FluentGrid>
     <br/>
-  @* <button type="submit">Ìá½»</button> *@
-   <FluentButton Type="ButtonType.Submit" Disabled="@submitdisabled"  Appearance="Appearance.Accent">±£´æ</FluentButton>
-    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@cansledisabled" OnClick="@cansleSubmit" >È¡Ïû</FluentButton>
+  @* <button type="submit">æäº¤</button> *@
+   <FluentButton Type="ButtonType.Submit" Disabled="@submitdisabled"  Appearance="Appearance.Accent">ä¿å­˜</FluentButton>
+    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent" Disabled="@cansledisabled" OnClick="@cansleSubmit" >å–æ¶ˆ</FluentButton>
 
 </EditForm>
 
@@ -881,45 +881,45 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     static List<Option<string>> recBillCategoryOptions = new()
     {
-        { new Option<string> { Value = "µç×ÓÒøĞĞ³Ğ¶Ò»ãÆ±", Text = "µç×ÓÒøĞĞ³Ğ¶Ò»ãÆ±" } },
-        { new Option<string> { Value = "ÆäËû", Text = "ÆäËû" } }
+        { new Option<string> { Value = "ç”µå­é“¶è¡Œæ‰¿å…‘æ±‡ç¥¨", Text = "ç”µå­é“¶è¡Œæ‰¿å…‘æ±‡ç¥¨" } },
+        { new Option<string> { Value = "å…¶ä»–", Text = "å…¶ä»–" } }
     };
 
     static List<Option<string>> newGenerationOptions = new()
     {
-        { new Option<string> { Value = "ÊÇ", Text = "ÊÇ" } },
-        { new Option<string> { Value = "·ñ", Text = "·ñ" } }
+        { new Option<string> { Value = "æ˜¯", Text = "æ˜¯" } },
+        { new Option<string> { Value = "å¦", Text = "å¦" } }
     };
 
     static List<Option<string>> is69Options = new()
     {
-        { new Option<string> { Value = "ÊÇ", Text = "ÊÇ" } },
-        { new Option<string> { Value = "·ñ", Text = "·ñ" } }
+        { new Option<string> { Value = "æ˜¯", Text = "æ˜¯" } },
+        { new Option<string> { Value = "å¦", Text = "å¦" } }
     };
 
     /*
     static List<Option<string>> companyOptions = new()
     {
-        { new Option<string> { Value = "1", Text = "½­ÌØµç»ú" } },
-        { new Option<string> { Value = "2", Text = "½­Î÷½­ÌØ" } },
-        { new Option<string> { Value = "3", Text = "Òøï®ĞÂÄÜÔ´" } },
-        { new Option<string> { Value = "4", Text = "º¼ÖİÃ×¸ñ" } },
-        { new Option<string> { Value = "5", Text = "Ìì½ò»ªĞË" } },
-        { new Option<string> { Value = "6", Text = "ÒË·áï®Òµ" } },
-        { new Option<string> { Value = "7", Text = "Ì©²ı¿óÒµ" } },
-        { new Option<string> { Value = "8", Text = "½­ÌØµç¶¯³µ" } },
-         { new Option<string> { Value = "9", Text = "½­ÌØ¿Í³µ³§" } },
-         { new Option<string> { Value = "10", Text = "½­ÌØ½ÚÄÜ¹«Ë¾" } },
-         { new Option<string> { Value = "11", Text = "½­ÌØ¸ßĞÂ×°±¸¹«Ë¾" } },
-         { new Option<string> { Value = "12", Text = "½­ÌØ¸ßĞÂÎäºº·Ö¹«Ë¾" } }
+        { new Option<string> { Value = "1", Text = "æ±Ÿç‰¹ç”µæœº" } },
+        { new Option<string> { Value = "2", Text = "æ±Ÿè¥¿æ±Ÿç‰¹" } },
+        { new Option<string> { Value = "3", Text = "é“¶é”‚æ–°èƒ½æº" } },
+        { new Option<string> { Value = "4", Text = "æ­å·ç±³æ ¼" } },
+        { new Option<string> { Value = "5", Text = "å¤©æ´¥åå…´" } },
+        { new Option<string> { Value = "6", Text = "å®œä¸°é”‚ä¸š" } },
+        { new Option<string> { Value = "7", Text = "æ³°æ˜ŒçŸ¿ä¸š" } },
+        { new Option<string> { Value = "8", Text = "æ±Ÿç‰¹ç”µåŠ¨è½¦" } },
+         { new Option<string> { Value = "9", Text = "æ±Ÿç‰¹å®¢è½¦å‚" } },
+         { new Option<string> { Value = "10", Text = "æ±Ÿç‰¹èŠ‚èƒ½å…¬å¸" } },
+         { new Option<string> { Value = "11", Text = "æ±Ÿç‰¹é«˜æ–°è£…å¤‡å…¬å¸" } },
+         { new Option<string> { Value = "12", Text = "æ±Ÿç‰¹é«˜æ–°æ­¦æ±‰åˆ†å…¬å¸" } }
     };
     */
 
 
     static List<Option<string>> isMotherTicketOptions = new()
     {
-        { new Option<string> { Value = "Ä¸Æ±", Text = "Ä¸Æ±" } },
-        { new Option<string> { Value = "×ÓÆ±", Text = "×ÓÆ±" } }
+        { new Option<string> { Value = "æ¯ç¥¨", Text = "æ¯ç¥¨" } },
+        { new Option<string> { Value = "å­ç¥¨", Text = "å­ç¥¨" } }
     };
 
     private void IncrementCount()
@@ -936,12 +936,12 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
            Busy = false;
 
            await base.OnInitializedAsync();
-           // ... ÆäËû³õÊ¼»¯´úÂë
+           // ... å…¶ä»–åˆå§‹åŒ–ä»£ç 
            recbillCompany = "1";
-           recbill.Company = RecbillCompany.½­Î÷½­ÌØ;
-           recbill.RecBillCategory = "µç×ÓÒøĞĞ³Ğ¶Ò»ãÆ±";
-           recbill.NewGeneration = "ÊÇ";
-           recbill.Is69 = "ÊÇ";
+           recbill.Company = RecbillCompany.æ±Ÿè¥¿æ±Ÿç‰¹;
+           recbill.RecBillCategory = "ç”µå­é“¶è¡Œæ‰¿å…‘æ±‡ç¥¨";
+           recbill.NewGeneration = "æ˜¯";
+           recbill.Is69 = "æ˜¯";
    }
 
     private  async Task  addRecbillAsync(){
@@ -955,7 +955,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
         if (!isAuthorized.Succeeded)
         {
             //return Forbid();
-           var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞÂ½¨È¨ÏŞ¡£" );
+           var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æ–°å»ºæƒé™ã€‚" );
            var result = await dialog.Result;
         } else {
         formdisabled = false;
@@ -967,10 +967,10 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
         finddisabled = true;
         recbill = new RecBillModel(DateTime.Now, DateTime.Now, DateTime.Now , DateTime.Now, DateTime.Now );
         recbillCompany = "1";
-        recbill.Company = RecbillCompany.½­Î÷½­ÌØ;
-        recbill.RecBillCategory = "µç×ÓÒøĞĞ³Ğ¶Ò»ãÆ±";
-        recbill.NewGeneration = "ÊÇ";
-        recbill.Is69 = "ÊÇ";
+        recbill.Company = RecbillCompany.æ±Ÿè¥¿æ±Ÿç‰¹;
+        recbill.RecBillCategory = "ç”µå­é“¶è¡Œæ‰¿å…‘æ±‡ç¥¨";
+        recbill.NewGeneration = "æ˜¯";
+        recbill.Is69 = "æ˜¯";
      }
     }
 
@@ -1005,7 +1005,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
         if (!isAuthorized.Succeeded)
         {
            // return Forbid();
-           var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞŞ¸ÄÈ¨ÏŞ¡£" );
+           var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰ä¿®æ”¹æƒé™ã€‚" );
            var result = await dialog.Result;
         } else {
         formdisabled = false;
@@ -1030,7 +1030,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
        if (!isAuthorized.Succeeded)
        {
                // return Forbid();
-               var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞÉ¾³ı¸ÃÊı¾İÈ¨ÏŞ¡£" );
+               var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰åˆ é™¤è¯¥æ•°æ®æƒé™ã€‚" );
                var result = await dialog.Result;
        } else {
 
@@ -1039,7 +1039,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
         }
 
             Busy = true;
-        var dialog1 = await DialogService.ShowConfirmationAsync("È·ÈÏÉ¾³ıÂğ?", "ÊÇ", "·ñ", "ÔÙ´ÎÈ·ÈÏ");
+        var dialog1 = await DialogService.ShowConfirmationAsync("ç¡®è®¤åˆ é™¤å—?", "æ˜¯", "å¦", "å†æ¬¡ç¡®è®¤");
         var result1 = await dialog1.Result;
         bool canceled = result1.Cancelled;
 
@@ -1051,13 +1051,13 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                  Context.RecBillModels.Remove(recb);
                  count = Context.SaveChanges();
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
-                var dialog = await DialogService.ShowErrorAsync("É¾³ıÊ§°Ü!¸ÃÆ±¾İ²»´æÔÚ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("åˆ é™¤å¤±è´¥!è¯¥ç¥¨æ®ä¸å­˜åœ¨ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                                 Busy = false;
              }
              if (count>0) {
-                var dialog = await DialogService.ShowSuccessAsync("É¾³ı³É¹¦£¡");
+                var dialog = await DialogService.ShowSuccessAsync("åˆ é™¤æˆåŠŸï¼");
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                submitdisabled = true;
@@ -1081,7 +1081,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 
     private async Task  Submit()
     {
-        Logger.LogInformation("ÊÕÆ±ÈÕÆÚ = {RecDate}", recbill?.RecDate);
+        Logger.LogInformation("æ”¶ç¥¨æ—¥æœŸ = {RecDate}", recbill?.RecDate);
 
         if (ismodifybutton == false) {
             if (Busy) {
@@ -1100,7 +1100,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
             if (!isAuthorized.Succeeded)
             {
                // return Forbid();
-               var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞÂ½¨È¨ÏŞ¡£" );
+               var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æ–°å»ºæƒé™ã€‚" );
                var result = await dialog.Result;
             } else {
 
@@ -1109,17 +1109,17 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
            try {
             if (recbill.AcceptAmount <= 0)
             {
-             var dialog = await DialogService.ShowErrorAsync("³Ğ¶Ò½ğ¶îÒª´óÓÚ0¡£" );
+             var dialog = await DialogService.ShowErrorAsync("æ‰¿å…‘é‡‘é¢è¦å¤§äº0ã€‚" );
              var result = await dialog.Result;
             } else {
                  recbill.Status = RecbillStatus.Submitted;
                  recbill.Balance = recbill.AcceptAmount;
-                 recbill.IsMotherTicket = "Ä¸Æ±";
+                 recbill.IsMotherTicket = "æ¯ç¥¨";
                  Context.RecBillModels.Add(recbill);
                  count = Context.SaveChanges();
             }
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
-                var dialog = await DialogService.ShowErrorAsync("±£´æÊ§°Ü!¸ÃÆ±¾İÒÑ´æÔÚ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("ä¿å­˜å¤±è´¥!è¯¥ç¥¨æ®å·²å­˜åœ¨ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 finddisabled = false;
@@ -1131,7 +1131,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                                 Busy = false;
              }
              if (count>0) {
-                var dialog = await DialogService.ShowSuccessAsync("±£´æ³É¹¦£¡");
+                var dialog = await DialogService.ShowSuccessAsync("ä¿å­˜æˆåŠŸï¼");
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 finddisabled = false;
@@ -1159,7 +1159,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
            try {
             if (recbill.AcceptAmount <= 0)
             {
-             var dialog = await DialogService.ShowErrorAsync("³Ğ¶Ò½ğ¶îÒª´óÓÚ0¡£" );
+             var dialog = await DialogService.ShowErrorAsync("æ‰¿å…‘é‡‘é¢è¦å¤§äº0ã€‚" );
              var result = await dialog.Result;
             } else {
                   var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
@@ -1171,7 +1171,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                   if (!isAuthorized.Succeeded)
                   {
                    // return Forbid();
-                   var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞŞ¸ÄÈ¨ÏŞ¡£" );
+                   var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰ä¿®æ”¹æƒé™ã€‚" );
                    var result = await dialog.Result;
                   } else {
                 var recb = Context.RecBillModels.Single(b => b.TicketNumber == recbill.TicketNumber && b.SubTicketNumber== recbill.SubTicketNumber && b.Id==recbill.Id);
@@ -1193,13 +1193,13 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                }
             }
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
-                var dialog = await DialogService.ShowErrorAsync("±£´æÊ§°Ü¡£" );
+                var dialog = await DialogService.ShowErrorAsync("ä¿å­˜å¤±è´¥ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 Busy = false;
              }
              if (count>0) {
-                var dialog = await DialogService.ShowSuccessAsync("±£´æ³É¹¦£¡");
+                var dialog = await DialogService.ShowSuccessAsync("ä¿å­˜æˆåŠŸï¼");
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 submitdisabled = true;
@@ -1228,7 +1228,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
         deletedisabled = true;
 
            if (ticketNumberOption is null || subTicketNumberOption is null) {
-                var dialog = await DialogService.ShowErrorAsync("²éÑ¯Ç°ÇëÊäÈëÆ±ºÅºÍ×ÓÆ±ºÅ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("æŸ¥è¯¢å‰è¯·è¾“å…¥ç¥¨å·å’Œå­ç¥¨å·ã€‚" );
                 var result = await dialog.Result;
                 modifydisabled = true;
                 deletedisabled = true;
@@ -1270,7 +1270,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
               {
                 // return Forbid();
                 recbill = new RecBillModel( DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now );
-                var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞ²éÑ¯¸ÃÊı¾İµÄÈ¨ÏŞ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æŸ¥è¯¢è¯¥æ•°æ®çš„æƒé™ã€‚" );
                 var result = await dialog.Result;
                 recbill = new RecBillModel(DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now);
               } else {
@@ -1278,7 +1278,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
                   deletedisabled = false;
               }
             } catch (System.InvalidOperationException e ) {
-                var dialog = await DialogService.ShowErrorAsync("¸ÃÆ±¾İ²»´æÔÚ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("è¯¥ç¥¨æ®ä¸å­˜åœ¨ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 recbill = new RecBillModel(DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now);
@@ -1303,7 +1303,7 @@ PS D:\jtpjsapp\Components\Pages> vim .\Recbill.razor
 }
 
 
-¸ÃÊ¾Àı»¹ÅäÖÃÁËÊı¾İ¿âÈÕÖ¾¼ÇÂ¼À´ÏÔÊ¾Éú³ÉµÄ SQL ²éÑ¯¡£ ÕâÊÇÔÚ appsettings.Development.json ÖĞÅäÖÃµÄ£º
+è¯¥ç¤ºä¾‹è¿˜é…ç½®äº†æ•°æ®åº“æ—¥å¿—è®°å½•æ¥æ˜¾ç¤ºç”Ÿæˆçš„ SQL æŸ¥è¯¢ã€‚ è¿™æ˜¯åœ¨ appsettings.Development.json ä¸­é…ç½®çš„ï¼š
 PS D:\jtpjsapp> vim .\appsettings.Development.json
 {
   "Logging": {
@@ -1324,7 +1324,7 @@ PS D:\jtpjsapp> vim .\appsettings.Development.json
 
 
 PS D:\jtpjsapp> dotnet add package Pomelo.EntityFrameworkCore.MySql
-±ØĞë½« dotnet ef °²×°ÎªÈ«¾Ö¹¤¾ß»ò±¾µØ¹¤¾ß¡£ ´ó¶àÊı¿ª·¢ÈËÔ±Æ«ÏòÓÚÊ¹ÓÃÒÔÏÂÃüÁî½« dotnet ef °²×°ÎªÈ«¾Ö¹¤¾ß£º
+å¿…é¡»å°† dotnet ef å®‰è£…ä¸ºå…¨å±€å·¥å…·æˆ–æœ¬åœ°å·¥å…·ã€‚ å¤§å¤šæ•°å¼€å‘äººå‘˜åå‘äºä½¿ç”¨ä»¥ä¸‹å‘½ä»¤å°† dotnet ef å®‰è£…ä¸ºå…¨å±€å·¥å…·ï¼š
 .NET CLI
 dotnet tool install --global dotnet-ef
 [root@cpzljc jtpjsapp]# dotnet add package Microsoft.EntityFrameworkCore.Design
@@ -1485,11 +1485,11 @@ Build started...
 Build succeeded.
 
 
-½¨ÒéÍ¨¹ıÉú³É SQL ½Å±¾£¬½«Ç¨ÒÆ²¿Êğµ½Éú²úÊı¾İ¿â¡£ ´Ë²ßÂÔµÄÓÅµã°üÀ¨£º
-¿ÉÒÔ¼ì²é SQL ½Å±¾µÄ×¼È·ĞÔ£»ÕâÒ»µãºÜÖØÒª£¬ÒòÎª½«¼Ü¹¹¸ü¸ÄÓ¦ÓÃÓÚÉú²úÊı¾İ¿âÊÇÒ»Ïî¿ÉÄÜµ¼ÖÂÊı¾İ¶ªÊ§µÄÇ±ÔÚÎ£ÏÕ²Ù×÷¡£
-ÔÚÄ³Ğ©Çé¿öÏÂ£¬¿ÉÒÔ¸ù¾İÉú²úÊı¾İ¿âµÄÌØ¶¨ĞèÇóµ÷ÕûÕâĞ©½Å±¾¡£
-SQL ½Å±¾¿ÉÒÔÓë²¿Êğ¼¼Êõ½áºÏÊ¹ÓÃ£¬ÉõÖÁ¿ÉÒÔÔÚ CI ¹ı³ÌÖĞÉú³É¡£
-SQL ½Å±¾¿ÉÒÔÌá¹©¸ø DBA£¬²¢ÇÒ¿ÉÒÔµ¥¶À¹ÜÀíºÍ´æµµ¡£
+å»ºè®®é€šè¿‡ç”Ÿæˆ SQL è„šæœ¬ï¼Œå°†è¿ç§»éƒ¨ç½²åˆ°ç”Ÿäº§æ•°æ®åº“ã€‚ æ­¤ç­–ç•¥çš„ä¼˜ç‚¹åŒ…æ‹¬ï¼š
+å¯ä»¥æ£€æŸ¥ SQL è„šæœ¬çš„å‡†ç¡®æ€§ï¼›è¿™ä¸€ç‚¹å¾ˆé‡è¦ï¼Œå› ä¸ºå°†æ¶æ„æ›´æ”¹åº”ç”¨äºç”Ÿäº§æ•°æ®åº“æ˜¯ä¸€é¡¹å¯èƒ½å¯¼è‡´æ•°æ®ä¸¢å¤±çš„æ½œåœ¨å±é™©æ“ä½œã€‚
+åœ¨æŸäº›æƒ…å†µä¸‹ï¼Œå¯ä»¥æ ¹æ®ç”Ÿäº§æ•°æ®åº“çš„ç‰¹å®šéœ€æ±‚è°ƒæ•´è¿™äº›è„šæœ¬ã€‚
+SQL è„šæœ¬å¯ä»¥ä¸éƒ¨ç½²æŠ€æœ¯ç»“åˆä½¿ç”¨ï¼Œç”šè‡³å¯ä»¥åœ¨ CI è¿‡ç¨‹ä¸­ç”Ÿæˆã€‚
+SQL è„šæœ¬å¯ä»¥æä¾›ç»™ DBAï¼Œå¹¶ä¸”å¯ä»¥å•ç‹¬ç®¡ç†å’Œå­˜æ¡£ã€‚
 [root@cpzljc jtpjsapp]# dotnet ef migrations script
 Build started...
 Build succeeded.
@@ -1509,7 +1509,7 @@ ALTER DATABASE CHARACTER SET utf8mb4;
 
 CREATE TABLE `RecBillModels` (
     `Id` int NOT NULL AUTO_INCREMENT,
-    `RecDate` datetime(6) NOT NULL COMMENT 'ÊÕÆ±ÈÕÆÚ',
+    `RecDate` datetime(6) NOT NULL COMMENT 'æ”¶ç¥¨æ—¥æœŸ',
     `RecVoucher` varchar(16) CHARACTER SET utf8mb4 NOT NULL,
     `EntryName` varchar(100) CHARACTER SET utf8mb4 NOT NULL,
     `RecBillCategory` longtext CHARACTER SET utf8mb4 NOT NULL,
@@ -1605,37 +1605,37 @@ COMMIT;
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IJSRuntime JS
 
-<PageTitle>Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í</PageTitle>
-<h2>²éÑ¯Ìõ¼ş:</h2>
+<PageTitle>åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨</PageTitle>
+<h2>æŸ¥è¯¢æ¡ä»¶:</h2>
 <FluentGrid Spacing="1" >
 <FluentGridItem lg="2">
     <FluentLabel>
-        ÊÕÆ±ÈÕÆÚ:
+        æ”¶ç¥¨æ—¥æœŸ:
         <br/>
-        ¿ªÊ¼£º <InputDate  @bind-Value="recbilllistRecDateStart" Size="20" />
+        å¼€å§‹ï¼š <InputDate  @bind-Value="recbilllistRecDateStart" Size="20" />
         <br/>
-        ½áÊø£º <InputDate  @bind-Value="recbilllistRecDateEnd" Size="20" />
+        ç»“æŸï¼š <InputDate  @bind-Value="recbilllistRecDateEnd" Size="20" />
     </FluentLabel>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistIssuingUnit"    Label="³öÆ±µ¥Î»£º" Minlength="1" Maxlength="50"   >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistIssuingUnit"    Label="å‡ºç¥¨å•ä½ï¼š" Minlength="1" Maxlength="50"   >    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistAcceptorName"   Label="³Ğ¶ÒÈËÃû³Æ£º" Minlength="1" Maxlength="50"  >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistAcceptorName"   Label="æ‰¿å…‘äººåç§°ï¼š" Minlength="1" Maxlength="50"  >    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistTicketNumber"     Label="Æ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistTicketNumber"     Label="ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistSubTicketNumber"     Label="×ÓÆ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistSubTicketNumber"     Label="å­ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@FindRecbillList" >²éÑ¯</FluentButton>
-    <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">²ğ·Ö</FluentButton>
-    <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@ExportExcelAsync">µ¼³öexcel</FluentButton>
+    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@FindRecbillList" >æŸ¥è¯¢</FluentButton>
+    <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">æ‹†åˆ†</FluentButton>
+    <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@ExportExcelAsync">å¯¼å‡ºexcel</FluentButton>
 </FluentGridItem>
 </FluentGrid>
-<h1 style="text-align: center">Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í</h1>
+<h1 style="text-align: center">åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨</h1>
 
 <div style="display: table; table-layout: fixed; width: 100%;">
 <div style="overflow-x: auto;">
@@ -1644,35 +1644,35 @@ COMMIT;
                 Pagination="@pagination" ShowHover="true"
 >
     @*
-    <TemplateColumn Tooltip="true" TooltipText="@(c => "²ğ·ÖÆ±¾İºÅ£º " + c.TicketNumber+"+" + c.SubTicketNumber)" Title="¹¦ÄÜ" Width="100px" Align="Align.Center" InitialSortDirection="SortDirection.Ascending" IsDefaultSortColumn=true>
-        <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">²ğ·Ö</FluentButton>
+    <TemplateColumn Tooltip="true" TooltipText="@(c => "æ‹†åˆ†ç¥¨æ®å·ï¼š " + c.TicketNumber+"+" + c.SubTicketNumber)" Title="åŠŸèƒ½" Width="100px" Align="Align.Center" InitialSortDirection="SortDirection.Ascending" IsDefaultSortColumn=true>
+        <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">æ‹†åˆ†</FluentButton>
     </TemplateColumn>
    *@
     <SelectColumn TGridItem="RecBillModel"
                   SelectMode="DataGridSelectMode.Single"
                   SelectFromEntireRow="true"
                   @bind-SelectedItems="@SelectedItems" />
-    <PropertyColumn Property="@(p => p.Id)" Sortable="true" Title="ĞòºÅ" Width="60px" Align="Align.Center"  Tooltip="true"  />
-    <PropertyColumn Property="@(p => p.Company)"  Sortable="true"  Title="ËùÊôµ¥Î»"  Width="180px" Align="Align.Center" Tooltip="true"/>
-    <PropertyColumn Property="@(p => p.RecDate)" Format="yyyy-MM-dd" Sortable="true"  Title="ÊÕÆ± ÈÕÆÚ"  Width="120px" Align="Align.Center" Tooltip="true" />
-    <PropertyColumn Property="@(p => p.RecVoucher)"  Sortable="true"  Title="ÊÕÆ±Æ¾Ö¤ºÅ"  Width="140px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.EntryName)"  Sortable="true"  Title="ÏîÄ¿Ãû³Æ£¨¼´Ç°ÊÖµ¥Î»£©"  Width="250px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.RecBillCategory)"  Sortable="true"  Title="Ó¦ÊÕÆ±¾İÀà±ğ"  Width="180px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.FrontRela)"  Sortable="true"  Title="ÓëÇ°ÊÖµÄ¹ØÏµ"  Width="180px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.NewGeneration)"  Sortable="true"  Title="ĞÂÒ»´ú"  Width="80px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.TicketNumber)"  Sortable="true"  Title="Æ±ºÅ" Width="260px"  Align="Align.Center"  Tooltip="true" />
-        <PropertyColumn Property="@(p => p.SubTicketNumber)"  Sortable="true"  Title="×ÓÆ±ºÅ"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.IssuingUnit)"  Sortable="true"  Title="³öÆ±µ¥Î»"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AcceptorName)"  Sortable="true"  Title="³Ğ¶ÒÈËÃû³Æ"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Is69)"  Sortable="true"  Title="ÊÇ·ñ6+9"  Width="100px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AcceptAmount)"  Sortable="true"  Title="³Ğ¶Ò½ğ¶î"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Balance)"  Sortable="true"  Title="Óà¶î"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.TicketIssueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="³öÆ±ÈÕ"  Width="120px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.DueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="µ½ÆÚÈÕ"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AddTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ĞÂ½¨Ê±¼ä"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.ModifyTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ĞŞ¸ÄÊ±¼ä"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.IsMotherTicket)"  Sortable="true"  Title="Ä¸Æ±/×ÓÆ±"  Width="100px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Status)"  Sortable="true"  Title="×´Ì¬"  Width="180px" Align="Align.Center" Tooltip="true"/>
+    <PropertyColumn Property="@(p => p.Id)" Sortable="true" Title="åºå·" Width="60px" Align="Align.Center"  Tooltip="true"  />
+    <PropertyColumn Property="@(p => p.Company)"  Sortable="true"  Title="æ‰€å±å•ä½"  Width="180px" Align="Align.Center" Tooltip="true"/>
+    <PropertyColumn Property="@(p => p.RecDate)" Format="yyyy-MM-dd" Sortable="true"  Title="æ”¶ç¥¨ æ—¥æœŸ"  Width="120px" Align="Align.Center" Tooltip="true" />
+    <PropertyColumn Property="@(p => p.RecVoucher)"  Sortable="true"  Title="æ”¶ç¥¨å‡­è¯å·"  Width="140px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.EntryName)"  Sortable="true"  Title="é¡¹ç›®åç§°ï¼ˆå³å‰æ‰‹å•ä½ï¼‰"  Width="250px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.RecBillCategory)"  Sortable="true"  Title="åº”æ”¶ç¥¨æ®ç±»åˆ«"  Width="180px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.FrontRela)"  Sortable="true"  Title="ä¸å‰æ‰‹çš„å…³ç³»"  Width="180px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.NewGeneration)"  Sortable="true"  Title="æ–°ä¸€ä»£"  Width="80px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.TicketNumber)"  Sortable="true"  Title="ç¥¨å·" Width="260px"  Align="Align.Center"  Tooltip="true" />
+        <PropertyColumn Property="@(p => p.SubTicketNumber)"  Sortable="true"  Title="å­ç¥¨å·"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.IssuingUnit)"  Sortable="true"  Title="å‡ºç¥¨å•ä½"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AcceptorName)"  Sortable="true"  Title="æ‰¿å…‘äººåç§°"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Is69)"  Sortable="true"  Title="æ˜¯å¦6+9"  Width="100px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AcceptAmount)"  Sortable="true"  Title="æ‰¿å…‘é‡‘é¢"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Balance)"  Sortable="true"  Title="ä½™é¢"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.TicketIssueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="å‡ºç¥¨æ—¥"  Width="120px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.DueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="åˆ°æœŸæ—¥"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AddTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="æ–°å»ºæ—¶é—´"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.ModifyTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ä¿®æ”¹æ—¶é—´"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.IsMotherTicket)"  Sortable="true"  Title="æ¯ç¥¨/å­ç¥¨"  Width="100px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Status)"  Sortable="true"  Title="çŠ¶æ€"  Width="180px" Align="Align.Center" Tooltip="true"/>
 </FluentDataGrid>
 </div>
 </div>
@@ -1705,7 +1705,7 @@ COMMIT;
                                                              (!string.IsNullOrEmpty(recbilllistTicketNumber) ? r.TicketNumber==recbilllistTicketNumber : true ) &&
                                                              (!string.IsNullOrEmpty(recbilllistSubTicketNumber) ? r.SubTicketNumber==recbilllistSubTicketNumber : true) &&
                                                              (!string.IsNullOrEmpty(recbilllistIssuingUnit) ? r.IssuingUnit==recbilllistIssuingUnit : true) &&
-                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="Ä¸Æ±" ).ToList();
+                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="æ¯ç¥¨" ).ToList();
 
                var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
                var user = authState.User;
@@ -1725,7 +1725,7 @@ COMMIT;
             Busy = false;
 
        await base.OnInitializedAsync();
-           // ... ÆäËû³õÊ¼»¯´úÂë
+           // ... å…¶ä»–åˆå§‹åŒ–ä»£ç 
        }
 
         private async Task FindRecbillList() {
@@ -1740,7 +1740,7 @@ COMMIT;
                                                              (!string.IsNullOrEmpty(recbilllistTicketNumber) ? r.TicketNumber==recbilllistTicketNumber : true ) &&
                                                              (!string.IsNullOrEmpty(recbilllistSubTicketNumber) ? r.SubTicketNumber==recbilllistSubTicketNumber : true) &&
                                                              (!string.IsNullOrEmpty(recbilllistIssuingUnit) ? r.IssuingUnit==recbilllistIssuingUnit : true) &&
-                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="Ä¸Æ±" ).ToList();
+                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="æ¯ç¥¨" ).ToList();
 
                var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
                var user = authState.User;
@@ -1756,7 +1756,7 @@ COMMIT;
                                             || r.OwnerID == currentUserId).ToList();
                 }
             } catch (System.InvalidOperationException e ) {
-                var dialog = await DialogService.ShowErrorAsync("²éÑ¯Æ±¾İÁĞ±íÒì³£¡£" );
+                var dialog = await DialogService.ShowErrorAsync("æŸ¥è¯¢ç¥¨æ®åˆ—è¡¨å¼‚å¸¸ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 Busy = false;
@@ -1775,12 +1775,12 @@ COMMIT;
         if (!isAuthorized.Succeeded)
         {
             //return Forbid();
-           var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞ²ğ·Ö¸ÃÆ±¾İµÄÈ¨ÏŞ¡£" );
+           var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æ‹†åˆ†è¯¥ç¥¨æ®çš„æƒé™ã€‚" );
            var result = await dialog.Result;
         } else {
          DialogParameters parameters = new()
          {
-            Title = "²ğ·ÖÆ±¾İ",
+            Title = "æ‹†åˆ†ç¥¨æ®",
             Width = "500px",
             Height = "350px",
             PreventDismissOnOverlayClick = true,
@@ -1788,7 +1788,7 @@ COMMIT;
          };
 
          if(SelectedItems.FirstOrDefault() is null) {
-                var dialog = await DialogService.ShowErrorAsync("ÇëÏÈÑ¡ÔñÒª²ğ·ÖµÄÆ±¾İ¡£" );
+                var dialog = await DialogService.ShowErrorAsync("è¯·å…ˆé€‰æ‹©è¦æ‹†åˆ†çš„ç¥¨æ®ã€‚" );
                 var result = await dialog.Result;
          } else {
                 IDialogReference dialog = await DialogService.ShowDialogAsync<SplitRecbillDialog>(SelectedItems.FirstOrDefault(), parameters);
@@ -1814,43 +1814,43 @@ COMMIT;
 
      private async Task ExportExcelAsync() {
          using var workbook = new XLWorkbook();
-         var worksheet = workbook.AddWorksheet("Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í");
+         var worksheet = workbook.AddWorksheet("åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨");
          worksheet.ColumnWidth = 12;
          //worksheet.Cell("A1").Value = "Hello World!";
          //worksheet.Cell("A2").FormulaA1 = "MID(A1, 7, 5)";
          worksheet.Cell("A1").InsertTable(recbills);
-         worksheet.Cell("A1").Value = "ĞòºÅ";
-         worksheet.Cell("B1").Value = "ÊÕÆ±ÈÕÆÚ";
-         worksheet.Cell("C1").Value = "ÊÕÆ±Æ¾Ö¤ºÅ";
-         worksheet.Cell("D1").Value = "ÏîÄ¿Ãû³Æ£¨¼´Ç°ÊÖµ¥Î»£©";
-         worksheet.Cell("E1").Value = "Ó¦ÊÕÆ±¾İÀà±ğ";
-         worksheet.Cell("F1").Value = "ÓëÇ°ÊÖµÄ¹ØÏµ";
-         worksheet.Cell("G1").Value = "ĞÂÒ»´ú";
-         worksheet.Cell("H1").Value = "Æ±ºÅ";
-         worksheet.Cell("I1").Value = "×ÓÆ±ºÅ";
-         worksheet.Cell("J1").Value = "³öÆ±µ¥Î»";
-         worksheet.Cell("K1").Value = "³Ğ¶ÒÈËÃû³Æ";
-         worksheet.Cell("L1").Value = "ÊÇ·ñ6+9";
-         worksheet.Cell("M1").Value = "³Ğ¶Ò½ğ¶î";
-         worksheet.Cell("N1").Value = "³öÆ±ÈÕ";
-         worksheet.Cell("O1").Value = "µ½ÆÚÈÕ";
-         worksheet.Cell("P1").Value = "ÊÇ·ñÑ¡ÖĞ";
-         worksheet.Cell("Q1").Value = "ÓÃ»§ID";
-         worksheet.Cell("R1").Value = "×´Ì¬";
-         worksheet.Cell("S1").Value = "ËùÊôµ¥Î»";
-         worksheet.Cell("T1").Value = "±³ÊéÈË";
-         worksheet.Cell("U1").Value = "Óà¶î";
-         worksheet.Cell("V1").Value = "×ª³ö½ğ¶î";
-         worksheet.Cell("W1").Value = "ĞÂ½¨Ê±¼ä";
-         worksheet.Cell("X1").Value = "ĞŞ¸ÄÊ±¼ä";
-         worksheet.Cell("Y1").Value = "Ä¸Æ±/×ÓÆ±";
+         worksheet.Cell("A1").Value = "åºå·";
+         worksheet.Cell("B1").Value = "æ”¶ç¥¨æ—¥æœŸ";
+         worksheet.Cell("C1").Value = "æ”¶ç¥¨å‡­è¯å·";
+         worksheet.Cell("D1").Value = "é¡¹ç›®åç§°ï¼ˆå³å‰æ‰‹å•ä½ï¼‰";
+         worksheet.Cell("E1").Value = "åº”æ”¶ç¥¨æ®ç±»åˆ«";
+         worksheet.Cell("F1").Value = "ä¸å‰æ‰‹çš„å…³ç³»";
+         worksheet.Cell("G1").Value = "æ–°ä¸€ä»£";
+         worksheet.Cell("H1").Value = "ç¥¨å·";
+         worksheet.Cell("I1").Value = "å­ç¥¨å·";
+         worksheet.Cell("J1").Value = "å‡ºç¥¨å•ä½";
+         worksheet.Cell("K1").Value = "æ‰¿å…‘äººåç§°";
+         worksheet.Cell("L1").Value = "æ˜¯å¦6+9";
+         worksheet.Cell("M1").Value = "æ‰¿å…‘é‡‘é¢";
+         worksheet.Cell("N1").Value = "å‡ºç¥¨æ—¥";
+         worksheet.Cell("O1").Value = "åˆ°æœŸæ—¥";
+         worksheet.Cell("P1").Value = "æ˜¯å¦é€‰ä¸­";
+         worksheet.Cell("Q1").Value = "ç”¨æˆ·ID";
+         worksheet.Cell("R1").Value = "çŠ¶æ€";
+         worksheet.Cell("S1").Value = "æ‰€å±å•ä½";
+         worksheet.Cell("T1").Value = "èƒŒä¹¦äºº";
+         worksheet.Cell("U1").Value = "ä½™é¢";
+         worksheet.Cell("V1").Value = "è½¬å‡ºé‡‘é¢";
+         worksheet.Cell("W1").Value = "æ–°å»ºæ—¶é—´";
+         worksheet.Cell("X1").Value = "ä¿®æ”¹æ—¶é—´";
+         worksheet.Cell("Y1").Value = "æ¯ç¥¨/å­ç¥¨";
          worksheet.Columns().AdjustToContents();
-         //workbook.SaveAs("/opt/aspnetcore/jtpjsapp/files/export/Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í.xlsx");
+         //workbook.SaveAs("/opt/aspnetcore/jtpjsapp/files/export/åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨.xlsx");
 
          var fileStream = GetFileStream();
          workbook.SaveAs(fileStream);
          fileStream.Seek(0, SeekOrigin.Begin);
-         var fileName = "Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í.xlsx";
+         var fileName = "åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨.xlsx";
 
          using var streamRef = new DotNetStreamReference(stream: fileStream);
 
@@ -1887,16 +1887,16 @@ COMMIT;
 
 @* Footer *@
 <FluentDialogFooter>
-    <FluentButton Appearance="Appearance.Accent" OnClick="@SaveAsync">±£´æ</FluentButton>
-    <FluentButton Appearance="Appearance.Neutral" OnClick="@CancelAsync">È¡Ïû</FluentButton>
+    <FluentButton Appearance="Appearance.Accent" OnClick="@SaveAsync">ä¿å­˜</FluentButton>
+    <FluentButton Appearance="Appearance.Neutral" OnClick="@CancelAsync">å–æ¶ˆ</FluentButton>
 </FluentDialogFooter>
 
 @* Body *@
 <FluentDialogBody>
-    <p>µ±Ç°Æ±¾İµÄÆ±¾İºÅ: @Content.TicketNumber£¬×ÓÆ±¾İºÅ:@Content.SubTicketNumber£¬³Ğ¶Ò½ğ¶î£º@Content.AcceptAmount£¬Óà¶î£º@Content.Balance¡£</p>
-    <FluentTextField @bind-Value="@newSubTicketNumber" Required="true">²ğ·Ö×ÓÆ±ºÅ£º</FluentTextField>
-    <FluentTextField @bind-Value="@Endorser" Required="true">±³ÊéÈË£º</FluentTextField>
-    <FluentNumberField @bind-Value="@SplitAcceptAmount" Required="true">×ª³ö½ğ¶î:</FluentNumberField>
+    <p>å½“å‰ç¥¨æ®çš„ç¥¨æ®å·: @Content.TicketNumberï¼Œå­ç¥¨æ®å·:@Content.SubTicketNumberï¼Œæ‰¿å…‘é‡‘é¢ï¼š@Content.AcceptAmountï¼Œä½™é¢ï¼š@Content.Balanceã€‚</p>
+    <FluentTextField @bind-Value="@newSubTicketNumber" Required="true">æ‹†åˆ†å­ç¥¨å·ï¼š</FluentTextField>
+    <FluentTextField @bind-Value="@Endorser" Required="true">èƒŒä¹¦äººï¼š</FluentTextField>
+    <FluentNumberField @bind-Value="@SplitAcceptAmount" Required="true">è½¬å‡ºé‡‘é¢:</FluentNumberField>
 </FluentDialogBody>
 
 @code {
@@ -1924,7 +1924,7 @@ COMMIT;
           Busy = false;
 
         await base.OnInitializedAsync();
-        // ... ÆäËû³õÊ¼»¯´úÂë
+        // ... å…¶ä»–åˆå§‹åŒ–ä»£ç 
     }
 
     private async Task SaveAsync()
@@ -1936,13 +1936,13 @@ COMMIT;
         Busy=true;
         try {
             if (newSubTicketNumber is null) {
-                var dialog = await DialogService.ShowErrorAsync("²ğ·Ö×ÓÆ±ºÅ±ØÌî¡£" );
+                var dialog = await DialogService.ShowErrorAsync("æ‹†åˆ†å­ç¥¨å·å¿…å¡«ã€‚" );
                 var result = await dialog.Result;
             } else if (Endorser is null) {
-                 var dialog = await DialogService.ShowErrorAsync("±³ÊéÈË±ØÌî¡£" );
+                 var dialog = await DialogService.ShowErrorAsync("èƒŒä¹¦äººå¿…å¡«ã€‚" );
                  var result = await dialog.Result;
             } else if (SplitAcceptAmount > Content.Balance || SplitAcceptAmount<=0 || Content.Balance==0) {      
-                 var dialog = await DialogService.ShowErrorAsync("×ª³ö½ğ¶îÒªĞ¡ÓÚµ±Ç°Æ±¾İÓà¶î£¬ÇÒ×ª³ö½ğ¶îÒª´óÓÚ0£¬ÇÒµ±Ç°Æ±¾İÓà¶îÎª0²»ÄÜ²ğ·Ö¡£" );
+                 var dialog = await DialogService.ShowErrorAsync("è½¬å‡ºé‡‘é¢è¦å°äºå½“å‰ç¥¨æ®ä½™é¢ï¼Œä¸”è½¬å‡ºé‡‘é¢è¦å¤§äº0ï¼Œä¸”å½“å‰ç¥¨æ®ä½™é¢ä¸º0ä¸èƒ½æ‹†åˆ†ã€‚" );
                  var result = await dialog.Result;
             } else {
                    newRecbill.Company = Content.Company;
@@ -1965,7 +1965,7 @@ COMMIT;
                    newRecbill.Endorser = Endorser;
                    newRecbill.AddTime = DateTime.Now;
                    newRecbill.ModifyTime = DateTime.Now;
-                   newRecbill.IsMotherTicket = "×ÓÆ±";
+                   newRecbill.IsMotherTicket = "å­ç¥¨";
                    newRecbill.OwnerID = Content.OwnerID;
                    newRecbill.Status = RecbillStatus.Submitted;
                    Context.RecBillModels.Add(newRecbill);
@@ -1977,20 +1977,20 @@ COMMIT;
                        Content.Balance = recb.Balance - SplitAcceptAmount;
                        count = Context.SaveChanges();
                   } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
-                      var dialog = await DialogService.ShowErrorAsync("ĞŞ¸ÄÔ­Æ±¾İ³Ğ¶Ò½ğ¶îÊ§°Ü¡£" );
+                      var dialog = await DialogService.ShowErrorAsync("ä¿®æ”¹åŸç¥¨æ®æ‰¿å…‘é‡‘é¢å¤±è´¥ã€‚" );
                       var result = await dialog.Result;
                       //canceled = result.Cancelled;
                       Busy = false;
                   }
             }
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
-                   var dialog = await DialogService.ShowErrorAsync("±£´æĞÂÆ±¾İÊ§°Ü!" );
+                   var dialog = await DialogService.ShowErrorAsync("ä¿å­˜æ–°ç¥¨æ®å¤±è´¥!" );
                    var result = await dialog.Result;
                    //canceled = result.Cancelled;
                    Busy = false;
              }
              if (count>0) {
-                 var dialog = await DialogService.ShowSuccessAsync("²ğ·Ö³É¹¦£¡");
+                 var dialog = await DialogService.ShowSuccessAsync("æ‹†åˆ†æˆåŠŸï¼");
                  var result = await dialog.Result;
                  //canceled = result.Cancelled;
                  Busy = false;
@@ -2025,36 +2025,36 @@ COMMIT;
 @inject AuthenticationStateProvider AuthenticationStateProvider
 @inject IJSRuntime JS
 
-<PageTitle>Ó¦ÊÕÆ±¾İ×ÓÆ±ÁĞ±í</PageTitle>
-<h2>²éÑ¯Ìõ¼ş:</h2>
+<PageTitle>åº”æ”¶ç¥¨æ®å­ç¥¨åˆ—è¡¨</PageTitle>
+<h2>æŸ¥è¯¢æ¡ä»¶:</h2>
 <FluentGrid Spacing="1" >
 <FluentGridItem lg="2">
     <FluentLabel>
-        ÊÕÆ±ÈÕÆÚ:
+        æ”¶ç¥¨æ—¥æœŸ:
         <br/>
-        ¿ªÊ¼£º <InputDate  @bind-Value="recbilllistRecDateStart" Size="20" />
+        å¼€å§‹ï¼š <InputDate  @bind-Value="recbilllistRecDateStart" Size="20" />
         <br/>
-        ½áÊø£º <InputDate  @bind-Value="recbilllistRecDateEnd" Size="20" />
+        ç»“æŸï¼š <InputDate  @bind-Value="recbilllistRecDateEnd" Size="20" />
     </FluentLabel>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistIssuingUnit"    Label="³öÆ±µ¥Î»£º" Minlength="1" Maxlength="50"   >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistIssuingUnit"    Label="å‡ºç¥¨å•ä½ï¼š" Minlength="1" Maxlength="50"   >    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistAcceptorName"   Label="³Ğ¶ÒÈËÃû³Æ£º" Minlength="1" Maxlength="50"  >    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistAcceptorName"   Label="æ‰¿å…‘äººåç§°ï¼š" Minlength="1" Maxlength="50"  >    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistTicketNumber"     Label="Æ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistTicketNumber"     Label="ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentTextField  @bind-Value="recbilllistSubTicketNumber"     Label="×ÓÆ±ºÅ£º" Minlength="1" Maxlength="50">    </FluentTextField>
+    <FluentTextField  @bind-Value="recbilllistSubTicketNumber"     Label="å­ç¥¨å·ï¼š" Minlength="1" Maxlength="50">    </FluentTextField>
 </FluentGridItem>
 <FluentGridItem lg="2">
-    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@FindRecbillList" >²éÑ¯</FluentButton>
-    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@ExportExcelAsync" >µ¼³öexcel</FluentButton>
+    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@FindRecbillList" >æŸ¥è¯¢</FluentButton>
+    <FluentButton Type="ButtonType.Button"  Appearance="Appearance.Accent"  OnClick="@ExportExcelAsync" >å¯¼å‡ºexcel</FluentButton>
 </FluentGridItem>
 </FluentGrid>
-<h1 style="text-align: center">Ó¦ÊÕÆ±¾İ×ÓÆ±ÁĞ±í</h1>
+<h1 style="text-align: center">åº”æ”¶ç¥¨æ®å­ç¥¨åˆ—è¡¨</h1>
 
 <div style="display: table; table-layout: fixed; width: 100%;">
 <div style="overflow-x: auto;">
@@ -2063,36 +2063,36 @@ COMMIT;
                 Pagination="@pagination" ShowHover="true"
 >
     @*
-    <TemplateColumn Tooltip="true" TooltipText="@(c => "²ğ·ÖÆ±¾İºÅ£º " + c.TicketNumber+"+" + c.SubTicketNumber)" Title="¹¦ÄÜ" Width="100px" Align="Align.Center" InitialSortDirection="SortDirection.Ascending" IsDefaultSortColumn=true>
-        <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">²ğ·Ö</FluentButton>
+    <TemplateColumn Tooltip="true" TooltipText="@(c => "æ‹†åˆ†ç¥¨æ®å·ï¼š " + c.TicketNumber+"+" + c.SubTicketNumber)" Title="åŠŸèƒ½" Width="100px" Align="Align.Center" InitialSortDirection="SortDirection.Ascending" IsDefaultSortColumn=true>
+        <FluentButton Type="ButtonType.Button" Appearance="Appearance.Accent" OnClick="@SplitRecbillAsync">æ‹†åˆ†</FluentButton>
     </TemplateColumn>
    *@
     <SelectColumn TGridItem="RecBillModel"
                   SelectMode="DataGridSelectMode.Single"
                   SelectFromEntireRow="true"
                   @bind-SelectedItems="@SelectedItems" />
-    <PropertyColumn Property="@(p => p.Id)" Sortable="true" Title="ĞòºÅ" Width="60px" Align="Align.Center"  Tooltip="true"  />
-    <PropertyColumn Property="@(p => p.Company)"  Sortable="true"  Title="ËùÊôµ¥Î»"  Width="180px" Align="Align.Center" Tooltip="true"/>
-    <PropertyColumn Property="@(p => p.RecDate)" Format="yyyy-MM-dd" Sortable="true"  Title="ÊÕÆ± ÈÕÆÚ"  Width="120px" Align="Align.Center" Tooltip="true" />
-    <PropertyColumn Property="@(p => p.RecVoucher)"  Sortable="true"  Title="ÊÕÆ±Æ¾Ö¤ºÅ"  Width="140px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.EntryName)"  Sortable="true"  Title="ÏîÄ¿Ãû³Æ£¨¼´Ç°ÊÖµ¥Î»£©"  Width="250px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.RecBillCategory)"  Sortable="true"  Title="Ó¦ÊÕÆ±¾İÀà±ğ"  Width="180px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.FrontRela)"  Sortable="true"  Title="ÓëÇ°ÊÖµÄ¹ØÏµ"  Width="180px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.NewGeneration)"  Sortable="true"  Title="ĞÂÒ»´ú"  Width="80px" Align="Align.Center" Tooltip="true" />
-        <PropertyColumn Property="@(p => p.TicketNumber)"  Sortable="true"  Title="Æ±ºÅ" Width="260px"  Align="Align.Center"  Tooltip="true" />
-        <PropertyColumn Property="@(p => p.SubTicketNumber)"  Sortable="true"  Title="×ÓÆ±ºÅ"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.IssuingUnit)"  Sortable="true"  Title="³öÆ±µ¥Î»"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AcceptorName)"  Sortable="true"  Title="³Ğ¶ÒÈËÃû³Æ"  Width="240px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Is69)"  Sortable="true"  Title="ÊÇ·ñ6+9"  Width="100px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AcceptAmount)"  Sortable="true"  Title="³Ğ¶Ò½ğ¶î"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Balance)"  Sortable="true"  Title="Óà¶î"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.TransferAmount)"  Sortable="true"  Title="×ª³ö½ğ¶î"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.TicketIssueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="³öÆ±ÈÕ"  Width="120px" Align="Align.Center"  Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.DueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="µ½ÆÚÈÕ"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.Endorser)"   Sortable="true"  Title="±³ÊéÈË"  Width="160px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.AddTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ĞÂ½¨Ê±¼ä"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.ModifyTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ĞŞ¸ÄÊ±¼ä"  Width="120px" Align="Align.Center" Tooltip="true"/>
-        <PropertyColumn Property="@(p => p.IsMotherTicket)"  Sortable="true"  Title="Ä¸Æ±/×ÓÆ±"  Width="100px" Align="Align.Center" Tooltip="true"/>
+    <PropertyColumn Property="@(p => p.Id)" Sortable="true" Title="åºå·" Width="60px" Align="Align.Center"  Tooltip="true"  />
+    <PropertyColumn Property="@(p => p.Company)"  Sortable="true"  Title="æ‰€å±å•ä½"  Width="180px" Align="Align.Center" Tooltip="true"/>
+    <PropertyColumn Property="@(p => p.RecDate)" Format="yyyy-MM-dd" Sortable="true"  Title="æ”¶ç¥¨ æ—¥æœŸ"  Width="120px" Align="Align.Center" Tooltip="true" />
+    <PropertyColumn Property="@(p => p.RecVoucher)"  Sortable="true"  Title="æ”¶ç¥¨å‡­è¯å·"  Width="140px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.EntryName)"  Sortable="true"  Title="é¡¹ç›®åç§°ï¼ˆå³å‰æ‰‹å•ä½ï¼‰"  Width="250px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.RecBillCategory)"  Sortable="true"  Title="åº”æ”¶ç¥¨æ®ç±»åˆ«"  Width="180px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.FrontRela)"  Sortable="true"  Title="ä¸å‰æ‰‹çš„å…³ç³»"  Width="180px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.NewGeneration)"  Sortable="true"  Title="æ–°ä¸€ä»£"  Width="80px" Align="Align.Center" Tooltip="true" />
+        <PropertyColumn Property="@(p => p.TicketNumber)"  Sortable="true"  Title="ç¥¨å·" Width="260px"  Align="Align.Center"  Tooltip="true" />
+        <PropertyColumn Property="@(p => p.SubTicketNumber)"  Sortable="true"  Title="å­ç¥¨å·"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.IssuingUnit)"  Sortable="true"  Title="å‡ºç¥¨å•ä½"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AcceptorName)"  Sortable="true"  Title="æ‰¿å…‘äººåç§°"  Width="240px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Is69)"  Sortable="true"  Title="æ˜¯å¦6+9"  Width="100px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AcceptAmount)"  Sortable="true"  Title="æ‰¿å…‘é‡‘é¢"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Balance)"  Sortable="true"  Title="ä½™é¢"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.TransferAmount)"  Sortable="true"  Title="è½¬å‡ºé‡‘é¢"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.TicketIssueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="å‡ºç¥¨æ—¥"  Width="120px" Align="Align.Center"  Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.DueDate)"  Format="yyyy-MM-dd"  Sortable="true"  Title="åˆ°æœŸæ—¥"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.Endorser)"   Sortable="true"  Title="èƒŒä¹¦äºº"  Width="160px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.AddTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="æ–°å»ºæ—¶é—´"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.ModifyTime)"  Format="yyyy-MM-dd"  Sortable="true"  Title="ä¿®æ”¹æ—¶é—´"  Width="120px" Align="Align.Center" Tooltip="true"/>
+        <PropertyColumn Property="@(p => p.IsMotherTicket)"  Sortable="true"  Title="æ¯ç¥¨/å­ç¥¨"  Width="100px" Align="Align.Center" Tooltip="true"/>
 </FluentDataGrid>
 </div>
 </div>
@@ -2125,7 +2125,7 @@ COMMIT;
                                                              (!string.IsNullOrEmpty(recbilllistTicketNumber) ? r.TicketNumber==recbilllistTicketNumber : true ) &&
                                                              (!string.IsNullOrEmpty(recbilllistSubTicketNumber) ? r.SubTicketNumber==recbilllistSubTicketNumber : true) &&
                                                              (!string.IsNullOrEmpty(recbilllistIssuingUnit) ? r.IssuingUnit==recbilllistIssuingUnit : true) &&
-                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="×ÓÆ±" ).ToList();
+                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="å­ç¥¨" ).ToList();
 
               var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
               var user = authState.User;
@@ -2146,7 +2146,7 @@ COMMIT;
             Busy = false;
 
        await base.OnInitializedAsync();
-           // ... ÆäËû³õÊ¼»¯´úÂë
+           // ... å…¶ä»–åˆå§‹åŒ–ä»£ç 
        }
 
         private async Task FindRecbillList() {
@@ -2161,7 +2161,7 @@ COMMIT;
                                                              (!string.IsNullOrEmpty(recbilllistTicketNumber) ? r.TicketNumber==recbilllistTicketNumber : true ) &&
                                                              (!string.IsNullOrEmpty(recbilllistSubTicketNumber) ? r.SubTicketNumber==recbilllistSubTicketNumber : true) &&
                                                              (!string.IsNullOrEmpty(recbilllistIssuingUnit) ? r.IssuingUnit==recbilllistIssuingUnit : true) &&
-                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="×ÓÆ±" ).ToList();
+                                                             (!string.IsNullOrEmpty(recbilllistAcceptorName) ? r.AcceptorName==recbilllistAcceptorName : true) && r.IsMotherTicket=="å­ç¥¨" ).ToList();
 
               var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
               var user = authState.User;
@@ -2176,7 +2176,7 @@ COMMIT;
                                             || r.OwnerID == currentUserId).ToList();
               }
             } catch (System.InvalidOperationException e ) {
-                var dialog = await DialogService.ShowErrorAsync("²éÑ¯Æ±¾İÁĞ±íÒì³£¡£" );
+                var dialog = await DialogService.ShowErrorAsync("æŸ¥è¯¢ç¥¨æ®åˆ—è¡¨å¼‚å¸¸ã€‚" );
                 var result = await dialog.Result;
                 //canceled = result.Cancelled;
                 Busy = false;
@@ -2195,43 +2195,43 @@ COMMIT;
 
        private async Task ExportExcelAsync() {
          using var workbook = new XLWorkbook();
-         var worksheet = workbook.AddWorksheet("Ó¦ÊÕÆ±¾İ×ÓÆ±ÁĞ±í");
+         var worksheet = workbook.AddWorksheet("åº”æ”¶ç¥¨æ®å­ç¥¨åˆ—è¡¨");
          worksheet.ColumnWidth = 12;
          //worksheet.Cell("A1").Value = "Hello World!";
          //worksheet.Cell("A2").FormulaA1 = "MID(A1, 7, 5)";
          worksheet.Cell("A1").InsertTable(recbills);
-         worksheet.Cell("A1").Value = "ĞòºÅ";
-         worksheet.Cell("B1").Value = "ÊÕÆ±ÈÕÆÚ";
-         worksheet.Cell("C1").Value = "ÊÕÆ±Æ¾Ö¤ºÅ";
-         worksheet.Cell("D1").Value = "ÏîÄ¿Ãû³Æ£¨¼´Ç°ÊÖµ¥Î»£©";
-         worksheet.Cell("E1").Value = "Ó¦ÊÕÆ±¾İÀà±ğ";
-         worksheet.Cell("F1").Value = "ÓëÇ°ÊÖµÄ¹ØÏµ";
-         worksheet.Cell("G1").Value = "ĞÂÒ»´ú";
-         worksheet.Cell("H1").Value = "Æ±ºÅ";
-         worksheet.Cell("I1").Value = "×ÓÆ±ºÅ";
-         worksheet.Cell("J1").Value = "³öÆ±µ¥Î»";
-         worksheet.Cell("K1").Value = "³Ğ¶ÒÈËÃû³Æ";
-         worksheet.Cell("L1").Value = "ÊÇ·ñ6+9";
-         worksheet.Cell("M1").Value = "³Ğ¶Ò½ğ¶î";
-         worksheet.Cell("N1").Value = "³öÆ±ÈÕ";
-         worksheet.Cell("O1").Value = "µ½ÆÚÈÕ";
-         worksheet.Cell("P1").Value = "ÊÇ·ñÑ¡ÖĞ";
-         worksheet.Cell("Q1").Value = "ÓÃ»§ID";
-         worksheet.Cell("R1").Value = "×´Ì¬";
-         worksheet.Cell("S1").Value = "ËùÊôµ¥Î»";
-         worksheet.Cell("T1").Value = "±³ÊéÈË";
-         worksheet.Cell("U1").Value = "Óà¶î";
-         worksheet.Cell("V1").Value = "×ª³ö½ğ¶î";
-         worksheet.Cell("W1").Value = "ĞÂ½¨Ê±¼ä";
-         worksheet.Cell("X1").Value = "ĞŞ¸ÄÊ±¼ä";
-         worksheet.Cell("Y1").Value = "Ä¸Æ±/×ÓÆ±";
+         worksheet.Cell("A1").Value = "åºå·";
+         worksheet.Cell("B1").Value = "æ”¶ç¥¨æ—¥æœŸ";
+         worksheet.Cell("C1").Value = "æ”¶ç¥¨å‡­è¯å·";
+         worksheet.Cell("D1").Value = "é¡¹ç›®åç§°ï¼ˆå³å‰æ‰‹å•ä½ï¼‰";
+         worksheet.Cell("E1").Value = "åº”æ”¶ç¥¨æ®ç±»åˆ«";
+         worksheet.Cell("F1").Value = "ä¸å‰æ‰‹çš„å…³ç³»";
+         worksheet.Cell("G1").Value = "æ–°ä¸€ä»£";
+         worksheet.Cell("H1").Value = "ç¥¨å·";
+         worksheet.Cell("I1").Value = "å­ç¥¨å·";
+         worksheet.Cell("J1").Value = "å‡ºç¥¨å•ä½";
+         worksheet.Cell("K1").Value = "æ‰¿å…‘äººåç§°";
+         worksheet.Cell("L1").Value = "æ˜¯å¦6+9";
+         worksheet.Cell("M1").Value = "æ‰¿å…‘é‡‘é¢";
+         worksheet.Cell("N1").Value = "å‡ºç¥¨æ—¥";
+         worksheet.Cell("O1").Value = "åˆ°æœŸæ—¥";
+         worksheet.Cell("P1").Value = "æ˜¯å¦é€‰ä¸­";
+         worksheet.Cell("Q1").Value = "ç”¨æˆ·ID";
+         worksheet.Cell("R1").Value = "çŠ¶æ€";
+         worksheet.Cell("S1").Value = "æ‰€å±å•ä½";
+         worksheet.Cell("T1").Value = "èƒŒä¹¦äºº";
+         worksheet.Cell("U1").Value = "ä½™é¢";
+         worksheet.Cell("V1").Value = "è½¬å‡ºé‡‘é¢";
+         worksheet.Cell("W1").Value = "æ–°å»ºæ—¶é—´";
+         worksheet.Cell("X1").Value = "ä¿®æ”¹æ—¶é—´";
+         worksheet.Cell("Y1").Value = "æ¯ç¥¨/å­ç¥¨";
          worksheet.Columns().AdjustToContents();
-         //workbook.SaveAs("/opt/aspnetcore/jtpjsapp/files/export/Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í.xlsx");
+         //workbook.SaveAs("/opt/aspnetcore/jtpjsapp/files/export/åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨.xlsx");
 
          var fileStream = GetFileStream();
          workbook.SaveAs(fileStream);
          fileStream.Seek(0, SeekOrigin.Begin);
-         var fileName = "Ó¦ÊÕÆ±¾İ×ÓÆ±ÁĞ±í.xlsx";
+         var fileName = "åº”æ”¶ç¥¨æ®å­ç¥¨åˆ—è¡¨.xlsx";
 
          using var streamRef = new DotNetStreamReference(stream: fileStream);
 
@@ -3075,7 +3075,7 @@ private static async Task<string> EnsureUser(IServiceProvider serviceProvider,
 
     if (user == null)
     {
-        throw new Exception("ÃÜÂëÇ¿¶ÈÌ«Èõ!");
+        throw new Exception("å¯†ç å¼ºåº¦å¤ªå¼±!");
     }
 
     return user.Id;
@@ -3128,28 +3128,28 @@ public static void SeedDB(ApplicationDbContext context, string adminID)
         {
             RecDate = DateTime.Now,
             RecVoucher = "2024-06-08#",
-            EntryName = "½­Î÷½­ÌØµç»úÓĞÏŞ¹«Ë¾",
-            RecBillCategory = "µç×ÓÒøĞĞ³Ğ¶Ò»ãÆ±",
-            FrontRela = "ºÏ²¢·¶Î§ÄÚ¹ØÁª·½",
-            NewGeneration = "ÊÇ",
+            EntryName = "æ±Ÿè¥¿æ±Ÿç‰¹ç”µæœºæœ‰é™å…¬å¸",
+            RecBillCategory = "ç”µå­é“¶è¡Œæ‰¿å…‘æ±‡ç¥¨",
+            FrontRela = "åˆå¹¶èŒƒå›´å†…å…³è”æ–¹",
+            NewGeneration = "æ˜¯",
             TicketNumber = "531665300002620240607001228939",
             SubTicketNumber = "000002576478000023235060",
-                        IssuingUnit = "ÖĞÒ±ÈüµÏ¹¤³Ì¼¼Êõ¹É·İÓĞÏŞ¹«Ë¾",
-                        AcceptorName = "ÕãÉÌÒøĞĞ¹É·İÓĞÏŞ¹«Ë¾ÖØÇì·ÖĞĞ",
-                        Is69 = "ÊÇ",
+                        IssuingUnit = "ä¸­å†¶èµ›è¿ªå·¥ç¨‹æŠ€æœ¯è‚¡ä»½æœ‰é™å…¬å¸",
+                        AcceptorName = "æµ™å•†é“¶è¡Œè‚¡ä»½æœ‰é™å…¬å¸é‡åº†åˆ†è¡Œ",
+                        Is69 = "æ˜¯",
                         AcceptAmount = Convert.ToDecimal(206585.83),
                         TicketIssueDate = DateTime.Now,
                         DueDate = DateTime.Now,
                         Selected = false,
                         OwnerID = adminID,
                         Status = RecbillStatus.Approved,
-                        Company = "½­Î÷½­ÌØµç»úÓĞÏŞ¹«Ë¾",
+                        Company = "æ±Ÿè¥¿æ±Ÿç‰¹ç”µæœºæœ‰é™å…¬å¸",
                         Endorser = "",
                         Balance = Convert.ToDecimal(206585.83),
                         TransferAmount = 0,
                         AddTime = DateTime.Now,
                         ModifyTime = null,
-                        IsMotherTicket = "ÊÇ"
+                        IsMotherTicket = "æ˜¯"
         }
         );
 
@@ -3356,54 +3356,54 @@ namespace jtpjsapp.Authorization
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ê¹divµÄ¸ß¶ÈµÈÓÚÊÓ¿Ú¸ß¶È */
+  height: 100vh; /* ä½¿divçš„é«˜åº¦ç­‰äºè§†å£é«˜åº¦ */
 }
 
 .content {
-  /* ÄÚÈİÑùÊ½ */
+  /* å†…å®¹æ ·å¼ */
   text-align: center;
   width: 500px;
   margin: auto;
 }
 
 .background-image {
-    background-image: url('Æ±¾İÏµÍ³±³¾°Í¼.jpg'); /* ĞŞ¸ÄÎªÄãµÄÍ¼Æ¬Â·¾¶ */
-    background-size: cover; /* ±³¾°Í¼Æ¬¸²¸ÇÕû¸öÔªËØ */
-    background-position: center; /* ±³¾°Í¼Æ¬¾ÓÖĞ */
-    height: 100vh; /* ¸ù¾İĞèÒªÉèÖÃ¸ß¶È */
-    width: 100%; /* ¸ù¾İĞèÒªÉèÖÃ¿í¶È */
+    background-image: url('ç¥¨æ®ç³»ç»ŸèƒŒæ™¯å›¾.jpg'); /* ä¿®æ”¹ä¸ºä½ çš„å›¾ç‰‡è·¯å¾„ */
+    background-size: cover; /* èƒŒæ™¯å›¾ç‰‡è¦†ç›–æ•´ä¸ªå…ƒç´  */
+    background-position: center; /* èƒŒæ™¯å›¾ç‰‡å±…ä¸­ */
+    height: 100vh; /* æ ¹æ®éœ€è¦è®¾ç½®é«˜åº¦ */
+    width: 100%; /* æ ¹æ®éœ€è¦è®¾ç½®å®½åº¦ */
 }
 </style>
 </head>
 
-<PageTitle>µÇÂ¼</PageTitle>
+<PageTitle>ç™»å½•</PageTitle>
 
 <div class="centered-flex">
 <div class="content">
-<h1>µÇÂ¼</h1>
+<h1>ç™»å½•</h1>
 @*<FluentGrid>*@
     @* <FluentGridItem  xs="8" sm="4"> *@
         <StatusMessage Message="@errorMessage" />
         <EditForm Model="Input" method="post" OnValidSubmit="LoginUser" FormName="login">
             <DataAnnotationsValidator />
-            <h2>Ê¹ÓÃ×¢²áºóµÄÓÊÏäµÇÂ¼¡£</h2>
+            <h2>ä½¿ç”¨æ³¨å†Œåçš„é‚®ç®±ç™»å½•ã€‚</h2>
             <hr />
             <FluentValidationSummary class="text-danger" role="alert" />
             <FluentStack Orientation="Orientation.Vertical">
-                <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="username" Required="true" Placeholder="name@example.com" Label="ÓÊÏä" Style="width: 100%" AllowAnonymous="true"/>
+                <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="username" Required="true" Placeholder="name@example.com" Label="é‚®ç®±" Style="width: 100%" AllowAnonymous="true"/>
                 <FluentValidationMessage For="() => Input.Email" class="text-danger" />
-                <FluentTextField type="password" Name="Input.Password" @bind-Value="Input.Password" AutoComplete="current-password" Required="true" Placeholder="password" Label="ÃÜÂë" Style="width: 100%" />
+                <FluentTextField type="password" Name="Input.Password" @bind-Value="Input.Password" AutoComplete="current-password" Required="true" Placeholder="password" Label="å¯†ç " Style="width: 100%" />
                 <FluentValidationMessage For="() => Input.Password" class="text-danger" />
-                <FluentCheckbox Name="Input.RememberMe" @bind-Value="Input.RememberMe" Label="¼Ç×¡ÎÒ" />
-                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%">µÇÂ¼</FluentButton>
+                <FluentCheckbox Name="Input.RememberMe" @bind-Value="Input.RememberMe" Label="è®°ä½æˆ‘" />
+                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%">ç™»å½•</FluentButton>
                     <p>
-                        <FluentAnchor Appearance="Appearance.Hypertext" Href="Account/ForgotPassword">Íü¼ÇÁËÄãµÄ ÃÜÂë?</FluentAnchor>
+                        <FluentAnchor Appearance="Appearance.Hypertext" Href="Account/ForgotPassword">å¿˜è®°äº†ä½ çš„ å¯†ç ?</FluentAnchor>
                     </p>
                     <p>
-                        <FluentAnchor Appearance="Appearance.Hypertext" Href="@(NavigationManager.GetUriWithQueryParameters("Account/Register", new Dictionary<string, object?> { ["ReturnUrl"] = ReturnUrl }))">×¢²áĞÂÓÃ»§</FluentAnchor>
+                        <FluentAnchor Appearance="Appearance.Hypertext" Href="@(NavigationManager.GetUriWithQueryParameters("Account/Register", new Dictionary<string, object?> { ["ReturnUrl"] = ReturnUrl }))">æ³¨å†Œæ–°ç”¨æˆ·</FluentAnchor>
                     </p>
                     <p>
-                        <FluentAnchor Appearance="Appearance.Hypertext" Href="Account/ResendEmailConfirmation">ÔÙ´Î·¢ËÍÓÊÏäÈ·ÈÏ</FluentAnchor>
+                        <FluentAnchor Appearance="Appearance.Hypertext" Href="Account/ResendEmailConfirmation">å†æ¬¡å‘é€é‚®ç®±ç¡®è®¤</FluentAnchor>
                     </p>
             </FluentStack>
         </EditForm>
@@ -3464,7 +3464,7 @@ namespace jtpjsapp.Authorization
         }
         else
         {
-            errorMessage = "´íÎó£ºÎŞĞ§µÄµÇÂ¼³¢ÊÔ¡£";
+            errorMessage = "é”™è¯¯ï¼šæ— æ•ˆçš„ç™»å½•å°è¯•ã€‚";
         }
     }
 
@@ -3516,47 +3516,47 @@ namespace jtpjsapp.Authorization
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ê¹divµÄ¸ß¶ÈµÈÓÚÊÓ¿Ú¸ß¶È */
+  height: 100vh; /* ä½¿divçš„é«˜åº¦ç­‰äºè§†å£é«˜åº¦ */
 }
 
 .content {
-  /* ÄÚÈİÑùÊ½ */
+  /* å†…å®¹æ ·å¼ */
   text-align: center;
   width: 500px;
   margin: auto;
 }
 
 .background-image {
-    background-image: url('Æ±¾İÏµÍ³±³¾°Í¼.jpg'); /* ĞŞ¸ÄÎªÄãµÄÍ¼Æ¬Â·¾¶ */
-    background-size: cover; /* ±³¾°Í¼Æ¬¸²¸ÇÕû¸öÔªËØ */
-    background-position: center; /* ±³¾°Í¼Æ¬¾ÓÖĞ */
-    height: 100vh; /* ¸ù¾İĞèÒªÉèÖÃ¸ß¶È */
-    width: 100%; /* ¸ù¾İĞèÒªÉèÖÃ¿í¶È */
+    background-image: url('ç¥¨æ®ç³»ç»ŸèƒŒæ™¯å›¾.jpg'); /* ä¿®æ”¹ä¸ºä½ çš„å›¾ç‰‡è·¯å¾„ */
+    background-size: cover; /* èƒŒæ™¯å›¾ç‰‡è¦†ç›–æ•´ä¸ªå…ƒç´  */
+    background-position: center; /* èƒŒæ™¯å›¾ç‰‡å±…ä¸­ */
+    height: 100vh; /* æ ¹æ®éœ€è¦è®¾ç½®é«˜åº¦ */
+    width: 100%; /* æ ¹æ®éœ€è¦è®¾ç½®å®½åº¦ */
 }
 </style>
 </head>
 
-<PageTitle>×¢²á</PageTitle>
+<PageTitle>æ³¨å†Œ</PageTitle>
 
 <div class="centered-flex">
 <div class="content">
-<h1>×¢²á</h1>
+<h1>æ³¨å†Œ</h1>
 @* <FluentGrid> *@
     @* <FluentGridItem xs="8" sm="4"> *@
         <StatusMessage Message="@Message" />
         <EditForm Model="Input" asp-route-returnUrl="@ReturnUrl" method="post" OnValidSubmit="RegisterUser" FormName="register">
             <DataAnnotationsValidator />
-            <h2>´´½¨Ò»¸öĞÂÕËºÅ¡£</h2>
+            <h2>åˆ›å»ºä¸€ä¸ªæ–°è´¦å·ã€‚</h2>
             <hr />
             <FluentValidationSummary class="text-danger" role="alert" />
             <FluentStack Orientation="Orientation.Vertical">
-                <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="email" Required="true" Placeholder="name@example.com" Label="ÓÊÏä" Style="width: 100%" />
+                <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="email" Required="true" Placeholder="name@example.com" Label="é‚®ç®±" Style="width: 100%" />
                 <FluentValidationMessage For="() => Input.Email" class="text-danger" />
-                <FluentTextField type="password" Name="Input.Password" @bind-Value="Input.Password" AutoComplete="new-password" Required="true" Placeholder="password" Label="ÃÜÂë" Style="width: 100%" />
+                <FluentTextField type="password" Name="Input.Password" @bind-Value="Input.Password" AutoComplete="new-password" Required="true" Placeholder="password" Label="å¯†ç " Style="width: 100%" />
                 <FluentValidationMessage For="() => Input.Password" class="text-danger" />
-                <FluentTextField type="password" Name="Input.ConfirmPassword" @bind-Value="Input.ConfirmPassword" AutoComplete="new-password" Required="true" Placeholder="password" Label="È·ÈÏÃÜÂë" Style="width: 100%" />      
+                <FluentTextField type="password" Name="Input.ConfirmPassword" @bind-Value="Input.ConfirmPassword" AutoComplete="new-password" Required="true" Placeholder="password" Label="ç¡®è®¤å¯†ç " Style="width: 100%" />      
                 <FluentValidationMessage For="() => Input.ConfirmPassword" class="text-danger" />
-                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%">×¢²á</FluentButton>
+                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%">æ³¨å†Œ</FluentButton>
             </FluentStack>
         </EditForm>
 @*    </FluentGridItem>   *@
@@ -3675,9 +3675,9 @@ namespace jtpjsapp.Authorization
 @inject IdentityUserAccessor UserAccessor
 @inject IdentityRedirectManager RedirectManager
 
-<PageTitle>¼ò½é</PageTitle>
+<PageTitle>ç®€ä»‹</PageTitle>
 
-<h3>¼ò½é</h3>
+<h3>ç®€ä»‹</h3>
 <StatusMessage />
 
 <FluentGrid>
@@ -3685,10 +3685,10 @@ namespace jtpjsapp.Authorization
         <EditForm Model="Input" FormName="profile" OnValidSubmit="OnValidSubmitAsync" method="post">
             <DataAnnotationsValidator />
             <FluentValidationSummary class="text-danger" role="alert" />
-            <FluentTextField Value="@username" Placeholder="Please choose your username." Disabled Label="ÓÃ»§Ãû" Appearance=FluentInputAppearance.Filled Style="width: 100%" />
-            <FluentTextField Name="Input.PhoneNumber" @bind-Value="Input.PhoneNumber" Paceholder="Please enter your phone number." Label="ÊÖ»úºÅÂë" Style="width: 100%" />
+            <FluentTextField Value="@username" Placeholder="Please choose your username." Disabled Label="ç”¨æˆ·å" Appearance=FluentInputAppearance.Filled Style="width: 100%" />
+            <FluentTextField Name="Input.PhoneNumber" @bind-Value="Input.PhoneNumber" Paceholder="Please enter your phone number." Label="æ‰‹æœºå·ç " Style="width: 100%" />
             <FluentValidationMessage For="() => Input.PhoneNumber" class="text-danger" />
-            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">±£´æ</FluentButton>
+            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">ä¿å­˜</FluentButton>
         </EditForm>
     </FluentGridItem>
 </FluentGrid>
@@ -3720,12 +3720,12 @@ namespace jtpjsapp.Authorization
             var setPhoneResult = await UserManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
             if (!setPhoneResult.Succeeded)
             {
-                RedirectManager.RedirectToCurrentPageWithStatus("´íÎó: ĞŞ¸Äµç»°ºÅÂëÊ§°Ü¡£", HttpContext);        
+                RedirectManager.RedirectToCurrentPageWithStatus("é”™è¯¯: ä¿®æ”¹ç”µè¯å·ç å¤±è´¥ã€‚", HttpContext);        
             }
         }
 
         await SignInManager.RefreshSignInAsync(user);
-        RedirectManager.RedirectToCurrentPageWithStatus("ÄãµÄ×ÊÁÏÒÑ¾­¸üĞÂÁË¡£", HttpContext);
+        RedirectManager.RedirectToCurrentPageWithStatus("ä½ çš„èµ„æ–™å·²ç»æ›´æ–°äº†ã€‚", HttpContext);
     }
 
     private sealed class InputModel
@@ -3742,26 +3742,26 @@ namespace jtpjsapp.Authorization
 
 @inject IdentityUserAccessor UserAccessor
 
-<PageTitle>¸öÈËÊı¾İ</PageTitle>
+<PageTitle>ä¸ªäººæ•°æ®</PageTitle>
 
 <StatusMessage />
-<h3>¸öÈËÊı¾İ</h3>
+<h3>ä¸ªäººæ•°æ®</h3>
 
 <FluentGrid>
     <FluentGridItem xs="12" sm="6">
-        <p>ÄãµÄÕËºÅ°üº¬ÒÑ¸øµÄ¸öÈËÊı¾İ£¬´ËÒ³ÔÊĞíÄãÏÂÔØ»òÉ¾³ı¡£</p>
+        <p>ä½ çš„è´¦å·åŒ…å«å·²ç»™çš„ä¸ªäººæ•°æ®ï¼Œæ­¤é¡µå…è®¸ä½ ä¸‹è½½æˆ–åˆ é™¤ã€‚</p>
         <p>
-            <strong>É¾³ıÄãµÄÕËºÅºó£¬ÎŞ·¨»Ö¸´¡£</strong>
+            <strong>åˆ é™¤ä½ çš„è´¦å·åï¼Œæ— æ³•æ¢å¤ã€‚</strong>
         </p>
         <form action="Account/Manage/DownloadPersonalData" method="post">
             <AntiforgeryToken />
-            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width:20%;">ÏÂÔØ</FluentButton>
+            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width:20%;">ä¸‹è½½</FluentButton>
         </form>
 
         <hr />
 
         <p>
-            <FluentAnchor Href="Account/Manage/DeletePersonalData" Style="width:20%;">É¾³ı</FluentAnchor>        
+            <FluentAnchor Href="Account/Manage/DeletePersonalData" Style="width:20%;">åˆ é™¤</FluentAnchor>        
         </p>
     </FluentGridItem>
 </FluentGrid>
@@ -3792,9 +3792,9 @@ namespace jtpjsapp.Authorization
 @inject IdentityUserAccessor UserAccessor
 @inject NavigationManager NavigationManager
 
-<PageTitle>¹ÜÀíÓÊÏä</PageTitle>
+<PageTitle>ç®¡ç†é‚®ç®±</PageTitle>
 
-<h3>¹ÜÀíÓÊÏä</h3>
+<h3>ç®¡ç†é‚®ç®±</h3>
 
 <StatusMessage Message="@message"/>
 <FluentGrid>
@@ -3807,18 +3807,18 @@ namespace jtpjsapp.Authorization
             <FluentValidationSummary class="text-danger" role="alert" />
             @if (isEmailConfirmed)
             {
-                <FluentTextField Value="@email" Placeholder="Please enter your email." Disabled Label="ÓÊÏä" Appearance=FluentInputAppearance.Filled Style="width: 100%">
+                <FluentTextField Value="@email" Placeholder="Please enter your email." Disabled Label="é‚®ç®±" Appearance=FluentInputAppearance.Filled Style="width: 100%">
                     <span slot="end">?</span>
                 </FluentTextField>
             }
             else
             {
-                <FluentTextField value="@email" Placeholder="Please enter your email." Disabled Label="ÓÊÏä" Appearance=FluentInputAppearance.Filled Style="width: 100%" />
-                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Form="send-verification-form" Style="width: 100%">·¢ËÍÑéÖ¤ÓÊÏä</FluentButton>
+                <FluentTextField value="@email" Placeholder="Please enter your email." Disabled Label="é‚®ç®±" Appearance=FluentInputAppearance.Filled Style="width: 100%" />
+                <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Form="send-verification-form" Style="width: 100%">å‘é€éªŒè¯é‚®ç®±</FluentButton>
             }
-            <FluentTextField Name="Input.NewEmail" @bind-Value="Input.NewEmail" AutoComplete="email" Required="true" Placeholder="Please enter new email." Label="ĞÂÓÊÏä" Style="width: 100%" />
+            <FluentTextField Name="Input.NewEmail" @bind-Value="Input.NewEmail" AutoComplete="email" Required="true" Placeholder="Please enter new email." Label="æ–°é‚®ç®±" Style="width: 100%" />
             <FluentValidationMessage For="() => Input.NewEmail" class="text-danger" />
-            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">±ä¸üÓÊÏä</FluentButton>
+            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">å˜æ›´é‚®ç®±</FluentButton>
         </EditForm>
     </FluentGridItem>
 </FluentGrid>
@@ -3906,22 +3906,22 @@ namespace jtpjsapp.Authorization
 @inject IdentityRedirectManager RedirectManager
 @inject ILogger<ChangePassword> Logger
 
-<PageTitle>ĞŞ¸ÄÃÜÂë</PageTitle>
+<PageTitle>ä¿®æ”¹å¯†ç </PageTitle>
 
-<h3>ĞŞ¸ÄÃÜÂë</h3>
+<h3>ä¿®æ”¹å¯†ç </h3>
 <StatusMessage Message="@message" />
 <FluentGrid>
     <FluentGridItem xs="12" sm="6">
         <EditForm Model="Input" FormName="change-password" OnValidSubmit="OnValidSubmitAsync" method="post">     
             <DataAnnotationsValidator />
             <FluentValidationSummary class="text-danger" role="alert" />
-            <FluentTextField type="password" Name="Input.OldPassword" @bind-Value="Input.OldPassword" class="form-control" AutoComplete="current-password" Required="true" Placeholder="Please enter your old password." Label="¾ÉÃÜÂë" Style="width: 100%" />
+            <FluentTextField type="password" Name="Input.OldPassword" @bind-Value="Input.OldPassword" class="form-control" AutoComplete="current-password" Required="true" Placeholder="Please enter your old password." Label="æ—§å¯†ç " Style="width: 100%" />
             <FluentValidationMessage For="() => Input.OldPassword" class="text-danger" />
-            <FluentTextField type="password" Name="Input.NewPassword" @bind-Value="Input.NewPassword" class="form-control" AutoComplete="new-password" Required="true" Placeholder="Please enter your new password." Label="ĞÂÃÜÂë" Style="width: 100%" />
+            <FluentTextField type="password" Name="Input.NewPassword" @bind-Value="Input.NewPassword" class="form-control" AutoComplete="new-password" Required="true" Placeholder="Please enter your new password." Label="æ–°å¯†ç " Style="width: 100%" />
             <FluentValidationMessage For="() => Input.NewPassword" class="text-danger" />
-            <FluentTextField type="password" Name="Input.ConfirmPassword" @bind-Value="Input.ConfirmPassword" class="form-control" AutoComplete="new-password" Required="true" Placeholder="Please confirm your new password." Label="È·ÈÏÃÜÂë" Style="width: 100%" />
+            <FluentTextField type="password" Name="Input.ConfirmPassword" @bind-Value="Input.ConfirmPassword" class="form-control" AutoComplete="new-password" Required="true" Placeholder="Please confirm your new password." Label="ç¡®è®¤å¯†ç " Style="width: 100%" />
             <FluentValidationMessage For="() => Input.ConfirmPassword" class="text-danger" />
-            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">ĞŞ¸ÄÃÜÂë</FluentButton>
+            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">ä¿®æ”¹å¯†ç </FluentButton>
         </EditForm>
     </FluentGridItem>
 </FluentGrid>
@@ -3959,7 +3959,7 @@ namespace jtpjsapp.Authorization
         await SignInManager.RefreshSignInAsync(user);
         Logger.LogInformation("User changed their password successfully.");
 
-        RedirectManager.RedirectToCurrentPageWithStatus("ÃÜÂë¸ü¸Ä³É¹¦£¡", HttpContext);
+        RedirectManager.RedirectToCurrentPageWithStatus("å¯†ç æ›´æ”¹æˆåŠŸï¼", HttpContext);
     }
 
     private sealed class InputModel
@@ -3987,10 +3987,10 @@ namespace jtpjsapp.Authorization
 @inherits LayoutComponentBase
 @layout AccountLayout
 
-<h1>ÕË»§¹ÜÀí</h1>
+<h1>è´¦æˆ·ç®¡ç†</h1>
 
 <div class="manage">
-    <h2>±ä¸üÕË»§ÉèÖÃ</h2>
+    <h2>å˜æ›´è´¦æˆ·è®¾ç½®</h2>
     <hr />
     <FluentGrid>
         <FluentGridItem sm="3">
@@ -4011,15 +4011,15 @@ namespace jtpjsapp.Authorization
 @inject SignInManager<ApplicationUser> SignInManager
 
 <FluentNavMenu Collapse="false">
-    <FluentNavLink Href="Account/Manage" Match="NavLinkMatch.All">¼ò½é</FluentNavLink>
-    <FluentNavLink Href="Account/Manage/Email">ÓÊÏä</FluentNavLink>
-    <FluentNavLink Href="Account/Manage/ChangePassword">ÃÜÂë</FluentNavLink>
+    <FluentNavLink Href="Account/Manage" Match="NavLinkMatch.All">ç®€ä»‹</FluentNavLink>
+    <FluentNavLink Href="Account/Manage/Email">é‚®ç®±</FluentNavLink>
+    <FluentNavLink Href="Account/Manage/ChangePassword">å¯†ç </FluentNavLink>
     @if (hasExternalLogins)
     {
         <FluentNavLink Href="Account/Manage/ExternalLogins">External logins</FluentNavLink>
     }
-    <FluentNavLink Href="Account/Manage/TwoFactorAuthentication">Ë«ÖØÉí·İÑéÖ¤</FluentNavLink>
-    <FluentNavLink Href="Account/Manage/PersonalData">¸öÈËÊı¾İ</FluentNavLink>
+    <FluentNavLink Href="Account/Manage/TwoFactorAuthentication">åŒé‡èº«ä»½éªŒè¯</FluentNavLink>
+    <FluentNavLink Href="Account/Manage/PersonalData">ä¸ªäººæ•°æ®</FluentNavLink>
 
 </FluentNavMenu>
 
@@ -4049,19 +4049,19 @@ namespace jtpjsapp.Authorization
 @inject NavigationManager NavigationManager
 @inject IdentityRedirectManager RedirectManager
 
-<PageTitle>Íü¼ÇÁËÄãµÄÃÜÂë?</PageTitle>
+<PageTitle>å¿˜è®°äº†ä½ çš„å¯†ç ?</PageTitle>
 
-<h1>Íü¼ÇÁËÄãµÄÃÜÂë?</h1>
-<h2>ÊäÈëÄãµÄÓÊÏä¡£</h2>
+<h1>å¿˜è®°äº†ä½ çš„å¯†ç ?</h1>
+<h2>è¾“å…¥ä½ çš„é‚®ç®±ã€‚</h2>
 <hr />
 <FluentGrid>
     <FluentGridItem xs="8" sm="4">
         <EditForm Model="Input" FormName="forgot-password" OnValidSubmit="OnValidSubmitAsync" method="post">        
             <DataAnnotationsValidator />
             <FluentValidationSummary class="text-danger" role="alert" />
-            <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="username" Required="true" Placeholder="name@example.com" Label="ÓÊÏä" Style="width: 100%;" />
+            <FluentTextField Name="Input.Email" @bind-Value="Input.Email" AutoComplete="username" Required="true" Placeholder="name@example.com" Label="é‚®ç®±" Style="width: 100%;" />
             <FluentValidationMessage For="() => Input.Email" class="text-danger" />
-            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">ÖØÖÃÃÜÂë</FluentButton>
+            <FluentButton Type="ButtonType.Submit" Appearance="Appearance.Accent" Style="width: 100%;">é‡ç½®å¯†ç </FluentButton>
         </EditForm>
     </FluentGridItem>
 </FluentGrid>
@@ -4174,16 +4174,16 @@ jtpjsapp -> /opt/aspnetcore/jtpjsapp/bin/Release/net8.0/publish/
 
 
 
-°²×° Nginx
+å®‰è£… Nginx
 RHEL and derivatives
 This section applies to Red Hat Enterprise Linux and its derivatives such as CentOS, Oracle Linux, Rocky Linux, AlmaLinux.
 [root@cpzljc jtpjsapp]# sudo yum install yum-utils
-¾¯¸æ£º¼ÓÔØ '/etc/yum.repos.d/CentOS-Base.repo' Ê§°Ü£¬Ìø¹ı¡£
-ÉÏ´ÎÔªÊı¾İ¹ıÆÚ¼ì²é£º1:49:44 Ç°£¬Ö´ĞĞÓÚ 2024Äê10ÔÂ31ÈÕ ĞÇÆÚËÄ 14Ê±34·Ö41Ãë¡£
-Èí¼ş°ü yum-utils-4.0.21-3.el8.noarch ÒÑ°²×°¡£
-ÒÀÀµ¹ØÏµ½â¾ö¡£
-ÎŞĞèÈÎºÎ´¦Àí¡£
-Íê±Ï£¡
+è­¦å‘Šï¼šåŠ è½½ '/etc/yum.repos.d/CentOS-Base.repo' å¤±è´¥ï¼Œè·³è¿‡ã€‚
+ä¸Šæ¬¡å…ƒæ•°æ®è¿‡æœŸæ£€æŸ¥ï¼š1:49:44 å‰ï¼Œæ‰§è¡Œäº 2024å¹´10æœˆ31æ—¥ æ˜ŸæœŸå›› 14æ—¶34åˆ†41ç§’ã€‚
+è½¯ä»¶åŒ… yum-utils-4.0.21-3.el8.noarch å·²å®‰è£…ã€‚
+ä¾èµ–å…³ç³»è§£å†³ã€‚
+æ— éœ€ä»»ä½•å¤„ç†ã€‚
+å®Œæ¯•ï¼
 
 To set up the yum repository, create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 [nginx-stable]
@@ -4206,7 +4206,7 @@ module_hotfixes=true
 When prompted to accept the GPG key, verify that the fingerprint matches 573B FD6B 3D8F BC64 1079 A6AB ABF5 BD82 7BD9 BF62, and if so, accept it.
 
 
---²é¿´centos8 CPU¡¢ÄÚ´æÊ¹ÓÃÇé¿ö
+--æŸ¥çœ‹centos8 CPUã€å†…å­˜ä½¿ç”¨æƒ…å†µ
 [root@cpzljc aspnetcore]# top
 Tasks: 438 total,   1 running, 437 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
@@ -4262,50 +4262,50 @@ MiB Swap:   4056.0 total,   4056.0 free,      0.0 used.  30057.9 avail Mem
 </Project>
 
 
-mysql ±¸·İ£º
+mysql å¤‡ä»½ï¼š
 [root@cpzljc backup]# mkdir jtpjsapp_backup
 
 [root@cpzljc jtpjsapp_backup]# vim jtpjsapp_backup.sh
 #!/bin/bash  
-# ÉèÖÃ±¸·İ´æ´¢Â·¾¶
+# è®¾ç½®å¤‡ä»½å­˜å‚¨è·¯å¾„
 backup_dir="/opt/backup/jtpjsapp_backup"
-# ÉèÖÃ±¸·İÎÄ¼şÃû
+# è®¾ç½®å¤‡ä»½æ–‡ä»¶å
 backup_file="$backup_dir/jtpjsapp$(date +%Y%m%d%H%M%S).sql"
-# ÉèÖÃMySQLµÇÂ¼Æ¾¾İ
+# è®¾ç½®MySQLç™»å½•å‡­æ®
 mysql_user="root"
 mysql_password="jtT0795,.,"
-# ±¸·İMySQLÊı¾İ¿âµ½Ö¸¶¨ÎÄ¼ş
+# å¤‡ä»½MySQLæ•°æ®åº“åˆ°æŒ‡å®šæ–‡ä»¶
 ##mysqldump -u$mysql_user -p$mysql_password --all-databases > $backup_file
 mysqldump  -u$mysql_user -p$mysql_password --databases jt_pjs > $backup_file
-# ´òÓ¡±¸·İÍê³ÉĞÅÏ¢
+# æ‰“å°å¤‡ä»½å®Œæˆä¿¡æ¯
 echo "MySQL jtpjsapp backup successfully completed: $backup_file"
 
 [root@cpzljc jtpjsapp_backup]# chmod +x jtpjsapp_backup.sh
 
 [root@cpzljc jtpjsapp_backup]# vim cleanup_jtpjsapp_backup.sh
 #!/bin/bash  
-# ÉèÖÃ±¸·İ´æ´¢Â·¾¶
+# è®¾ç½®å¤‡ä»½å­˜å‚¨è·¯å¾„
 backup_dir="/opt/backup/jtpjsapp_backup"
-# ÉèÖÃ×î´ó±¸·İÎÄ¼şÊıÁ¿
+# è®¾ç½®æœ€å¤§å¤‡ä»½æ–‡ä»¶æ•°é‡
 max_files=7
-# ÇåÀí¾ÉµÄ±¸·İÎÄ¼ş
+# æ¸…ç†æ—§çš„å¤‡ä»½æ–‡ä»¶
 ls -t $backup_dir/*.sql | tail -n +$max_files | xargs -d '\n' rm -f
-# ´òÓ¡ÇåÀíÍê³ÉĞÅÏ¢
+# æ‰“å°æ¸…ç†å®Œæˆä¿¡æ¯
 echo "Old jtpjsapp backup files cleaned up successfully"
 
 [root@cpzljc jtpjsapp_backup]# chmod +x cleanup_jtpjsapp_backup.sh
 
 [root@cpzljc jtpjsapp_backup]# crontab -e
-# Ã¿ÌìÁè³¿3µãÖ´ĞĞ±¸·İ½Å±¾
+# æ¯å¤©å‡Œæ™¨3ç‚¹æ‰§è¡Œå¤‡ä»½è„šæœ¬
 0 3 * * * /opt/backup/mysql_backup.sh
 0 3 * * * /opt/backup/jtpjsapp_backup/jtpjsapp_backup.sh
-# Ã¿ÌìÁè³¿5µãÖ´ĞĞ±¸·İ½Å±¾
+# æ¯å¤©å‡Œæ™¨5ç‚¹æ‰§è¡Œå¤‡ä»½è„šæœ¬
 0 5 * * * /opt/backup/cleanup_backup.sh
 0 5 * * * /opt/backup/jtpjsapp_backup/cleanup_jtpjsapp_backup.sh
 
-cronÈÕÖ¾ÔÚ/var/log/cron
+cronæ—¥å¿—åœ¨/var/log/cron
 
-»¹Ô­£º
+è¿˜åŸï¼š
 mysql -u root -p -e "CREATE DATABASE if not exists jt_pjs;"
 mysql -u root -p jt_pjs < /tmp/backup/jtpjsapp20241112081110.sql
 
@@ -4336,89 +4336,89 @@ dotnet new blazor -au Individual -o BlazorApp2
 
 1589918482@qq.com/Yuan1877008@
 
-Î¢ÈíOpen XML SDK: µ¼³öexcel¿â£¬https://learn.microsoft.com/zh-cn/office/open-xml/open-xml-sdk   
-ClosedXML £ºµ¼³öexcel¿â£¬»ùÓÚOpenXML  https://github.com/ClosedXML/ClosedXML     https://docs.closedxml.io/en/latest/     
+å¾®è½¯Open XML SDK: å¯¼å‡ºexcelåº“ï¼Œhttps://learn.microsoft.com/zh-cn/office/open-xml/open-xml-sdk   
+ClosedXML ï¼šå¯¼å‡ºexcelåº“ï¼ŒåŸºäºOpenXML  https://github.com/ClosedXML/ClosedXML     https://docs.closedxml.io/en/latest/     
 
 https://learn.microsoft.com/zh-cn/
 
 
 	
-8¡¢ scp ½«ÎÄ¼ş¼Ğ´Ówindows´«Êä¸ølinux
-SCP (Secure Copy) ÊÇÒ»¸ö»ùÓÚSSH£¨Secure Shell£©µÄÃüÁîĞĞ¹¤¾ß£¬¿ÉÒÔÓÃÀ´ÔÚLinuxºÍWindowsÖ®¼ä°²È«µØ´«ÊäÎÄ¼ş¡£ÒªÊ¹ÓÃSCP½«ÎÄ¼ş¼Ğ´ÓWindows´«Êäµ½Linux£¬ÄúĞèÒªÔÚWindows»úÆ÷ÉÏÊ¹ÓÃSCP¿Í»§¶Ë£¬²¢ÇÒÈ·±£ÄúµÄLinux»úÆ÷ÉÏÒÑ°²×°ÁËSSH·şÎñÆ÷¡£
+8ã€ scp å°†æ–‡ä»¶å¤¹ä»windowsä¼ è¾“ç»™linux
+SCP (Secure Copy) æ˜¯ä¸€ä¸ªåŸºäºSSHï¼ˆSecure Shellï¼‰çš„å‘½ä»¤è¡Œå·¥å…·ï¼Œå¯ä»¥ç”¨æ¥åœ¨Linuxå’ŒWindowsä¹‹é—´å®‰å…¨åœ°ä¼ è¾“æ–‡ä»¶ã€‚è¦ä½¿ç”¨SCPå°†æ–‡ä»¶å¤¹ä»Windowsä¼ è¾“åˆ°Linuxï¼Œæ‚¨éœ€è¦åœ¨Windowsæœºå™¨ä¸Šä½¿ç”¨SCPå®¢æˆ·ç«¯ï¼Œå¹¶ä¸”ç¡®ä¿æ‚¨çš„Linuxæœºå™¨ä¸Šå·²å®‰è£…äº†SSHæœåŠ¡å™¨ã€‚
 
-ÒÔÏÂÊÇÊ¹ÓÃSCP½«ÎÄ¼ş¼Ğ´ÓWindows´«Êäµ½LinuxµÄ²½Öè£º
-ÔÚWindows»úÆ÷ÉÏ£¬È·±£ÒÑ°²×°SCP¿Í»§¶Ë£¬ÈçWindows 10ºÍ¸ü¸ß°æ±¾Í¨³£ÒÑÔ¤×°OpenSSH¿Í»§¶Ë¡£Èç¹ûÃ»ÓĞ£¬¿ÉÒÔ´ÓMicrosoft Store°²×°OpenSSH¿Í»§¶Ë¡£
-´ò¿ªÃüÁîÌáÊ¾·û»òPowerShell¡£
-Ê¹ÓÃÒÔÏÂSCPÃüÁî¸ñÊ½½«ÎÄ¼ş¼Ğ¼°ÆäÄÚÈİ´«Êäµ½Linux·şÎñÆ÷£º
+ä»¥ä¸‹æ˜¯ä½¿ç”¨SCPå°†æ–‡ä»¶å¤¹ä»Windowsä¼ è¾“åˆ°Linuxçš„æ­¥éª¤ï¼š
+åœ¨Windowsæœºå™¨ä¸Šï¼Œç¡®ä¿å·²å®‰è£…SCPå®¢æˆ·ç«¯ï¼Œå¦‚Windows 10å’Œæ›´é«˜ç‰ˆæœ¬é€šå¸¸å·²é¢„è£…OpenSSHå®¢æˆ·ç«¯ã€‚å¦‚æœæ²¡æœ‰ï¼Œå¯ä»¥ä»Microsoft Storeå®‰è£…OpenSSHå®¢æˆ·ç«¯ã€‚
+æ‰“å¼€å‘½ä»¤æç¤ºç¬¦æˆ–PowerShellã€‚
+ä½¿ç”¨ä»¥ä¸‹SCPå‘½ä»¤æ ¼å¼å°†æ–‡ä»¶å¤¹åŠå…¶å†…å®¹ä¼ è¾“åˆ°LinuxæœåŠ¡å™¨ï¼š
 scp -r C:\path\to\local\folder username@linux_host:/path/to/remote/directory
-ÆäÖĞ£º
--r ±íÊ¾µİ¹é£¬ÓÃÓÚ´«ÊäÎÄ¼ş¼Ğ¡£
-C:\path\to\local\folder ÊÇÄúÒª´«ÊäµÄWindows±¾µØÎÄ¼ş¼ĞÂ·¾¶¡£
-username ÊÇÄúµÄLinux·şÎñÆ÷ÉÏµÄÓÃ»§Ãû¡£
-linux_host ÊÇÄúµÄLinux·şÎñÆ÷µÄIPµØÖ·»òÖ÷»úÃû¡£
-/path/to/remote/directory ÊÇLinux·şÎñÆ÷ÉÏµÄÄ¿±êÎÄ¼ş¼ĞÂ·¾¶¡£
-È·±£ÄúÓĞÊÊµ±µÄÈ¨ÏŞ·ÃÎÊÄ¿±êÎÄ¼ş¼Ğ£¬²¢ÇÒLinux·şÎñÆ÷ÉÏµÄSSH·şÎñÕıÔÚÔËĞĞ¡£
-Ê¾Àı´úÂë£º
+å…¶ä¸­ï¼š
+-r è¡¨ç¤ºé€’å½’ï¼Œç”¨äºä¼ è¾“æ–‡ä»¶å¤¹ã€‚
+C:\path\to\local\folder æ˜¯æ‚¨è¦ä¼ è¾“çš„Windowsæœ¬åœ°æ–‡ä»¶å¤¹è·¯å¾„ã€‚
+username æ˜¯æ‚¨çš„LinuxæœåŠ¡å™¨ä¸Šçš„ç”¨æˆ·åã€‚
+linux_host æ˜¯æ‚¨çš„LinuxæœåŠ¡å™¨çš„IPåœ°å€æˆ–ä¸»æœºåã€‚
+/path/to/remote/directory æ˜¯LinuxæœåŠ¡å™¨ä¸Šçš„ç›®æ ‡æ–‡ä»¶å¤¹è·¯å¾„ã€‚
+ç¡®ä¿æ‚¨æœ‰é€‚å½“çš„æƒé™è®¿é—®ç›®æ ‡æ–‡ä»¶å¤¹ï¼Œå¹¶ä¸”LinuxæœåŠ¡å™¨ä¸Šçš„SSHæœåŠ¡æ­£åœ¨è¿è¡Œã€‚
+ç¤ºä¾‹ä»£ç ï¼š
 scp -r C:\Users\exampleuser\Documents\ myuser@192.168.1.10:/home/myuser/
-scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspnetcore/
-Õâ¸öÃüÁî»á½«WindowsÉÏµÄC:\Users\exampleuser\Documents\ÎÄ¼ş¼Ğµİ¹éµØ´«Êäµ½IPµØÖ·Îª192.168.1.10µÄLinux·şÎñÆ÷ÉÏµÄ/home/myuser/Ä¿Â¼¡£	
+scp -P 1225 -r G:\yuanxiaowen\Gå…¬å¸åˆ¶åº¦\æŠ€æœ¯ç®¡ç†éƒ¨\jtpjsapp\ root@1.26:/opt/aspnetcore/
+è¿™ä¸ªå‘½ä»¤ä¼šå°†Windowsä¸Šçš„C:\Users\exampleuser\Documents\æ–‡ä»¶å¤¹é€’å½’åœ°ä¼ è¾“åˆ°IPåœ°å€ä¸º192.168.1.10çš„LinuxæœåŠ¡å™¨ä¸Šçš„/home/myuser/ç›®å½•ã€‚	
 
-	--´Ólinux»·¾³¸´ÖÆÎÄ¼şµ½windows»·¾³
+	--ä»linuxç¯å¢ƒå¤åˆ¶æ–‡ä»¶åˆ°windowsç¯å¢ƒ
     scp -P 1225 -r root@1.26:/opt/aspnetcore/jtpjsapp/  /D:
 
     scp -P 1225 -r root@1.26:/opt/aspnetcore/ccjyapp/  /D:	
 	
 	scp -P 1225 -r root@1.26:/opt/rust/xtkq/  /D:
 	
-	scp -P 1225 -r root@1.26:/opt/aspnetcore/jtpjsapp/files/export/Ó¦ÊÕÆ±¾İÄ¸Æ±ÁĞ±í.xlsx  /D:
+	scp -P 1225 -r root@1.26:/opt/aspnetcore/jtpjsapp/files/export/åº”æ”¶ç¥¨æ®æ¯ç¥¨åˆ—è¡¨.xlsx  /D:
 	
 	scp -P 1225 -r root@1.26:/opt/backup/jtpjsapp_backup/jtpjsapp20241114030001.sql  /D:
 	
-	--´ÓwindowsÉÏ´«ÎÄ¼şµ½linux
-	scp -P 1225 G:/yuanxiaowen/G¹«Ë¾ÖÆ¶È/¼¼Êõ¹ÜÀí²¿/02ÏîÄ¿/Ó¦ÊÕÆ±¾İ/Æ±¾İÏµÍ³±³¾°Í¼.jpg root@1.26:/opt/aspnetcore/jtpjsapp/wwwroot
+	--ä»windowsä¸Šä¼ æ–‡ä»¶åˆ°linux
+	scp -P 1225 G:/yuanxiaowen/Gå…¬å¸åˆ¶åº¦/æŠ€æœ¯ç®¡ç†éƒ¨/02é¡¹ç›®/åº”æ”¶ç¥¨æ®/ç¥¨æ®ç³»ç»ŸèƒŒæ™¯å›¾.jpg root@1.26:/opt/aspnetcore/jtpjsapp/wwwroot
 	scp -P 1225 D:/jtpjsapp20241112081110.sql root@1.25:/tmp/backup
 	
-9¡¢ ÈçºÎÉÏ´«Ò»¸öÎÄ¼ş¼Ğµ½github
-Òª½«Ò»¸öÎÄ¼ş¼ĞÉÏ´«µ½GitHub£¬ĞèÒª½øĞĞÒÔÏÂ²½Öè£º
-µÚÒ»²½£º´´½¨Ò»¸öĞÂµÄGitHub²Ö¿â
-1. ÔÚGitHubÉÏ´´½¨Ò»¸öĞÂµÄ²Ö¿â£¬ÃüÃûÎªÄãÏëÒªÉÏ´«µÄÎÄ¼ş¼ĞµÄÃû³Æ¡£
-2. ÔÚ²Ö¿â´´½¨Ò³ÃæÉÏ£¬¿ÉÒÔÑ¡ÔñÊÇ·ñÌí¼ÓREADMEÎÄ¼ş¡¢.gitignoreÎÄ¼şµÈ¡£
+9ã€ å¦‚ä½•ä¸Šä¼ ä¸€ä¸ªæ–‡ä»¶å¤¹åˆ°github
+è¦å°†ä¸€ä¸ªæ–‡ä»¶å¤¹ä¸Šä¼ åˆ°GitHubï¼Œéœ€è¦è¿›è¡Œä»¥ä¸‹æ­¥éª¤ï¼š
+ç¬¬ä¸€æ­¥ï¼šåˆ›å»ºä¸€ä¸ªæ–°çš„GitHubä»“åº“
+1. åœ¨GitHubä¸Šåˆ›å»ºä¸€ä¸ªæ–°çš„ä»“åº“ï¼Œå‘½åä¸ºä½ æƒ³è¦ä¸Šä¼ çš„æ–‡ä»¶å¤¹çš„åç§°ã€‚
+2. åœ¨ä»“åº“åˆ›å»ºé¡µé¢ä¸Šï¼Œå¯ä»¥é€‰æ‹©æ˜¯å¦æ·»åŠ READMEæ–‡ä»¶ã€.gitignoreæ–‡ä»¶ç­‰ã€‚
 
-µÚ¶ş²½£º´ò¿ªÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ß
-1. ´ò¿ªÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ß£¬²¢½øÈëÄãÒªÉÏ´«µÄÎÄ¼ş¼ĞµÄÂ·¾¶¡£
+ç¬¬äºŒæ­¥ï¼šæ‰“å¼€ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·
+1. æ‰“å¼€ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ï¼Œå¹¶è¿›å…¥ä½ è¦ä¸Šä¼ çš„æ–‡ä»¶å¤¹çš„è·¯å¾„ã€‚
 
-µÚÈı²½£º³õÊ¼»¯±¾µØ²Ö¿â
-1. ÔÚÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ßÖĞÊäÈëÒÔÏÂÃüÁîÀ´³õÊ¼»¯±¾µØ²Ö¿â£º
+ç¬¬ä¸‰æ­¥ï¼šåˆå§‹åŒ–æœ¬åœ°ä»“åº“
+1. åœ¨ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤æ¥åˆå§‹åŒ–æœ¬åœ°ä»“åº“ï¼š
    git init
 
-µÚËÄ²½£ºÌí¼ÓÎÄ¼ş¼ĞÖĞµÄËùÓĞÎÄ¼şµ½±¾µØ²Ö¿â
-1. ÔÚÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ßÖĞÊäÈëÒÔÏÂÃüÁîÀ´½«ÎÄ¼ş¼ĞÖĞµÄËùÓĞÎÄ¼şÌí¼Óµ½±¾µØ²Ö¿â£º
+ç¬¬å››æ­¥ï¼šæ·»åŠ æ–‡ä»¶å¤¹ä¸­çš„æ‰€æœ‰æ–‡ä»¶åˆ°æœ¬åœ°ä»“åº“
+1. åœ¨ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤æ¥å°†æ–‡ä»¶å¤¹ä¸­çš„æ‰€æœ‰æ–‡ä»¶æ·»åŠ åˆ°æœ¬åœ°ä»“åº“ï¼š
    git add .
 
-µÚÎå²½£ºÌá½»ÎÄ¼şµ½±¾µØ²Ö¿â
-1. ÔÚÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ßÖĞÊäÈëÒÔÏÂÃüÁîÀ´Ìá½»ÎÄ¼şµ½±¾µØ²Ö¿â£¬²¢Ìí¼ÓÌá½»ĞÅÏ¢£º
-   git commit -m ¡°Initial commit¡±
+ç¬¬äº”æ­¥ï¼šæäº¤æ–‡ä»¶åˆ°æœ¬åœ°ä»“åº“
+1. åœ¨ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤æ¥æäº¤æ–‡ä»¶åˆ°æœ¬åœ°ä»“åº“ï¼Œå¹¶æ·»åŠ æäº¤ä¿¡æ¯ï¼š
+   git commit -m â€œInitial commitâ€
 
    git config --global user.email "1589918482@qq.com"
    git config --global user.name "yanshu"
    
-µÚÁù²½£º½«±¾µØ²Ö¿âÁ¬½Óµ½GitHub²Ö¿â
-1. ÔÚGitHub²Ö¿âÒ³ÃæÖĞ£¬¸´ÖÆÔ¶³Ì²Ö¿âµÄURL¡£
-2. ÔÚÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ßÖĞÊäÈëÒÔÏÂÃüÁîÀ´½«±¾µØ²Ö¿âÓëÔ¶³Ì²Ö¿âÁ¬½Ó£º   
+ç¬¬å…­æ­¥ï¼šå°†æœ¬åœ°ä»“åº“è¿æ¥åˆ°GitHubä»“åº“
+1. åœ¨GitHubä»“åº“é¡µé¢ä¸­ï¼Œå¤åˆ¶è¿œç¨‹ä»“åº“çš„URLã€‚
+2. åœ¨ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤æ¥å°†æœ¬åœ°ä»“åº“ä¸è¿œç¨‹ä»“åº“è¿æ¥ï¼š   
    git remote add origin https://github.com/zuijiaoghb/jtpjsapp.git
    git remote add origin https://github.com/zuijiaoghb/ccjyapp.git
    git remote add origin https://github.com/zuijiaoghb/xtkq.git
 
-µÚÆß²½£º½«±¾µØ²Ö¿âµÄÌá½»ÍÆËÍµ½GitHub²Ö¿â
-1. ÔÚÖÕ¶Ë»òÃüÁîĞĞ¹¤¾ßÖĞÊäÈëÒÔÏÂÃüÁîÀ´½«±¾µØ²Ö¿âµÄÌá½»ÍÆËÍµ½GitHub²Ö¿â£º
+ç¬¬ä¸ƒæ­¥ï¼šå°†æœ¬åœ°ä»“åº“çš„æäº¤æ¨é€åˆ°GitHubä»“åº“
+1. åœ¨ç»ˆç«¯æˆ–å‘½ä»¤è¡Œå·¥å…·ä¸­è¾“å…¥ä»¥ä¸‹å‘½ä»¤æ¥å°†æœ¬åœ°ä»“åº“çš„æäº¤æ¨é€åˆ°GitHubä»“åº“ï¼š
    git push -u origin master
 
-Íê³ÉÒÔÉÏ²½Öèºó£¬ÎÄ¼ş¼ĞÖĞµÄËùÓĞÎÄ¼ş½«±»ÉÏ´«µ½GitHub²Ö¿âÖĞ¡£Äã¿ÉÒÔÔÚGitHubÉÏ²é¿´ºÍ¹ÜÀíÕâĞ©ÎÄ¼ş¡£	
+å®Œæˆä»¥ä¸Šæ­¥éª¤åï¼Œæ–‡ä»¶å¤¹ä¸­çš„æ‰€æœ‰æ–‡ä»¶å°†è¢«ä¸Šä¼ åˆ°GitHubä»“åº“ä¸­ã€‚ä½ å¯ä»¥åœ¨GitHubä¸ŠæŸ¥çœ‹å’Œç®¡ç†è¿™äº›æ–‡ä»¶ã€‚	
 
-10¡¢ É¾³ıÎÄ¼ş¼Ğ¼°ÆäÏÂµÄÎÄ¼ş¼Ğ¼°ÎÄ¼ş
+10ã€ åˆ é™¤æ–‡ä»¶å¤¹åŠå…¶ä¸‹çš„æ–‡ä»¶å¤¹åŠæ–‡ä»¶
 [root@cpzljc aspnetcore]# rm -rf BlazorApp
 
-11¡¢ mudblazor app
+11ã€ mudblazor app
 [root@cpzljc aspnetcore]# dotnet new install MudBlazor.Templates
 [root@cpzljc aspnetcore]# dotnet new mudblazor -o ccjyapp --interactivity Server --auth Individual --all-interactive
 
@@ -4473,7 +4473,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
 <MudLayout>
     <MudAppBar Elevation="1">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">³ö³§¼ìÑé</MudText>
+        <MudText Typo="Typo.h5" Class="ml-3">å‡ºå‚æ£€éªŒ</MudText>
         <MudSpacer />
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
     </MudAppBar>
@@ -4513,7 +4513,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
     <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>   
     <MudNavLink Href="weather" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.List">Weather</MudNavLink>  
     <MudNavLink Href="auth" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Lock">Auth Required</MudNavLink> *@
-    <MudNavLink Href="motorParameter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.SportsMotorsports">µç»ú²ÎÊı</MudNavLink>
+    <MudNavLink Href="motorParameter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.SportsMotorsports">ç”µæœºå‚æ•°</MudNavLink>
    @*
     <AuthorizeView>
         <Authorized>
@@ -4574,49 +4574,49 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
 @using System.ComponentModel.DataAnnotations
 @using ccjyapp.Data
 
-<PageTitle>µç»ú²ÎÊı</PageTitle>
+<PageTitle>ç”µæœºå‚æ•°</PageTitle>
 
 <MudButtonGroup Color="Color.Primary" Variant="Variant.Outlined">
-    <MudButton StartIcon="@Icons.Material.Filled.AddCircleOutline" IconColor="Color.Primary" @onclick="addMotorParameterAsync" Disabled=adddisabled >ĞÂÔö</MudButton>
-    <MudButton StartIcon="@Icons.Material.Filled.Edit" IconColor="Color.Primary"  Disabled=modifydisabled @onclick="modifyMotorParameterBySerialNumberAndId">ĞŞ¸Ä</MudButton>
-    <MudButton StartIcon="@Icons.Material.Filled.Delete" IconColor="Color.Primary"  Disabled=deletedisabled @onclick="deleteMotorParameterBySerialNumberAndId">É¾³ı</MudButton>
-    <MudButton StartIcon="@Icons.Material.Filled.FindInPage" IconColor="Color.Primary" Disabled=finddisabled @onclick="OpenFindMotorParamterBySerialNumberDialog" >²éÑ¯</MudButton>
-    <MudButton StartIcon="@Icons.Material.Filled.Print" IconColor="Color.Primary" @onclick="OpenPrintMotorParameterQRCoderDialog">´òÓ¡¶şÎ¬Âë</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.AddCircleOutline" IconColor="Color.Primary" @onclick="addMotorParameterAsync" Disabled=adddisabled >æ–°å¢</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.Edit" IconColor="Color.Primary"  Disabled=modifydisabled @onclick="modifyMotorParameterBySerialNumberAndId">ä¿®æ”¹</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.Delete" IconColor="Color.Primary"  Disabled=deletedisabled @onclick="deleteMotorParameterBySerialNumberAndId">åˆ é™¤</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.FindInPage" IconColor="Color.Primary" Disabled=finddisabled @onclick="OpenFindMotorParamterBySerialNumberDialog" >æŸ¥è¯¢</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.Print" IconColor="Color.Primary" @onclick="OpenPrintMotorParameterQRCoderDialog">æ‰“å°äºŒç»´ç </MudButton>
 </MudButtonGroup>
 
 @*
 <div @ref="printMotorParameterQRCoderElement">
-    <!-- ĞèÒª´òÓ¡µÄÄÚÈİ -->
-    "Òª´òÓ¡µÄÄÚÈİ"
+    <!-- éœ€è¦æ‰“å°çš„å†…å®¹ -->
+    "è¦æ‰“å°çš„å†…å®¹"
 </div>
 
-<button @onclick="() => PrintContent(printMotorParameterQRCoderElement)">´òÓ¡</button>
+<button @onclick="() => PrintContent(printMotorParameterQRCoderElement)">æ‰“å°</button>
 *@
 
 <MudDialog @bind-Visible="_visible" Options="_dialogOptions">
     <TitleContent>
         <MudText Typo="Typo.h6">
-            <MudIcon Icon="@Icons.Material.Filled.FindInPage" Class="mr-3" /> ²éÑ¯·½°¸
+            <MudIcon Icon="@Icons.Material.Filled.FindInPage" Class="mr-3" /> æŸ¥è¯¢æ–¹æ¡ˆ
         </MudText>
     </TitleContent>
     <DialogContent>
         <MudGrid>
             <MudItem xs="12" lg="3">
-                <MudTextField Label="ĞòÁĞºÅ" HelperText="" Class="mt-3" Required="true"  Variant="Variant.Outlined"
+                <MudTextField Label="åºåˆ—å·" HelperText="" Class="mt-3" Required="true"  Variant="Variant.Outlined"
                               @bind-Value="serialNumber" For="@(() => serialNumber)" />
             </MudItem>
         </MudGrid>
     </DialogContent>
     <DialogActions>
-        <MudButton OnClick="Cancel">È¡Ïû</MudButton>
-        <MudButton Color="Color.Primary" OnClick="FindMotorParameterBySerialNumberAsync">È·ÈÏ</MudButton>
+        <MudButton OnClick="Cancel">å–æ¶ˆ</MudButton>
+        <MudButton Color="Color.Primary" OnClick="FindMotorParameterBySerialNumberAsync">ç¡®è®¤</MudButton>
     </DialogActions>
 </MudDialog>
 
 <MudDialog @bind-Visible="_printMotorParameterQRCodervisible" Options="_printMotorParameterQRCoderdialogOptions">
     <TitleContent>
         <MudText Typo="Typo.h6">
-            <MudIcon Icon="@Icons.Material.Filled.QrCode" Class="mr-3" /> µç»ú²ÎÊı¶şÎ¬Âë
+            <MudIcon Icon="@Icons.Material.Filled.QrCode" Class="mr-3" /> ç”µæœºå‚æ•°äºŒç»´ç 
         </MudText>
     </TitleContent>
     <DialogContent>
@@ -4630,88 +4630,88 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
         </MudGrid>
     </DialogContent>
     <DialogActions>
-        <MudButton OnClick="printMotorParameterQRCoderCancel">È¡Ïû</MudButton>
-        <MudButton Color="Color.Primary" OnClick="() => printMotorParameterQRCoderAsync(printMotorParameterQRCoderElement)">È·ÈÏ´òÓ¡</MudButton>
+        <MudButton OnClick="printMotorParameterQRCoderCancel">å–æ¶ˆ</MudButton>
+        <MudButton Color="Color.Primary" OnClick="() => printMotorParameterQRCoderAsync(printMotorParameterQRCoderElement)">ç¡®è®¤æ‰“å°</MudButton>
     </DialogActions>
 </MudDialog>
 
 <MudGrid Justify="Justify.Center">
     <MudItem xs="12" lg="3" >
-        <MudText Typo="Typo.h5" Align="Align.Center" >µç»ú²ÎÊı</MudText>
+        <MudText Typo="Typo.h5" Align="Align.Center" >ç”µæœºå‚æ•°</MudText>
     </MudItem>
 </MudGrid>
 
 <EditForm Model="motorParameterModel" OnValidSubmit="OnValidSubmitAsync">
 <DataAnnotationsValidator/>
 <MudButtonGroup Color="Color.Primary" Variant="Variant.Outlined">
-    <MudButton ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Save" IconColor="Color.Primary" Disabled=submitdisabled>±£´æ</MudButton>
-    <MudButton StartIcon="@Icons.Material.Filled.Cancel" IconColor="Color.Primary" Disabled=cansledisabled @onclick="cansleSubmit">È¡Ïû</MudButton>
+    <MudButton ButtonType="ButtonType.Submit" StartIcon="@Icons.Material.Filled.Save" IconColor="Color.Primary" Disabled=submitdisabled>ä¿å­˜</MudButton>
+    <MudButton StartIcon="@Icons.Material.Filled.Cancel" IconColor="Color.Primary" Disabled=cansledisabled @onclick="cansleSubmit">å–æ¶ˆ</MudButton>
 </MudButtonGroup>
 <MudGrid>
     <MudItem xs="12" lg="3">
-        <MudSelect @bind-Value="motorParameterModel.Company" Label="ËùÊôµ¥Î»" Variant="Variant.Outlined"  Required="true"  HelperText="Ñ¡ÔñËùÊôµ¥Î»" OpenIcon="@Icons.Material.Filled.House" AdornmentColor="Color.Secondary" ReadOnly=formdisabled >
+        <MudSelect @bind-Value="motorParameterModel.Company" Label="æ‰€å±å•ä½" Variant="Variant.Outlined"  Required="true"  HelperText="é€‰æ‹©æ‰€å±å•ä½" OpenIcon="@Icons.Material.Filled.House" AdornmentColor="Color.Secondary" ReadOnly=formdisabled >
                      @foreach (MotorParameterCompany item in Enum.GetValues(typeof(MotorParameterCompany))) {
                      <MudSelectItem Value="@item">@item</MudSelectItem>
                 }
          </MudSelect>
     </MudItem>
     <MudItem xs="12" lg="3">
-        <MudTextField ShrinkLabel Label="ÖĞÁª±àÂë" Class="mt-3" Variant="Variant.Outlined"  Required="true"
+        <MudTextField ShrinkLabel Label="ä¸­è”ç¼–ç " Class="mt-3" Variant="Variant.Outlined"  Required="true"
                               @bind-Value="motorParameterModel.ZLCode" For="@(() => motorParameterModel.ZLCode)" ReadOnly=formdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-        <MudTextField ShrinkLabel Label="ĞòÁĞºÅ" HelperText="µç»úĞòÁĞºÅ" Class="mt-3" Required="true"  Variant="Variant.Outlined"
+        <MudTextField ShrinkLabel Label="åºåˆ—å·" HelperText="ç”µæœºåºåˆ—å·" Class="mt-3" Required="true"  Variant="Variant.Outlined"
                               @bind-Value="motorParameterModel.SerialNumber" For="@(() => motorParameterModel.SerialNumber)" ReadOnly=formdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RatedPower" Label="¶î¶¨¹¦ÂÊ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />
+        <MudNumericField @bind-Value="motorParameterModel.RatedPower" Label="é¢å®šåŠŸç‡" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RatedFrequency" Label="¶î¶¨ÆµÂÊ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
+        <MudNumericField @bind-Value="motorParameterModel.RatedFrequency" Label="é¢å®šé¢‘ç‡" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RatedSpeed" Label="¶î¶¨×ªËÙ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                          
+        <MudNumericField @bind-Value="motorParameterModel.RatedSpeed" Label="é¢å®šè½¬é€Ÿ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                          
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RatedVoltage" Label="¶î¶¨µçÑ¹" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                        
+        <MudNumericField @bind-Value="motorParameterModel.RatedVoltage" Label="é¢å®šç”µå‹" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                        
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RatedCurrent" Label="¶î¶¨µçÁ÷" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                        
+        <MudNumericField @bind-Value="motorParameterModel.RatedCurrent" Label="é¢å®šç”µæµ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                        
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.StatorResistance" Label="¶¨×Óµç×è" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                    
+        <MudNumericField @bind-Value="motorParameterModel.StatorResistance" Label="å®šå­ç”µé˜»" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                    
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.RotorResistance" Label="×ª×Óµç×è" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                     
+        <MudNumericField @bind-Value="motorParameterModel.RotorResistance" Label="è½¬å­ç”µé˜»" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                     
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.LeakageReactance" Label="Â©¸Ğ¿¹" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
+        <MudNumericField @bind-Value="motorParameterModel.LeakageReactance" Label="æ¼æ„ŸæŠ—" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.MutualInductance" Label="»¥¸Ğ¿¹" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
+        <MudNumericField @bind-Value="motorParameterModel.MutualInductance" Label="äº’æ„ŸæŠ—" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />                      
 
     </MudItem>
         <MudItem xs="12" lg="3">
-        <MudNumericField @bind-Value="motorParameterModel.NoLoadCurrent" Label="¿ÕÔØµçÁ÷" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />
+        <MudNumericField @bind-Value="motorParameterModel.NoLoadCurrent" Label="ç©ºè½½ç”µæµ" Variant="Variant.Outlined" Min="0.0" Required="true" ReadOnly=formdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-       <MudDatePicker ShrinkLabel Label="ĞÂ½¨ÈÕÆÚ" Editable="true" @bind-Date="addtimedate" Placeholder="" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
+       <MudDatePicker ShrinkLabel Label="æ–°å»ºæ—¥æœŸ" Editable="true" @bind-Date="addtimedate" Placeholder="" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-       <MudTimePicker ShrinkLabel Label="ĞÂ½¨Ê±¼ä" AmPm="true" @bind-Time="addtimespan" Variant="Variant.Outlined" ReadOnly=foreverdisabled  />
+       <MudTimePicker ShrinkLabel Label="æ–°å»ºæ—¶é—´" AmPm="true" @bind-Time="addtimespan" Variant="Variant.Outlined" ReadOnly=foreverdisabled  />
     </MudItem>
     <MudItem xs="12" lg="3">
-       <MudDatePicker ShrinkLabel Label="ĞŞ¸ÄÈÕÆÚ" Editable="true" @bind-Date="modifytimedate" Placeholder="" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
+       <MudDatePicker ShrinkLabel Label="ä¿®æ”¹æ—¥æœŸ" Editable="true" @bind-Date="modifytimedate" Placeholder="" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
     </MudItem>
     <MudItem xs="12" lg="3">
-       <MudTimePicker ShrinkLabel Label="ĞŞ¸ÄÊ±¼ä" AmPm="true" @bind-Time="modifytimespan" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
+       <MudTimePicker ShrinkLabel Label="ä¿®æ”¹æ—¶é—´" AmPm="true" @bind-Time="modifytimespan" Variant="Variant.Outlined" ReadOnly=foreverdisabled />
     </MudItem>
 </MudGrid>
 </EditForm>
@@ -4764,7 +4764,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
         Logger.LogInformation("qrCodeContentBASE64 = {qrCodeContentBASE64}", qrCodeContentBASE64);
 
         //Console.Write(b.ToString("X2") + " ");
-        //Console.WriteLine("ËÄ×Ö½ÚÊ®Áù½øÖÆ±íÊ¾:" + qrCodeContent);
+        //Console.WriteLine("å››å­—èŠ‚åå…­è¿›åˆ¶è¡¨ç¤º:" + qrCodeContent);
 
         QRCodeGenerator qrGenerator = new QRCodeGenerator();
         QRCodeData qrCodeData = qrGenerator.CreateQrCode(qrCodeContentBASE64, QRCodeGenerator.ECCLevel.M);
@@ -4790,10 +4790,10 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
 
            if (serialNumber is null) {
                                 bool? result = await DialogService.ShowMessageBox(
-                   "¾¯¸æ",
-                   "²éÑ¯Ç°ÇëÊäÈëĞòÁĞºÅ¡£",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-                state = result == null ? "È¡Ïû" : "È·ÈÏ";
+                   "è­¦å‘Š",
+                   "æŸ¥è¯¢å‰è¯·è¾“å…¥åºåˆ—å·ã€‚",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+                state = result == null ? "å–æ¶ˆ" : "ç¡®è®¤";
                 StateHasChanged();
 
                 modifydisabled = true;
@@ -4833,7 +4833,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
               //if (!isAuthorized.Succeeded)
               //{
                 //recbill = new RecBillModel( DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now );
-                //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞ²éÑ¯¸ÃÊı¾İµÄÈ¨ÏŞ¡£" );
+                //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æŸ¥è¯¢è¯¥æ•°æ®çš„æƒé™ã€‚" );
                 //var result = await dialog.Result;
                 //recbill = new RecBillModel(DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now, DateTime.Now);
               //} else {
@@ -4842,10 +4842,10 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
               //}
             } catch (System.InvalidOperationException e ) {
                 bool? result = await DialogService.ShowMessageBox(
-                   "´íÎó",
-                   "¸Ãµç»ú²ÎÊı²»´æÔÚ¡£",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-                state = result == null ? "È¡Ïû" : "È·ÈÏ";
+                   "é”™è¯¯",
+                   "è¯¥ç”µæœºå‚æ•°ä¸å­˜åœ¨ã€‚",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+                state = result == null ? "å–æ¶ˆ" : "ç¡®è®¤";
                 StateHasChanged();
 
               motorParameterModel = new MotorParameterModel(DateTime.Now, DateTime.Now);
@@ -4881,9 +4881,9 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
            Busy = false;
 
            await base.OnInitializedAsync();
-           // ... ÆäËû³õÊ¼»¯´úÂë
+           // ... å…¶ä»–åˆå§‹åŒ–ä»£ç 
            motorParameterCompany = "1";
-           motorParameterModel.Company = MotorParameterCompany.½­Î÷½­ÌØ;
+           motorParameterModel.Company = MotorParameterCompany.æ±Ÿè¥¿æ±Ÿç‰¹;
 
      }
 
@@ -4897,7 +4897,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
         //                                                                                              RecbillOperations.Create);
         //if (!isAuthorized.Succeeded)
         //{
-           //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞÂ½¨È¨ÏŞ¡£" );
+           //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æ–°å»ºæƒé™ã€‚" );
            //var result = await dialog.Result;
         //} else {
         formdisabled = false;
@@ -4909,7 +4909,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
         finddisabled = true;
         motorParameterModel = new MotorParameterModel(DateTime.Now, DateTime.Now);
         motorParameterCompany = "1";
-        motorParameterModel.Company = MotorParameterCompany.½­Î÷½­ÌØ;
+        motorParameterModel.Company = MotorParameterCompany.æ±Ÿè¥¿æ±Ÿç‰¹;
      //}
     }
 
@@ -4943,7 +4943,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                                                         //RecbillOperations.Update);
         //if (!isAuthorized.Succeeded)
         //{
-           //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞŞ¸ÄÈ¨ÏŞ¡£" );
+           //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰ä¿®æ”¹æƒé™ã€‚" );
            //var result = await dialog.Result;
         //} else {
         formdisabled = false;
@@ -4966,7 +4966,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                                                         //RecbillOperations.Delete);
        //if (!isAuthorized.Succeeded)
        //{
-               //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞÉ¾³ı¸ÃÊı¾İÈ¨ÏŞ¡£" );
+               //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰åˆ é™¤è¯¥æ•°æ®æƒé™ã€‚" );
                //var result = await dialog.Result;
        //} else {
 
@@ -4977,10 +4977,10 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
         Busy = true;
 
                 bool? result = await DialogService.ShowMessageBox(
-                   "¾¯¸æ",
-                   "È·ÈÏÉ¾³ıÂğ?",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-           state = result == null ? "È¡Ïû" : "È·ÈÏ";
+                   "è­¦å‘Š",
+                   "ç¡®è®¤åˆ é™¤å—?",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+           state = result == null ? "å–æ¶ˆ" : "ç¡®è®¤";
            StateHasChanged();
 
         if (result == true) {
@@ -4992,20 +4992,20 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                  count = Context.SaveChanges();
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
                 bool? result2 = await DialogService.ShowMessageBox(
-                        "´íÎó",
-                        "É¾³ıÊ§°Ü!¸ÃÆ±¾İ²»´æÔÚ¡£",
-                        yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-                    state = result == null ? "È¡Ïû" : "È·ÈÏ";
+                        "é”™è¯¯",
+                        "åˆ é™¤å¤±è´¥!è¯¥ç¥¨æ®ä¸å­˜åœ¨ã€‚",
+                        yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+                    state = result == null ? "å–æ¶ˆ" : "ç¡®è®¤";
                     StateHasChanged();
 
                 Busy = false;
              }
              if (count>0) {
                 bool? result2 = await DialogService.ShowMessageBox(
-                        "³É¹¦",
-                        "É¾³ı³É¹¦£¡",
-                        yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-                    state = result == null ? "È¡Ïû" : "È·ÈÏ";
+                        "æˆåŠŸ",
+                        "åˆ é™¤æˆåŠŸï¼",
+                        yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+                    state = result == null ? "å–æ¶ˆ" : "ç¡®è®¤";
                     StateHasChanged();
 
                submitdisabled = true;
@@ -5029,7 +5029,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
 
     private async Task OnValidSubmitAsync(EditContext context)
     {
-        Logger.LogInformation("ÖĞÁª±àÂë = {ZLCode}", motorParameterModel?.ZLCode);
+        Logger.LogInformation("ä¸­è”ç¼–ç  = {ZLCode}", motorParameterModel?.ZLCode);
 
         if (ismodifybutton == false) {
             if (Busy) {
@@ -5047,7 +5047,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                                                         //RecbillOperations.Create);
             //if (!isAuthorized.Succeeded)
             //{
-              //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞÂ½¨È¨ÏŞ¡£" );
+              //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰æ–°å»ºæƒé™ã€‚" );
               //var result = await dialog.Result;
             //} else {
 
@@ -5059,10 +5059,10 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                  count = Context.SaveChanges();
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
                 bool? result = await DialogService.ShowMessageBox(
-                   "´íÎó",
-                   "±£´æÊ§°Ü!¸Ãµç»ú²ÎÊıÒÑ´æÔÚ¡£",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-               state = result == null ? "Canceled" : "È·ÈÏ";
+                   "é”™è¯¯",
+                   "ä¿å­˜å¤±è´¥!è¯¥ç”µæœºå‚æ•°å·²å­˜åœ¨ã€‚",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+               state = result == null ? "Canceled" : "ç¡®è®¤";
                StateHasChanged();
 
                 finddisabled = false;
@@ -5075,10 +5075,10 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
              }
              if (count>0) {
                 bool? result = await DialogService.ShowMessageBox(
-                   "³É¹¦",
-                   "±£´æ³É¹¦£¡",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-               state = result == null ? "Canceled" : "È·ÈÏ";
+                   "æˆåŠŸ",
+                   "ä¿å­˜æˆåŠŸï¼",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+               state = result == null ? "Canceled" : "ç¡®è®¤";
                StateHasChanged();
 
                 finddisabled = false;
@@ -5112,7 +5112,7 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                                                         //RecbillOperations.Update);
                   //if (!isAuthorized.Succeeded)
                   //{
-                   //var dialog = await DialogService.ShowErrorAsync("µ±Ç°ÓÃ»§Ã»ÓĞĞŞ¸ÄÈ¨ÏŞ¡£" );
+                   //var dialog = await DialogService.ShowErrorAsync("å½“å‰ç”¨æˆ·æ²¡æœ‰ä¿®æ”¹æƒé™ã€‚" );
                    //var result = await dialog.Result;
                   //} else {
                 var motorp = Context.MotorParameters.Single(b => b.SerialNumber == motorParameterModel.SerialNumber && b.Id==motorParameterModel.Id);
@@ -5136,20 +5136,20 @@ scp -P 1225 -r G:\yuanxiaowen\G¹«Ë¾ÖÆ¶È\¼¼Êõ¹ÜÀí²¿\jtpjsapp\ root@1.26:/opt/aspn
                //}
             } catch (Microsoft.EntityFrameworkCore.DbUpdateException e ) {
                  bool? result = await DialogService.ShowMessageBox(
-                   "´íÎó",
-                   "±£´æÊ§°Ü¡£",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-                state = result == null ? "Canceled" : "È·ÈÏ";
+                   "é”™è¯¯",
+                   "ä¿å­˜å¤±è´¥ã€‚",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+                state = result == null ? "Canceled" : "ç¡®è®¤";
                 StateHasChanged();
 
                 Busy = false;
              }
              if (count>0) {
                 bool? result = await DialogService.ShowMessageBox(
-                   "³É¹¦",
-                   "±£´æ³É¹¦£¡",
-                   yesText:"È·ÈÏ", cancelText:"È¡Ïû");
-               state = result == null ? "Canceled" : "È·ÈÏ";
+                   "æˆåŠŸ",
+                   "ä¿å­˜æˆåŠŸï¼",
+                   yesText:"ç¡®è®¤", cancelText:"å–æ¶ˆ");
+               state = result == null ? "Canceled" : "ç¡®è®¤";
                StateHasChanged();
 
                 submitdisabled = true;
@@ -5204,14 +5204,14 @@ public class MotorParameterModel
    public MotorParameterCompany Company { get; set; }
 
    [Required]
-   [Comment("ÖĞÁª±àÂë")]
+   [Comment("ä¸­è”ç¼–ç ")]
    [StringLength(10,
-        ErrorMessage = "ÖĞÁª±àÂë³¤¶È×î³¤Îª10Î»")]
+        ErrorMessage = "ä¸­è”ç¼–ç é•¿åº¦æœ€é•¿ä¸º10ä½")]
    public string ZLCode { get; set; }
 
     [Required]
     [StringLength(11,
-        ErrorMessage = "ĞòÁĞºÅ³¤¶È×î³¤Îª11Î»")]
+        ErrorMessage = "åºåˆ—å·é•¿åº¦æœ€é•¿ä¸º11ä½")]
     public string SerialNumber { get; set; }
 
     [Required]
@@ -5282,18 +5282,18 @@ public enum MotorParameterStatus
 
 public enum MotorParameterCompany
 {
-   ½­ÌØµç»ú,
-   ½­Î÷½­ÌØ,
-   Òøï®ĞÂÄÜÔ´,
-   º¼ÖİÃ×¸ñ,
-   Ìì½ò»ªĞË,
-   ÒË·áï®Òµ,
-   Ì©²ı¿óÒµ,
-   ½­ÌØµç¶¯³µ,
-   ½­ÌØ¿Í³µ³§,
-   Î¾¶û½­Î÷µç»úÓĞÏŞ¹«Ë¾,
-   ½­ÌØ¸ßĞÂ×°±¸¹«Ë¾,
-   ½­ÌØ¸ßĞÂÎäºº·Ö¹«Ë¾
+   æ±Ÿç‰¹ç”µæœº,
+   æ±Ÿè¥¿æ±Ÿç‰¹,
+   é“¶é”‚æ–°èƒ½æº,
+   æ­å·ç±³æ ¼,
+   å¤©æ´¥åå…´,
+   å®œä¸°é”‚ä¸š,
+   æ³°æ˜ŒçŸ¿ä¸š,
+   æ±Ÿç‰¹ç”µåŠ¨è½¦,
+   æ±Ÿç‰¹å®¢è½¦å‚,
+   å°‰å°”æ±Ÿè¥¿ç”µæœºæœ‰é™å…¬å¸,
+   æ±Ÿç‰¹é«˜æ–°è£…å¤‡å…¬å¸,
+   æ±Ÿç‰¹é«˜æ–°æ­¦æ±‰åˆ†å…¬å¸
 }
 
 
@@ -5312,12 +5312,12 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 [root@cpzljc ccjyapp]# dotnet add package Pomelo.EntityFrameworkCore.MySql
 
 [root@cpzljc ccjyapp]# dotnet tool install --global dotnet-ef
-¹¤¾ß¡°dotnet-ef¡±ÒÑ³É¹¦´Ó°æ±¾¡°8.0.10¡±¸üĞÂµ½°æ±¾¡°9.0.0¡±¡£
+å·¥å…·â€œdotnet-efâ€å·²æˆåŠŸä»ç‰ˆæœ¬â€œ8.0.10â€æ›´æ–°åˆ°ç‰ˆæœ¬â€œ9.0.0â€ã€‚
 [root@cpzljc ccjyapp]# dotnet tool uninstall --global dotnet-ef
-ÒÑ³É¹¦Ğ¶ÔØ¹¤¾ß¡°dotnet-ef¡±(°æ±¾¡°9.0.0¡±).
+å·²æˆåŠŸå¸è½½å·¥å…·â€œdotnet-efâ€(ç‰ˆæœ¬â€œ9.0.0â€).
 [root@cpzljc ccjyapp]# dotnet tool install --global dotnet-ef --version 8.0.10
-¿ÉÊ¹ÓÃÒÔÏÂÃüÁîµ÷ÓÃ¹¤¾ß: dotnet-ef
-ÒÑ³É¹¦°²×°¹¤¾ß¡°dotnet-ef¡±(°æ±¾¡°8.0.10¡±)¡£
+å¯ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤è°ƒç”¨å·¥å…·: dotnet-ef
+å·²æˆåŠŸå®‰è£…å·¥å…·â€œdotnet-efâ€(ç‰ˆæœ¬â€œ8.0.10â€)ã€‚
 [root@cpzljc ccjyapp]# dotnet add package Microsoft.EntityFrameworkCore.Design
 
 [root@cpzljc ccjyapp]# cat ccjyapp.csproj 
@@ -6196,7 +6196,7 @@ function printContent(element, dotnetHelper) {
     printWindow.print();
     printWindow.close();
 
-    // ÇåÀí¶ÔBlazor¶ÔÏóµÄÒıÓÃ£¬Èç¹ûĞèÒªµÄ»°
+    // æ¸…ç†å¯¹Blazorå¯¹è±¡çš„å¼•ç”¨ï¼Œå¦‚æœéœ€è¦çš„è¯
     dotnetHelper.dispose();
 }
 
@@ -6224,10 +6224,10 @@ public class Base64EncodingUtil
 {
     public static string EncodeToBase64(string input)
     {
-        // ½«×Ö·û´®×ª»»Îª×Ö½ÚÊı×é
+        // å°†å­—ç¬¦ä¸²è½¬æ¢ä¸ºå­—èŠ‚æ•°ç»„
         byte[] bytes = System.Text.Encoding.UTF8.GetBytes(input);
 
-        // ¶Ô×Ö½ÚÊı×é½øĞĞBase64±àÂë
+        // å¯¹å­—èŠ‚æ•°ç»„è¿›è¡ŒBase64ç¼–ç 
         string base64String = Convert.ToBase64String(bytes);
 
         return base64String;
@@ -6235,10 +6235,10 @@ public class Base64EncodingUtil
 
     public static string EncodeHexStringToBase64(string input)
     {
-        // ¼ÙÉèinputÊÇÒ»¸ö42×Ö½Ú³¤µÄ16½øÖÆ×Ö·û´®
+        // å‡è®¾inputæ˜¯ä¸€ä¸ª42å­—èŠ‚é•¿çš„16è¿›åˆ¶å­—ç¬¦ä¸²
         byte[] bytes = FromHexStringToByteArray(input);
 
-        // Ê¹ÓÃBase64½øĞĞ±àÂë
+        // ä½¿ç”¨Base64è¿›è¡Œç¼–ç 
         string base64EncodedString = Convert.ToBase64String(bytes);
 
         return base64EncodedString;
@@ -6300,15 +6300,15 @@ public class Base64EncodingUtil
 
 
 
-12¡¢ ABP Framework
+12ã€ ABP Framework
 https://github.com/abpframework/abp
 https://abp.io/
 
 1589918482@qq.com yuanxw Yuan1877008@ 
 
 [root@cpzljc aspnetcore]# dotnet tool install -g Volo.Abp.Studio.Cli
-¿ÉÊ¹ÓÃÒÔÏÂÃüÁîµ÷ÓÃ¹¤¾ß: abp
-ÒÑ³É¹¦°²×°¹¤¾ß¡°volo.abp.studio.cli¡±(°æ±¾¡°0.9.11¡±)¡£
+å¯ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤è°ƒç”¨å·¥å…·: abp
+å·²æˆåŠŸå®‰è£…å·¥å…·â€œvolo.abp.studio.cliâ€(ç‰ˆæœ¬â€œ0.9.11â€)ã€‚
 
 [root@cpzljc aspnetcore]# abp new Jt.CcjyApp -u blazor-server -dbms MySQL -m none --theme leptonx-lite -csf
 
@@ -6317,24 +6317,24 @@ https://abp.io/
 
 
 
-13¡¢ :set number   vimÖĞÏÔÊ¾ĞĞºÅ
-     vim  ±à¼­ÎÄ¼ş
-	 :wq  ±£´æÎÄ¼ş
-	 :q!  Ç¿ÖÆÍË³ö
-	 ls -a  ÏÔÊ¾Òş²ØÎÄ¼ş   ±ÈÈç.swapÎÄ¼ş
-	 ls -lh  ÁĞ±íÏÔÊ¾Ê±¼ä¡¢´óĞ¡
+13ã€ :set number   vimä¸­æ˜¾ç¤ºè¡Œå·
+     vim  ç¼–è¾‘æ–‡ä»¶
+	 :wq  ä¿å­˜æ–‡ä»¶
+	 :q!  å¼ºåˆ¶é€€å‡º
+	 ls -a  æ˜¾ç¤ºéšè—æ–‡ä»¶   æ¯”å¦‚.swapæ–‡ä»¶
+	 ls -lh  åˆ—è¡¨æ˜¾ç¤ºæ—¶é—´ã€å¤§å°
 	 
-14¡¢ QRCoder
+14ã€ QRCoder
 https://github.com/codebude/QRCoder	 
 
-aspnetcore blazor mudblazorÉú³É¶şÎ¬Âë
-ÔÚASP.NET Core BlazorÏîÄ¿ÖĞÊ¹ÓÃMudBlazorÉú³É¶şÎ¬Âë£¬Äã¿ÉÒÔÊ¹ÓÃµÚÈı·½¿âÈçQRCoderÀ´Éú³É¶şÎ¬ÂëÍ¼Ïñ£¬È»ºóÔÚBlazor×é¼şÖĞÏÔÊ¾Ëü¡£ÒÔÏÂÊÇÒ»¸ö¼òµ¥µÄÊ¾Àı£º
-Ê×ÏÈ£¬°²×°QRCoder¿â£º
+aspnetcore blazor mudblazorç”ŸæˆäºŒç»´ç 
+åœ¨ASP.NET Core Blazoré¡¹ç›®ä¸­ä½¿ç”¨MudBlazorç”ŸæˆäºŒç»´ç ï¼Œä½ å¯ä»¥ä½¿ç”¨ç¬¬ä¸‰æ–¹åº“å¦‚QRCoderæ¥ç”ŸæˆäºŒç»´ç å›¾åƒï¼Œç„¶ååœ¨Blazorç»„ä»¶ä¸­æ˜¾ç¤ºå®ƒã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼š
+é¦–å…ˆï¼Œå®‰è£…QRCoderåº“ï¼š
 dotnet add package QRCoder
-È»ºó£¬´´½¨Ò»¸öBlazor×é¼şÀ´Éú³É²¢ÏÔÊ¾¶şÎ¬Âë¡£
+ç„¶åï¼Œåˆ›å»ºä¸€ä¸ªBlazorç»„ä»¶æ¥ç”Ÿæˆå¹¶æ˜¾ç¤ºäºŒç»´ç ã€‚
 
 
-15¡¢ ant-design-blazor  
+15ã€ ant-design-blazor  
 https://github.com/ant-design-blazor/ant-design-blazor
 https://antblazor.com/zh-CN/
 https://github.com/ant-design-blazor/ant-design-pro-blazor
@@ -6374,8 +6374,8 @@ https://github.com/ant-design-blazor/ant-design-pro-blazor
 }
 
 
-aspnetcore floatÀàĞÍ×ª»»Îª16½øÖÆ
-ÔÚASP.NET CoreÖĞ£¬½«floatÀàĞÍ×ª»»Îª16½øÖÆ×Ö·û´®¿ÉÒÔÍ¨¹ıBitConverter.GetBytes·½·¨ºÍString.Format·½·¨À´ÊµÏÖ¡£ÒÔÏÂÊÇÒ»¸öÊ¾Àı´úÂë£º
+aspnetcore floatç±»å‹è½¬æ¢ä¸º16è¿›åˆ¶
+åœ¨ASP.NET Coreä¸­ï¼Œå°†floatç±»å‹è½¬æ¢ä¸º16è¿›åˆ¶å­—ç¬¦ä¸²å¯ä»¥é€šè¿‡BitConverter.GetBytesæ–¹æ³•å’ŒString.Formatæ–¹æ³•æ¥å®ç°ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç¤ºä¾‹ä»£ç ï¼š
 using System;
  
 public class FloatToHexConverter
@@ -6388,33 +6388,33 @@ public class FloatToHexConverter
     }
 }
  
-// Ê¹ÓÃÊ¾Àı
+// ä½¿ç”¨ç¤ºä¾‹
 public class Program
 {
     public static void Main()
     {
         float floatValue = 123.456f;
         string hexValue = FloatToHexConverter.FloatToHexString(floatValue);
-        Console.WriteLine(hexValue); // Êä³öfloatValueµÄ16½øÖÆ±íÊ¾
+        Console.WriteLine(hexValue); // è¾“å‡ºfloatValueçš„16è¿›åˆ¶è¡¨ç¤º
     }
 }
-Õâ¶Î´úÂë¶¨ÒåÁËÒ»¸öFloatToHexConverterÀà£¬ÆäÖĞ°üº¬Ò»¸ö½«float×ª»»Îª16½øÖÆ×Ö·û´®µÄ¾²Ì¬·½·¨FloatToHexString¡£
-Main·½·¨ÖĞÑİÊ¾ÁËÈçºÎÊ¹ÓÃÕâ¸ö×ª»»Æ÷£¬²¢´òÓ¡³ö×ª»»½á¹û¡£BitConverter.GetBytes·½·¨ÓÃÓÚ»ñÈ¡Ö¸¶¨¸¡µãÊıµÄ×Ö½Ú±íÊ¾£¬
-BitConverter.ToString·½·¨ÓÃÓÚ½«×Ö½ÚÊı×é×ª»»ÎªÈËÀà¿É¶ÁµÄ16½øÖÆ×Ö·û´®£¬×îºóÍ¨¹ıReplace·½·¨ÒÆ³ı×Ö·û´®ÖĞµÄ·Ö¸ô·û¡£
+è¿™æ®µä»£ç å®šä¹‰äº†ä¸€ä¸ªFloatToHexConverterç±»ï¼Œå…¶ä¸­åŒ…å«ä¸€ä¸ªå°†floatè½¬æ¢ä¸º16è¿›åˆ¶å­—ç¬¦ä¸²çš„é™æ€æ–¹æ³•FloatToHexStringã€‚
+Mainæ–¹æ³•ä¸­æ¼”ç¤ºäº†å¦‚ä½•ä½¿ç”¨è¿™ä¸ªè½¬æ¢å™¨ï¼Œå¹¶æ‰“å°å‡ºè½¬æ¢ç»“æœã€‚BitConverter.GetBytesæ–¹æ³•ç”¨äºè·å–æŒ‡å®šæµ®ç‚¹æ•°çš„å­—èŠ‚è¡¨ç¤ºï¼Œ
+BitConverter.ToStringæ–¹æ³•ç”¨äºå°†å­—èŠ‚æ•°ç»„è½¬æ¢ä¸ºäººç±»å¯è¯»çš„16è¿›åˆ¶å­—ç¬¦ä¸²ï¼Œæœ€åé€šè¿‡Replaceæ–¹æ³•ç§»é™¤å­—ç¬¦ä¸²ä¸­çš„åˆ†éš”ç¬¦ã€‚
 
 
-aspnetcore ¶Ô×Ö·û´®½øĞĞBASE64±àÂë
-ÔÚASP.NET CoreÖĞ£¬Äú¿ÉÒÔÊ¹ÓÃÄÚÖÃµÄConvert.ToBase64String·½·¨¶Ô×Ö·û´®½øĞĞBASE64±àÂë¡£ÒÔÏÂÊÇÒ»¸ö¼òµ¥µÄÊ¾Àı£º
+aspnetcore å¯¹å­—ç¬¦ä¸²è¿›è¡ŒBASE64ç¼–ç 
+åœ¨ASP.NET Coreä¸­ï¼Œæ‚¨å¯ä»¥ä½¿ç”¨å†…ç½®çš„Convert.ToBase64Stringæ–¹æ³•å¯¹å­—ç¬¦ä¸²è¿›è¡ŒBASE64ç¼–ç ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼š
 using System;
  
 public class Base64EncodingUtil
 {
     public static string EncodeToBase64(string input)
     {
-        // ½«×Ö·û´®×ª»»Îª×Ö½ÚÊı×é
+        // å°†å­—ç¬¦ä¸²è½¬æ¢ä¸ºå­—èŠ‚æ•°ç»„
         byte[] bytes = System.Text.Encoding.UTF8.GetBytes(input);
         
-        // ¶Ô×Ö½ÚÊı×é½øĞĞBase64±àÂë
+        // å¯¹å­—èŠ‚æ•°ç»„è¿›è¡ŒBase64ç¼–ç 
         string base64String = Convert.ToBase64String(bytes);
         
         return base64String;
@@ -6422,8 +6422,8 @@ public class Base64EncodingUtil
 }
 
 
-aspnetcore 42¸ö×Ö½ÚµÄ16½øÖÆ×Ö·û´®½øĞĞBASE64±àÂë
-ÔÚASP.NET CoreÖĞ£¬Äã¿ÉÒÔÊ¹ÓÃÄÚÖÃµÄBase64±àÂëºÍ½âÂë·½·¨À´´¦Àí16½øÖÆ×Ö·û´®¡£Ê×ÏÈ£¬ÄãĞèÒª½«16½øÖÆ×Ö·û´®×ª»»Îª×Ö½ÚÊı×é£¬È»ºóÊ¹ÓÃBase64½øĞĞ±àÂë¡£ÒÔÏÂÊÇÒ»¸ö¼òµ¥µÄÀı×Ó£º
+aspnetcore 42ä¸ªå­—èŠ‚çš„16è¿›åˆ¶å­—ç¬¦ä¸²è¿›è¡ŒBASE64ç¼–ç 
+åœ¨ASP.NET Coreä¸­ï¼Œä½ å¯ä»¥ä½¿ç”¨å†…ç½®çš„Base64ç¼–ç å’Œè§£ç æ–¹æ³•æ¥å¤„ç†16è¿›åˆ¶å­—ç¬¦ä¸²ã€‚é¦–å…ˆï¼Œä½ éœ€è¦å°†16è¿›åˆ¶å­—ç¬¦ä¸²è½¬æ¢ä¸ºå­—èŠ‚æ•°ç»„ï¼Œç„¶åä½¿ç”¨Base64è¿›è¡Œç¼–ç ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ä¾‹å­ï¼š
 using System;
 using System.Text;
  
@@ -6431,11 +6431,11 @@ public class Base64EncodingExample
 {
     public static void Main(string[] args)
     {
-        // ¼ÙÉèÓĞÒ»¸ö42×Ö½Ú³¤µÄ16½øÖÆ×Ö·û´®
-        string hexString = "8d969eef6ecad3d6a345e63b4b8d6082..."; // ÕâÀïÓ¦¸ÃÊÇÍêÕûµÄ42×Ö½Ú×Ö·û´®
+        // å‡è®¾æœ‰ä¸€ä¸ª42å­—èŠ‚é•¿çš„16è¿›åˆ¶å­—ç¬¦ä¸²
+        string hexString = "8d969eef6ecad3d6a345e63b4b8d6082..."; // è¿™é‡Œåº”è¯¥æ˜¯å®Œæ•´çš„42å­—èŠ‚å­—ç¬¦ä¸²
         byte[] bytes = FromHexStringToByteArray(hexString);
  
-        // Ê¹ÓÃBase64½øĞĞ±àÂë
+        // ä½¿ç”¨Base64è¿›è¡Œç¼–ç 
         string base64EncodedString = Convert.ToBase64String(bytes);
  
         Console.WriteLine(base64EncodedString);
@@ -6452,16 +6452,16 @@ public class Base64EncodingExample
         return bytes;
     }
 }
-ÇëÈ·±£ÄãµÄ16½øÖÆ×Ö·û´®ÊÇÓĞĞ§µÄ£¬²¢ÇÒÈ·ÊµÊÇ42×Ö½Ú³¤¶È¡£Èç¹û×Ö·û´®³¤¶È²»ÊÇ42×Ö½Ú£¬ÄãĞèÒªÏàÓ¦µØµ÷Õû´úÂë¡£ÉÏÊö´úÂëÖĞµÄFromHexStringToByteArray·½·¨»á½«16½øÖÆ×Ö·û´®×ª»»Îª×Ö½ÚÊı×é£¬È»ºóConvert.ToBase64String·½·¨»á¶ÔÕâ¸ö×Ö½ÚÊı×é½øĞĞBase64±àÂë¡£
+è¯·ç¡®ä¿ä½ çš„16è¿›åˆ¶å­—ç¬¦ä¸²æ˜¯æœ‰æ•ˆçš„ï¼Œå¹¶ä¸”ç¡®å®æ˜¯42å­—èŠ‚é•¿åº¦ã€‚å¦‚æœå­—ç¬¦ä¸²é•¿åº¦ä¸æ˜¯42å­—èŠ‚ï¼Œä½ éœ€è¦ç›¸åº”åœ°è°ƒæ•´ä»£ç ã€‚ä¸Šè¿°ä»£ç ä¸­çš„FromHexStringToByteArrayæ–¹æ³•ä¼šå°†16è¿›åˆ¶å­—ç¬¦ä¸²è½¬æ¢ä¸ºå­—èŠ‚æ•°ç»„ï¼Œç„¶åConvert.ToBase64Stringæ–¹æ³•ä¼šå¯¹è¿™ä¸ªå­—èŠ‚æ•°ç»„è¿›è¡ŒBase64ç¼–ç ã€‚
 
-16¡¢ Vscode ĞŞ¸ÄÖÕ¶Ë×ÖÌå´óĞ¡
-×óÏÂ½Ç£¬³İÂÖÉèÖÃ->Settings->ËÑË÷À¸ÊäÈë¡°fontsize¡±->Terminal, ÉèÖÃ×ÖÌå´óĞ¡¡£
+16ã€ Vscode ä¿®æ”¹ç»ˆç«¯å­—ä½“å¤§å°
+å·¦ä¸‹è§’ï¼Œé½¿è½®è®¾ç½®->Settings->æœç´¢æ è¾“å…¥â€œfontsizeâ€->Terminal, è®¾ç½®å­—ä½“å¤§å°ã€‚
 
 
-17¡¢ aspnetcore blazor ´òÓ¡¹¦ÄÜ
-ÔÚASP.NET Core BlazorÓ¦ÓÃ³ÌĞòÖĞÌí¼Ó´òÓ¡¹¦ÄÜ£¬¿ÉÒÔÍ¨¹ıJavaScript InteropÀ´ÊµÏÖ¡£ÒÔÏÂÊÇÒ»¸ö¼òµ¥µÄÊ¾Àı£¬Õ¹Ê¾ÁËÈçºÎÔÚBlazor×é¼şÖĞµ÷ÓÃJavaScriptº¯ÊıÀ´´ò¿ªĞÂµÄä¯ÀÀÆ÷±êÇ©Ò³£¬²¢ÔÚÆäÖĞ´òÓ¡Ö¸¶¨ÔªËØµÄÄÚÈİ¡£
+17ã€ aspnetcore blazor æ‰“å°åŠŸèƒ½
+åœ¨ASP.NET Core Blazoråº”ç”¨ç¨‹åºä¸­æ·»åŠ æ‰“å°åŠŸèƒ½ï¼Œå¯ä»¥é€šè¿‡JavaScript Interopæ¥å®ç°ã€‚ä»¥ä¸‹æ˜¯ä¸€ä¸ªç®€å•çš„ç¤ºä¾‹ï¼Œå±•ç¤ºäº†å¦‚ä½•åœ¨Blazorç»„ä»¶ä¸­è°ƒç”¨JavaScriptå‡½æ•°æ¥æ‰“å¼€æ–°çš„æµè§ˆå™¨æ ‡ç­¾é¡µï¼Œå¹¶åœ¨å…¶ä¸­æ‰“å°æŒ‡å®šå…ƒç´ çš„å†…å®¹ã€‚
 
-Ê×ÏÈ£¬ÔÚBlazor×é¼şÖĞÊ¹ÓÃ@inject×¢ÈëJavaScript Runtime£¬È»ºó¶¨ÒåÒ»¸öC#·½·¨À´µ÷ÓÃJavaScriptº¯Êı¡£
+é¦–å…ˆï¼Œåœ¨Blazorç»„ä»¶ä¸­ä½¿ç”¨@injectæ³¨å…¥JavaScript Runtimeï¼Œç„¶åå®šä¹‰ä¸€ä¸ªC#æ–¹æ³•æ¥è°ƒç”¨JavaScriptå‡½æ•°ã€‚
 
 @inject IJSRuntime JSRuntime
  
@@ -6474,10 +6474,10 @@ public class Base64EncodingExample
  
     public void Dispose()
     {
-        // ×¢Òâ£ºÔÚBlazor ServerÖĞ£¬¿ÉÄÜĞèÒªÇåÀíJavaScript¶ÔÏóµÄÒıÓÃ
+        // æ³¨æ„ï¼šåœ¨Blazor Serverä¸­ï¼Œå¯èƒ½éœ€è¦æ¸…ç†JavaScriptå¯¹è±¡çš„å¼•ç”¨
     }
 }
-È»ºó£¬ÔÚJavaScript²¿·Ö¶¨ÒåprintContentº¯Êı£º
+ç„¶åï¼Œåœ¨JavaScriptéƒ¨åˆ†å®šä¹‰printContentå‡½æ•°ï¼š
 function printContent(element, dotnetHelper) {
     var printWindow = window.open('', '_blank');
     printWindow.document.write(element.innerHTML);
@@ -6486,44 +6486,44 @@ function printContent(element, dotnetHelper) {
     printWindow.print();
     printWindow.close();
     
-    // ÇåÀí¶ÔBlazor¶ÔÏóµÄÒıÓÃ£¬Èç¹ûĞèÒªµÄ»°
+    // æ¸…ç†å¯¹Blazorå¯¹è±¡çš„å¼•ç”¨ï¼Œå¦‚æœéœ€è¦çš„è¯
     dotnetHelper.dispose();
 }
-ÔÚHTMLÖĞ£¬Äã¿ÉÒÔÍ¨¹ı´«µİÄ³¸öÔªËØµÄÒıÓÃÀ´´¥·¢´òÓ¡¹¦ÄÜ£º
-<button @onclick="() => PrintContent(myElement)">´òÓ¡</button>
+åœ¨HTMLä¸­ï¼Œä½ å¯ä»¥é€šè¿‡ä¼ é€’æŸä¸ªå…ƒç´ çš„å¼•ç”¨æ¥è§¦å‘æ‰“å°åŠŸèƒ½ï¼š
+<button @onclick="() => PrintContent(myElement)">æ‰“å°</button>
 <div ref="myElement">
-    <!-- ĞèÒª´òÓ¡µÄÄÚÈİ -->
+    <!-- éœ€è¦æ‰“å°çš„å†…å®¹ -->
 </div>
-È·±£ÔÚBlazorÓ¦ÓÃ³ÌĞòµÄwwwrootÎÄ¼ş¼ĞÖĞµÄindex.html»ò_host.cshtmlÖĞÒıÈëJavaScriptÎÄ¼ş£º
+ç¡®ä¿åœ¨Blazoråº”ç”¨ç¨‹åºçš„wwwrootæ–‡ä»¶å¤¹ä¸­çš„index.htmlæˆ–_host.cshtmlä¸­å¼•å…¥JavaScriptæ–‡ä»¶ï¼š
 <script src="your-path/printing.js"></script>
-Çë×¢Òâ£¬Õâ¸öÊ¾Àı¼ÙÉèÄãµÄJavaScriptÎÄ¼şÃûÎªprinting.js£¬²¢ÇÒ¸ÃÎÄ¼şÎ»ÓÚwwwrootÄ¿Â¼ÏÂ¡£ÄãĞèÒª¸ù¾İÊµ¼ÊÇé¿öµ÷ÕûÎÄ¼şÂ·¾¶¡£
+è¯·æ³¨æ„ï¼Œè¿™ä¸ªç¤ºä¾‹å‡è®¾ä½ çš„JavaScriptæ–‡ä»¶åä¸ºprinting.jsï¼Œå¹¶ä¸”è¯¥æ–‡ä»¶ä½äºwwwrootç›®å½•ä¸‹ã€‚ä½ éœ€è¦æ ¹æ®å®é™…æƒ…å†µè°ƒæ•´æ–‡ä»¶è·¯å¾„ã€‚
 
-Õâ¸öÊ¾ÀıÕ¹Ê¾ÁËÈçºÎÔÚBlazor×é¼şÖĞµ÷ÓÃJavaScript´úÂëÀ´´òÓ¡Ò³ÃæÄÚÈİ¡£¶ÔÓÚ¸ü¸´ÔÓµÄ´òÓ¡ĞèÇó£¬¿ÉÄÜĞèÒª¶îÍâµÄ´¦Àí£¬ÀıÈç´¦ÀíCSSºÍJavaScriptµÄ´òÓ¡ÑùÊ½µÈ¡£
+è¿™ä¸ªç¤ºä¾‹å±•ç¤ºäº†å¦‚ä½•åœ¨Blazorç»„ä»¶ä¸­è°ƒç”¨JavaScriptä»£ç æ¥æ‰“å°é¡µé¢å†…å®¹ã€‚å¯¹äºæ›´å¤æ‚çš„æ‰“å°éœ€æ±‚ï¼Œå¯èƒ½éœ€è¦é¢å¤–çš„å¤„ç†ï¼Œä¾‹å¦‚å¤„ç†CSSå’ŒJavaScriptçš„æ‰“å°æ ·å¼ç­‰ã€‚
 
 
-18¡¢ centos8ĞŞ¸ÄÏµÍ³Ê±¼ä
-ÔÚCentOS 8ÉÏĞŞ¸ÄÏµÍ³Ê±¼ä¿ÉÒÔÊ¹ÓÃtimedatectlÃüÁî¡£ÒÔÏÂÊÇ²½ÖèºÍÊ¾Àı´úÂë£º
+18ã€ centos8ä¿®æ”¹ç³»ç»Ÿæ—¶é—´
+åœ¨CentOS 8ä¸Šä¿®æ”¹ç³»ç»Ÿæ—¶é—´å¯ä»¥ä½¿ç”¨timedatectlå‘½ä»¤ã€‚ä»¥ä¸‹æ˜¯æ­¥éª¤å’Œç¤ºä¾‹ä»£ç ï¼š
 
-²é¿´µ±Ç°Ê±¼äºÍÊ±Çø£º
+æŸ¥çœ‹å½“å‰æ—¶é—´å’Œæ—¶åŒºï¼š
 timedatectl status
 
-ÁĞ³öËùÓĞ¿ÉÓÃÊ±Çø£º
+åˆ—å‡ºæ‰€æœ‰å¯ç”¨æ—¶åŒºï¼š
 timedatectl list-timezones
 
-ÉèÖÃÊ±¼äºÍÊ±Çø£º
+è®¾ç½®æ—¶é—´å’Œæ—¶åŒºï¼š
 sudo timedatectl set-time 'YYYY-MM-DD HH:MM:SS'
 sudo timedatectl set-timezone Your/Timezone
-½«YYYY-MM-DD HH:MM:SSÌæ»»ÎªÄãÏëÒªÉèÖÃµÄÈÕÆÚºÍÊ±¼ä£¬Your/TimezoneÌæ»»ÎªÄãµÄÊ±Çø¡£
+å°†YYYY-MM-DD HH:MM:SSæ›¿æ¢ä¸ºä½ æƒ³è¦è®¾ç½®çš„æ—¥æœŸå’Œæ—¶é—´ï¼ŒYour/Timezoneæ›¿æ¢ä¸ºä½ çš„æ—¶åŒºã€‚
 
-ÀıÈç£¬½«Ê±¼äÉèÖÃÎª2023Äê4ÔÂ1ÈÕ10µã15·Ö£¬Ê±ÇøÉèÖÃÎªAsia/Shanghai£º
+ä¾‹å¦‚ï¼Œå°†æ—¶é—´è®¾ç½®ä¸º2023å¹´4æœˆ1æ—¥10ç‚¹15åˆ†ï¼Œæ—¶åŒºè®¾ç½®ä¸ºAsia/Shanghaiï¼š
 sudo timedatectl set-time '2023-04-01 10:15:00'
 sudo timedatectl set-timezone Asia/Shanghai
 
-È·±£ÄãÓĞ¹ÜÀíÔ±È¨ÏŞÀ´ĞŞ¸ÄÏµÍ³Ê±¼ä¡£Èç¹ûÄãĞèÒªÁ¢¼´¸üĞÂÓ²¼şÊ±ÖÓ£¬¿ÉÒÔÊ¹ÓÃ--adjust-system-clockÑ¡Ïî£º
+ç¡®ä¿ä½ æœ‰ç®¡ç†å‘˜æƒé™æ¥ä¿®æ”¹ç³»ç»Ÿæ—¶é—´ã€‚å¦‚æœä½ éœ€è¦ç«‹å³æ›´æ–°ç¡¬ä»¶æ—¶é’Ÿï¼Œå¯ä»¥ä½¿ç”¨--adjust-system-clocké€‰é¡¹ï¼š
 sudo timedatectl set-time '2023-04-01 10:15:00' --adjust-system-clock
 
 
-19¡¢ ÍøÂç
+19ã€ ç½‘ç»œ
 PS C:\Users\Administrator> ssh admin@192.168.100.108      
 admin@192.168.100.108's password: 
 ******************************************************************************
@@ -6538,21 +6538,21 @@ System View: return to User View with Ctrl+Z.
 e0d5-5eff-3c1b   108        Learned          GE1/0/12                 Y
 [gaoya-chejian-SW-192.168.100.108]
 
-²é¿´¶Ë¿ÚÔÚÏßÇé¿ö
+æŸ¥çœ‹ç«¯å£åœ¨çº¿æƒ…å†µ
 <gaoya-chejian-SW-192.168.100.108>dis inter brief
 
 
-20¡¢ Î¢·şÎñ
-°²×° .NET SDK
+20ã€ å¾®æœåŠ¡
+å®‰è£… .NET SDK
 PS C:\Users\Administrator> dotnet --version
 8.0.403
 
-´´½¨·şÎñ
+åˆ›å»ºæœåŠ¡
 PS D:\> dotnet new webapi -o MyMicroservice --no-https
 
-ÔËĞĞ·şÎñ
+è¿è¡ŒæœåŠ¡
 PS D:\MyMicroservice> dotnet run
-ÕıÔÚÉú³É...
+æ­£åœ¨ç”Ÿæˆ...
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://localhost:5182
 info: Microsoft.Hosting.Lifetime[0]
@@ -6564,20 +6564,20 @@ info: Microsoft.Hosting.Lifetime[0]
 	  
 http://localhost:5182/weatherforecast 
 
-°²×° Docker
+å®‰è£… Docker
 https://www.docker.com/
-Ä¬ÈÏÇé¿öÏÂ£¬Docker ½«ÔÚ Windows ÉÏÊ¹ÓÃ Linux ÈİÆ÷¡£±£Áô°²×°³ÌĞòÖĞÌáÊ¾Ê±µÄÅäÖÃÉèÖÃ¡£
+é»˜è®¤æƒ…å†µä¸‹ï¼ŒDocker å°†åœ¨ Windows ä¸Šä½¿ç”¨ Linux å®¹å™¨ã€‚ä¿ç•™å®‰è£…ç¨‹åºä¸­æç¤ºæ—¶çš„é…ç½®è®¾ç½®ã€‚
 PS D:\MyMicroservice> docker --version
 Docker version 27.3.1, build ce12230
 
 /*
-Ìí¼Ó Docker ÔªÊı¾İ
+æ·»åŠ  Docker å…ƒæ•°æ®
 PS D:\> cd MyMicroservice
-Ìí¼Ó DockerFile
+æ·»åŠ  DockerFile
 PS D:\MyMicroservice> fsutil file createnew Dockerfile 0   
-ÒÑ´´½¨ÎÄ¼ş D:\MyMicroservice\Dockerfile
+å·²åˆ›å»ºæ–‡ä»¶ D:\MyMicroservice\Dockerfile
 
-È»ºó£¬¿ÉÒÔÊÖ¶¯»òÊ¹ÓÃ´ËÃüÁîÔÚÏ²»¶µÄÎÄ±¾±à¼­Æ÷ÖĞ´ò¿ªËü:
+ç„¶åï¼Œå¯ä»¥æ‰‹åŠ¨æˆ–ä½¿ç”¨æ­¤å‘½ä»¤åœ¨å–œæ¬¢çš„æ–‡æœ¬ç¼–è¾‘å™¨ä¸­æ‰“å¼€å®ƒ:
 PS D:\MyMicroservice> vim .\Dockerfile 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
@@ -6591,37 +6591,37 @@ WORKDIR /app
 COPY --from=build /app .
 ENTRYPOINT ["dotnet", "MyMicroservice.dll"]
 
-×¢Òâ: ÇëÈ·±£½«ÎÄ¼şÃüÃûÎª Dockerfile£¬¶ø·ÇDockerfile.txt »òÆäËûÃû³Æ¡£
+æ³¨æ„: è¯·ç¡®ä¿å°†æ–‡ä»¶å‘½åä¸º Dockerfileï¼Œè€ŒéDockerfile.txt æˆ–å…¶ä»–åç§°ã€‚
 
-¿ÉÑ¡: Ìí¼Ó .dockerignore ÎÄ¼ş
+å¯é€‰: æ·»åŠ  .dockerignore æ–‡ä»¶
 PS D:\MyMicroservice> fsutil file createnew .dockerignore 0
-ÒÑ´´½¨ÎÄ¼ş D:\MyMicroservice\.dockerignore
+å·²åˆ›å»ºæ–‡ä»¶ D:\MyMicroservice\.dockerignore
 
-È»ºó£¬¿ÉÒÔÊÖ¶¯»òÊ¹ÓÃ´ËÃüÁîÔÚÏ²»¶µÄÎÄ±¾±à¼­Æ÷ÖĞ´ò¿ªËü:
+ç„¶åï¼Œå¯ä»¥æ‰‹åŠ¨æˆ–ä½¿ç”¨æ­¤å‘½ä»¤åœ¨å–œæ¬¢çš„æ–‡æœ¬ç¼–è¾‘å™¨ä¸­æ‰“å¼€å®ƒ:
 PS D:\MyMicroservice> vim .\.dockerignore
 Dockerfile
 [b|B]in
 [O|o]bj
 
-´´½¨ Docker Ó³Ïñ
+åˆ›å»º Docker æ˜ åƒ
 PS D:\MyMicroservice> docker build -t mymicroservice .
 */
 
-·¢²¼Ó³Ïñ
+å‘å¸ƒæ˜ åƒ
 PS D:\MyMicroservice> dotnet publish -t:PublishContainer
-  ÕıÔÚÈ·¶¨Òª»¹Ô­µÄÏîÄ¿¡­
-  ËùÓĞÏîÄ¿¾ùÊÇ×îĞÂµÄ£¬ÎŞ·¨»¹Ô­¡£
+  æ­£åœ¨ç¡®å®šè¦è¿˜åŸçš„é¡¹ç›®â€¦
+  æ‰€æœ‰é¡¹ç›®å‡æ˜¯æœ€æ–°çš„ï¼Œæ— æ³•è¿˜åŸã€‚
   MyMicroservice -> D:\MyMicroservice\bin\Release\net8.0\MyMicroservice.dll
   MyMicroservice -> D:\MyMicroservice\bin\Release\net8.0\publish\
-  ÔÚ»ù±¾Ó³Ïñ¡°mcr.microsoft.com/dotnet/aspnet:8.0¡±¶¥²¿¹¹½¨±ê¼ÇÎª¡°latest¡±µÄÓ³Ïñ¡°mymicroservice¡±¡£
-  ÒÑ½«Í¼Ïñ¡°mymicroservice:latest¡±ÍÆËÍµ½ Ê¹ÓÃ¡°docker¡±µÄ±¾µØ×¢²á±í¡£
+  åœ¨åŸºæœ¬æ˜ åƒâ€œmcr.microsoft.com/dotnet/aspnet:8.0â€é¡¶éƒ¨æ„å»ºæ ‡è®°ä¸ºâ€œlatestâ€çš„æ˜ åƒâ€œmymicroserviceâ€ã€‚
+  å·²å°†å›¾åƒâ€œmymicroservice:latestâ€æ¨é€åˆ° ä½¿ç”¨â€œdockerâ€çš„æœ¬åœ°æ³¨å†Œè¡¨ã€‚
 
-¿ÉÒÔÔËĞĞÒÔÏÂÃüÁî£¬ÒÔ²é¿´¼ÆËã»úÉÏ¿ÉÓÃµÄËùÓĞÓ³ÏñµÄÁĞ±í£¬°üÀ¨¸Õ¸Õ´´½¨µÄÓ³Ïñ¡£  
+å¯ä»¥è¿è¡Œä»¥ä¸‹å‘½ä»¤ï¼Œä»¥æŸ¥çœ‹è®¡ç®—æœºä¸Šå¯ç”¨çš„æ‰€æœ‰æ˜ åƒçš„åˆ—è¡¨ï¼ŒåŒ…æ‹¬åˆšåˆšåˆ›å»ºçš„æ˜ åƒã€‚  
 PS D:\MyMicroservice> docker images
 REPOSITORY       TAG       IMAGE ID       CREATED          SIZE
 mymicroservice   latest    91bbed7bda71   26 minutes ago   220MB
 
-ÔËĞĞ Docker Ó³Ïñ
+è¿è¡Œ Docker æ˜ åƒ
 PS D:\MyMicroservice> docker run -it --rm -p 3000:8080 --name mymicroservicecontainer mymicroservice
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://[::]:8080
@@ -6631,31 +6631,31 @@ info: Microsoft.Hosting.Lifetime[0]
       Hosting environment: Production
 info: Microsoft.Hosting.Lifetime[0]
       Content root path: /app
-¿ÉÒÔä¯ÀÀµ½ÒÔÏÂ URL ÒÔ·ÃÎÊÔÚÈİÆ÷ÖĞÔËĞĞµÄÓ¦ÓÃ³ÌĞò: http://localhost:3000/weatherforecast
+å¯ä»¥æµè§ˆåˆ°ä»¥ä¸‹ URL ä»¥è®¿é—®åœ¨å®¹å™¨ä¸­è¿è¡Œçš„åº”ç”¨ç¨‹åº: http://localhost:3000/weatherforecast
 
-¿ÉÒÔÊ¹ÓÃÒÔÏÂÃüÁî²é¿´ÔÚµ¥¶ÀµÄÃüÁîÌáÊ¾·ûÖĞÔËĞĞµÄÈİÆ÷:	
+å¯ä»¥ä½¿ç”¨ä»¥ä¸‹å‘½ä»¤æŸ¥çœ‹åœ¨å•ç‹¬çš„å‘½ä»¤æç¤ºç¬¦ä¸­è¿è¡Œçš„å®¹å™¨:	
 PS C:\Users\Administrator> docker ps
 CONTAINER ID   IMAGE            COMMAND                   CREATED         STATUS         PORTS                    NAMES
-80e4b30eec37   mymicroservice   "dotnet MyMicroservi¡­"   2 minutes ago   Up 2 minutes   0.0.0.0:3000->8080/tcp   mymicroservicecontainer
+80e4b30eec37   mymicroservice   "dotnet MyMicroserviâ€¦"   2 minutes ago   Up 2 minutes   0.0.0.0:3000->8080/tcp   mymicroservicecontainer
 
-ÁĞ³öËùÓĞµÄÈİÆ÷£¬ÎŞÂÛÊÇÕıÔÚÔËĞĞµÄ»¹ÊÇÒÑ¾­Í£Ö¹µÄ:
+åˆ—å‡ºæ‰€æœ‰çš„å®¹å™¨ï¼Œæ— è®ºæ˜¯æ­£åœ¨è¿è¡Œçš„è¿˜æ˜¯å·²ç»åœæ­¢çš„:
 [root@cpzljc dockerimages]# docker ps -a
 
 PS C:\Users\Administrator> docker kill 80e4b30eec37
 80e4b30eec37
 
-½«¾µÏñ±£´æÎªÎÄ¼ş£º
+å°†é•œåƒä¿å­˜ä¸ºæ–‡ä»¶ï¼š
 PS C:\Users\Administrator> docker save mymicroservice > mymicroservice.tar
 
-½«mymicroservice.tarÎÄ¼ş´«Êäµ½CentOSÏµÍ³£º  
+å°†mymicroservice.taræ–‡ä»¶ä¼ è¾“åˆ°CentOSç³»ç»Ÿï¼š  
 PS C:\Users\Administrator> scp -P 1225 C:/Users/Administrator/mymicroservice.tar root@1.26:/opt/aspnetcore/dockerimages/
 root@1.26's password:
 mymicroservice.tar                             100%  213MB  11.2MB/
 
-ÔÚCentOSÉÏ¼ÓÔØ¾µÏñ£º
+åœ¨CentOSä¸ŠåŠ è½½é•œåƒï¼š
 [root@cpzljc dockerimages]# docker load < /opt/aspnetcore/dockerimages/mymicroservice.tar
 
-ÔËĞĞÈİÆ÷£º
+è¿è¡Œå®¹å™¨ï¼š
 [root@cpzljc dockerimages]# docker run -it --rm -p 3000:8080 --name mymicroservicecontainer mymicroservice
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://[::]:8080
@@ -6666,7 +6666,7 @@ info: Microsoft.Hosting.Lifetime[0]
 info: Microsoft.Hosting.Lifetime[0]
       Content root path: /app
 
-ÈÃdockerÈİÆ÷¾ßÓĞ×ÔÆô¶¯¹¦ÄÜ£º	  
+è®©dockerå®¹å™¨å…·æœ‰è‡ªå¯åŠ¨åŠŸèƒ½ï¼š	  
 [root@cpzljc dockerimages]# docker run -it --restart always  -p 3000:8080 --name mymicroservicecontainer mymicroservice
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://[::]:8080
@@ -6680,9 +6680,9 @@ info: Microsoft.Hosting.Lifetime[0]
       Application is shutting down...
 [root@cpzljc dockerimages]# docker ps
 CONTAINER ID   IMAGE            COMMAND                   CREATED          STATUS         PORTS                                       NAMES
-c8397fb8dda6   mymicroservice   "dotnet MyMicroservi¡­"   30 seconds ago   Up 7 seconds   0.0.0.0:3000->8080/tcp, :::3000->8080/tcp   mymicroservicecontainer	  
+c8397fb8dda6   mymicroservice   "dotnet MyMicroserviâ€¦"   30 seconds ago   Up 7 seconds   0.0.0.0:3000->8080/tcp, :::3000->8080/tcp   mymicroservicecontainer	  
 
-centos8±à¼­ÍøÂçÅäÖÃÎÄ¼ş:
+centos8ç¼–è¾‘ç½‘ç»œé…ç½®æ–‡ä»¶:
 [root@cpzljc /]# cd /etc/sysconfig/network-scripts/
 [root@cpzljc network-scripts]# ls
 ifcfg-ens192
@@ -6708,9 +6708,9 @@ GATEWAY=1.1
 DNS1=90.68
 [root@cpzljc network-scripts]# systemctl restart NetworkManager
 
-centos8 °²×°docker£º
-CentOS 8 ×Ô 2021 ÄêÄêµ×ÆğÒÑ²»ÔÙÖ§³Ö£¬µ«Èç¹ûÄúĞèÒªÔÚ CentOS 8 ÉÏ°²×° Docker£¬¿ÉÒÔ°´ÕÕÒÔÏÂ²½Öè²Ù×÷£º
-ÒÆ³ı¾É°æ±¾µÄ Docker£¨Èç¹ûÓĞ£©£º
+centos8 å®‰è£…dockerï¼š
+CentOS 8 è‡ª 2021 å¹´å¹´åº•èµ·å·²ä¸å†æ”¯æŒï¼Œä½†å¦‚æœæ‚¨éœ€è¦åœ¨ CentOS 8 ä¸Šå®‰è£… Dockerï¼Œå¯ä»¥æŒ‰ç…§ä»¥ä¸‹æ­¥éª¤æ“ä½œï¼š
+ç§»é™¤æ—§ç‰ˆæœ¬çš„ Dockerï¼ˆå¦‚æœæœ‰ï¼‰ï¼š
 sudo dnf remove docker \
                 docker-client \
                 docker-client-latest \
@@ -6719,9 +6719,9 @@ sudo dnf remove docker \
                 docker-latest-logrotate \
                 docker-logrotate \
                 docker-engine
-°²×° Docker ÒÀÀµµÄÈí¼ş°ü£º
+å®‰è£… Docker ä¾èµ–çš„è½¯ä»¶åŒ…ï¼š
 [root@cpzljc docker]# sudo dnf install -y dnf-plugins-core
-¾¯¸æ£º¼ÓÔØ '/etc/yum.repos.d/CentOS-Base.repo' Ê§°Ü£¬Ìø¹ı¡£
+è­¦å‘Šï¼šåŠ è½½ '/etc/yum.repos.d/CentOS-Base.repo' å¤±è´¥ï¼Œè·³è¿‡ã€‚
 CentOS-8.5.2111 - Base - mirrors.aliyun.com                                                                                                                                101 kB/s | 3.9 kB     00:00    
 CentOS-8.5.2111 - Extras - mirrors.aliyun.com                                                                                                                               64 kB/s | 1.5 kB     00:00    
 CentOS-8.5.2111 - PowerTools - mirrors.aliyun.com                                                                                                                           47 kB/s | 4.3 kB     00:00    
@@ -6733,29 +6733,29 @@ nginx stable repo                                                               
 nginx stable repo                                                                                                                                                           56 kB/s |  71 kB     00:01     
 created by dnf config-manager from https://packages.microsoft.com/yumrepos/vscode                                                                                          5.0 kB/s | 1.5 kB     00:00    
 created by dnf config-manager from https://packages.microsoft.com/yumrepos/vscode                                                                                          1.2 MB/s | 6.7 MB     00:05     
-Èí¼ş°ü dnf-plugins-core-4.0.21-3.el8.noarch ÒÑ°²×°¡£
-ÒÀÀµ¹ØÏµ½â¾ö¡£
-ÎŞĞèÈÎºÎ´¦Àí¡£
-Íê±Ï£¡
-ÉèÖÃ Docker µÄ¹Ù·½²Ö¿â£º
+è½¯ä»¶åŒ… dnf-plugins-core-4.0.21-3.el8.noarch å·²å®‰è£…ã€‚
+ä¾èµ–å…³ç³»è§£å†³ã€‚
+æ— éœ€ä»»ä½•å¤„ç†ã€‚
+å®Œæ¯•ï¼
+è®¾ç½® Docker çš„å®˜æ–¹ä»“åº“ï¼š
 [root@cpzljc docker]# sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-¾¯¸æ£º¼ÓÔØ '/etc/yum.repos.d/CentOS-Base.repo' Ê§°Ü£¬Ìø¹ı¡£
-Ìí¼Ó²Ö¿â×Ô£ºhttps://download.docker.com/linux/centos/docker-ce.repo
-°²×° Docker Engine£¨ÉçÇø°æ£©£º
+è­¦å‘Šï¼šåŠ è½½ '/etc/yum.repos.d/CentOS-Base.repo' å¤±è´¥ï¼Œè·³è¿‡ã€‚
+æ·»åŠ ä»“åº“è‡ªï¼šhttps://download.docker.com/linux/centos/docker-ce.repo
+å®‰è£… Docker Engineï¼ˆç¤¾åŒºç‰ˆï¼‰ï¼š
 [root@cpzljc docker]# sudo dnf install -y docker-ce docker-ce-cli containerd.io
-×¢£ºÒòÎªrunc°ü°æ±¾³åÍ»£¬°²×°container.io»áÏÂÔØpodman°ü£¬podman°üÒÀÀµrunc°ü£¬runc°üÒª>=1.0.0-57£¬¸úcentos8ÀïµÄrunc°æ±¾³åÍ»£¬ËùÒÔÊ×ÏÈ°Ñrunc°üÉ¾³ı£¬È»ºóÖØ×°container.io¡£
+æ³¨ï¼šå› ä¸ºruncåŒ…ç‰ˆæœ¬å†²çªï¼Œå®‰è£…container.ioä¼šä¸‹è½½podmanåŒ…ï¼ŒpodmanåŒ…ä¾èµ–runcåŒ…ï¼ŒruncåŒ…è¦>=1.0.0-57ï¼Œè·Ÿcentos8é‡Œçš„runcç‰ˆæœ¬å†²çªï¼Œæ‰€ä»¥é¦–å…ˆæŠŠruncåŒ…åˆ é™¤ï¼Œç„¶åé‡è£…container.ioã€‚
 [root@cpzljc docker]# sudo dnf remove runc
 [root@cpzljc docker]# which runc
 /usr/bin/which: no runc in (/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/.dotnet/tools:/root/bin:/usr/lib/oracle/11.2/client64/bin:/root/bin)
 
-Æô¶¯ Docker ·şÎñ£º
+å¯åŠ¨ Docker æœåŠ¡ï¼š
 [root@cpzljc docker]# sudo systemctl start docker
-Ê¹ Docker ·şÎñ¿ª»ú×ÔÆô£º
+ä½¿ Docker æœåŠ¡å¼€æœºè‡ªå¯ï¼š
 [root@cpzljc docker]# sudo systemctl enable docker
-Created symlink /etc/systemd/system/multi-user.target.wants/docker.service ¡ú /usr/lib/systemd/system/docker.service.
-ÑéÖ¤ Docker °²×°ÊÇ·ñ³É¹¦£º
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service â†’ /usr/lib/systemd/system/docker.service.
+éªŒè¯ Docker å®‰è£…æ˜¯å¦æˆåŠŸï¼š
 [root@cpzljc docker]# docker --version
 Docker version 26.1.3, build b72abbb
 
 
-21¡¢  
+21ã€  
